@@ -1,0 +1,63 @@
+name: Update Newsletter Dashboard
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # 7h BRT = 10h UTC
+  workflow_dispatch:  # permite rodar manualmente
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run analytics
+        env:
+          BEEHIIV_API_KEY: ${{ secrets.BEEHIIV_API_KEY }}
+          BEEHIIV_PUB_ID: ${{ secrets.BEEHIIV_PUB_ID }}
+        run: python beehiiv_analytics.py
+
+      - name: Deploy dashboard
+        run: |
+          cp newsletter_dashboard.html index.html
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add index.html
+          git diff --cached --quiet || git commit -m "Dashboard atualizado em $(date '+%d/%m/%Y %H:%M')"
+          git push
+
+      - name: Send Telegram notification
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          DASHBOARD_URL="https://${{ github.repository_owner }}.github.io/newsletter-dashboard/"
+          MSG="📊 *Newsletter Dashboard Atualizado*%0A📅 $(date '+%d/%m/%Y %H:%M')%0A%0A🔗 [Abrir Dashboard](${DASHBOARD_URL})%0A%0A_Dados atualizados automaticamente via Beehiiv API_"
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            -d "text=${MSG}" \
+            -d "parse_mode=Markdown" > /dev/null
+
+      - name: Send WhatsApp notification
+        env:
+          WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
+          WHATSAPP_PHONE_ID: ${{ secrets.WHATSAPP_PHONE_ID }}
+          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
+        run: |
+          DASHBOARD_URL="https://${{ github.repository_owner }}.github.io/newsletter-dashboard/"
+          WA_MSG="📊 Newsletter Dashboard Atualizado!\n📅 $(date '+%d/%m/%Y %H:%M')\n\n🔗 Abrir Dashboard: ${DASHBOARD_URL}\n\nDados atualizados automaticamente via Beehiiv API"
+          curl -s -X POST "https://graph.facebook.com/v21.0/${WHATSAPP_PHONE_ID}/messages" \
+            -H "Authorization: Bearer ${WHATSAPP_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d "{\"messaging_product\":\"whatsapp\",\"to\":\"${WHATSAPP_TO}\",\"type\":\"text\",\"text\":{\"body\":\"${WA_MSG}\"}}"
