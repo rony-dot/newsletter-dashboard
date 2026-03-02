@@ -537,8 +537,24 @@ def generate_dashboard(posts, subscribers, raw_stats_sample):
         .header p {{ font-size:13px; color:rgba(255,255,255,0.6); margin-top:2px; }}
         .filters {{ display:flex; gap:12px; align-items:center; flex-wrap:wrap; }}
         .filters label {{ font-size:12px; color:rgba(255,255,255,0.6); text-transform:uppercase; letter-spacing:0.5px; }}
-        .filters select {{ padding:7px 12px; border:1px solid rgba(255,255,255,0.15); border-radius:6px; background:rgba(255,255,255,0.08); color:#fff; font-size:13px; cursor:pointer; }}
+        .filters select {{ padding:7px 12px; border:1px solid rgba(255,255,255,0.15); border-radius:6px; background:rgba(255,255,255,0.08); color:#fff; font-size:13px; cursor:pointer; max-width:280px; }}
         .filters select option {{ background:#1a1a2e; color:#fff; }}
+        .filters select[multiple] {{ height:auto; min-height:36px; }}
+        .edition-filter {{ position:relative; }}
+        .edition-filter-btn {{ padding:7px 12px; border:1px solid rgba(255,255,255,0.15); border-radius:6px; background:rgba(255,255,255,0.08); color:#fff; font-size:13px; cursor:pointer; min-width:200px; text-align:left; display:flex; justify-content:space-between; align-items:center; gap:8px; }}
+        .edition-filter-btn:hover {{ border-color:rgba(255,255,255,0.3); }}
+        .edition-dropdown {{ position:absolute; top:100%; left:0; right:0; min-width:350px; max-height:400px; overflow-y:auto; background:#1a1a2e; border:1px solid rgba(255,255,255,0.15); border-radius:8px; margin-top:4px; z-index:100; display:none; box-shadow:0 8px 32px rgba(0,0,0,0.4); }}
+        .edition-dropdown.open {{ display:block; }}
+        .edition-search {{ width:100%; padding:10px 12px; border:none; border-bottom:1px solid rgba(255,255,255,0.1); background:rgba(255,255,255,0.05); color:#fff; font-size:13px; outline:none; }}
+        .edition-search::placeholder {{ color:rgba(255,255,255,0.4); }}
+        .edition-actions {{ display:flex; gap:8px; padding:8px 12px; border-bottom:1px solid rgba(255,255,255,0.1); }}
+        .edition-actions button {{ padding:4px 10px; border:1px solid rgba(255,255,255,0.2); border-radius:4px; background:transparent; color:rgba(255,255,255,0.7); font-size:11px; cursor:pointer; }}
+        .edition-actions button:hover {{ background:rgba(255,255,255,0.1); }}
+        .edition-item {{ display:flex; align-items:center; gap:8px; padding:8px 12px; cursor:pointer; font-size:12px; color:rgba(255,255,255,0.8); border-bottom:1px solid rgba(255,255,255,0.05); }}
+        .edition-item:hover {{ background:rgba(255,255,255,0.08); }}
+        .edition-item input {{ accent-color:var(--orange); }}
+        .edition-item .ed-date {{ color:rgba(255,255,255,0.4); font-size:11px; white-space:nowrap; }}
+        .edition-item .ed-title {{ flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }}
 
         /* KPI Cards */
         .kpi-row {{ display:grid; grid-template-columns:repeat(auto-fit, minmax(170px,1fr)); gap:var(--gap); margin-bottom:var(--gap); }}
@@ -588,6 +604,38 @@ def generate_dashboard(posts, subscribers, raw_stats_sample):
         .raw-section summary {{ cursor:pointer; font-weight:600; font-size:14px; }}
         .raw-section pre {{ margin-top:12px; background:#f5f5f7; padding:16px; border-radius:8px; overflow-x:auto; font-size:12px; max-height:400px; overflow-y:auto; }}
 
+        /* AI Chat */
+        .ai-chat-box {{ background:var(--card); border-radius:var(--radius); padding:24px 28px; box-shadow:0 1px 3px rgba(0,0,0,0.06); margin-bottom:var(--gap); border-left:4px solid var(--purple); }}
+        .ai-chat-box h3 {{ font-size:16px; font-weight:700; margin-bottom:16px; display:flex; align-items:center; gap:8px; }}
+        .ai-input-row {{ display:flex; gap:10px; margin-bottom:16px; }}
+        .ai-input {{ flex:1; padding:12px 16px; border:1px solid #e5e5ea; border-radius:8px; font-size:14px; font-family:inherit; resize:none; outline:none; min-height:48px; transition:border-color 0.15s; }}
+        .ai-input:focus {{ border-color:var(--purple); box-shadow:0 0 0 3px rgba(129,114,179,0.15); }}
+        .ai-send-btn {{ padding:12px 24px; background:var(--purple); color:#fff; border:none; border-radius:8px; font-size:14px; font-weight:600; cursor:pointer; white-space:nowrap; transition:all 0.15s; }}
+        .ai-send-btn:hover {{ background:#6b5ca5; transform:translateY(-1px); }}
+        .ai-send-btn:disabled {{ background:#c5c5c5; cursor:not-allowed; transform:none; }}
+        .ai-response {{ background:#f8f7fc; border:1px solid #e8e5f0; border-radius:8px; padding:16px 20px; font-size:13px; line-height:1.7; white-space:pre-wrap; max-height:500px; overflow-y:auto; display:none; }}
+        .ai-response.visible {{ display:block; }}
+        .ai-response h4 {{ font-size:14px; font-weight:600; margin-bottom:8px; color:var(--purple); }}
+        .ai-response p {{ margin-bottom:8px; }}
+        .ai-response ul, .ai-response ol {{ margin:8px 0 8px 20px; }}
+        .ai-response li {{ margin-bottom:4px; }}
+        .ai-response strong {{ color:var(--text); }}
+        .ai-response code {{ background:#e8e5f0; padding:1px 5px; border-radius:3px; font-size:12px; }}
+        .ai-response table {{ width:100%; border-collapse:collapse; margin:12px 0; font-size:12px; }}
+        .ai-response table th {{ background:#e8e5f0; padding:8px; text-align:left; font-weight:600; }}
+        .ai-response table td {{ padding:8px; border-bottom:1px solid #e8e5f0; }}
+        .ai-typing {{ display:inline-block; }}
+        .ai-typing span {{ display:inline-block; width:6px; height:6px; background:var(--purple); border-radius:50%; margin:0 2px; animation:aiDot 1.4s infinite; }}
+        .ai-typing span:nth-child(2) {{ animation-delay:0.2s; }}
+        .ai-typing span:nth-child(3) {{ animation-delay:0.4s; }}
+        @keyframes aiDot {{ 0%,80%,100%{{opacity:0.3;transform:scale(0.8)}} 40%{{opacity:1;transform:scale(1.1)}} }}
+        .ai-suggestions {{ display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px; }}
+        .ai-suggestion {{ padding:6px 12px; border:1px solid #e5e5ea; border-radius:16px; font-size:12px; color:var(--text2); cursor:pointer; transition:all 0.15s; background:#fff; }}
+        .ai-suggestion:hover {{ border-color:var(--purple); color:var(--purple); background:#f8f7fc; }}
+        .ai-key-row {{ display:flex; gap:8px; align-items:center; margin-bottom:12px; }}
+        .ai-key-input {{ flex:1; padding:8px 12px; border:1px solid #e5e5ea; border-radius:6px; font-size:12px; font-family:monospace; }}
+        .ai-key-label {{ font-size:11px; color:var(--text2); }}
+
         /* Footer */
         footer {{ text-align:center; padding:16px; font-size:12px; color:var(--text2); }}
 
@@ -618,6 +666,21 @@ def generate_dashboard(posts, subscribers, raw_stats_sample):
                     <option value="180">Últimos 6 meses</option>
                     <option value="365">Último ano</option>
                 </select>
+            </div>
+            <div class="edition-filter">
+                <label>Edição</label>
+                <button class="edition-filter-btn" id="edition-btn" onclick="toggleEditionDropdown()">
+                    <span id="edition-btn-text">Todas as edições</span>
+                    <span style="font-size:10px">▼</span>
+                </button>
+                <div class="edition-dropdown" id="edition-dropdown">
+                    <input type="text" class="edition-search" id="edition-search" placeholder="Buscar edição..." oninput="filterEditions(this.value)">
+                    <div class="edition-actions">
+                        <button onclick="selectAllEditions()">Selecionar Todas</button>
+                        <button onclick="deselectAllEditions()">Limpar</button>
+                    </div>
+                    <div id="edition-list"></div>
+                </div>
             </div>
         </div>
     </header>
@@ -654,6 +717,28 @@ def generate_dashboard(posts, subscribers, raw_stats_sample):
 
     <!-- Top Links -->
     <section class="chart-grid full"><div class="chart-box"><h3>Top Links Mais Clicados (todas as edições)</h3><canvas id="c-toplinks"></canvas></div></section>
+
+    <!-- AI Chat -->
+    <section class="ai-chat-box" id="ai-chat-section">
+        <h3><span style="font-size:20px">🤖</span> Pergunte sobre seus dados</h3>
+        <div class="ai-key-row">
+            <span class="ai-key-label">Anthropic API Key:</span>
+            <input type="password" class="ai-key-input" id="ai-api-key" placeholder="sk-ant-..." value="">
+            <span class="ai-key-label" id="ai-key-status"></span>
+        </div>
+        <div class="ai-suggestions" id="ai-suggestions">
+            <span class="ai-suggestion" onclick="askAISuggestion(this)">Qual foi minha melhor edição e por quê?</span>
+            <span class="ai-suggestion" onclick="askAISuggestion(this)">Quais links os leitores mais clicam?</span>
+            <span class="ai-suggestion" onclick="askAISuggestion(this)">Como melhorar meu open rate?</span>
+            <span class="ai-suggestion" onclick="askAISuggestion(this)">Qual dia da semana performa melhor?</span>
+            <span class="ai-suggestion" onclick="askAISuggestion(this)">Resumo executivo dos últimos 30 dias</span>
+        </div>
+        <div class="ai-input-row">
+            <textarea class="ai-input" id="ai-input" placeholder="Ex: Qual edição teve mais cliques? Como está a tendência de crescimento?" rows="1" onkeydown="if(event.key==='Enter'&&!event.shiftKey){{event.preventDefault();askAI();}}"></textarea>
+            <button class="ai-send-btn" id="ai-send-btn" onclick="askAI()">Perguntar</button>
+        </div>
+        <div class="ai-response" id="ai-response"></div>
+    </section>
 
     <!-- Insights -->
     <section class="insights-box" id="insights-section">
@@ -1154,12 +1239,327 @@ function renderTable() {{
     doSort();
 }}
 
+// ── Edition Filter ──
+let selectedEditions = new Set();
+let allEditionIds = [];
+
+function initEditionFilter() {{
+    const list = document.getElementById('edition-list');
+    // Show posts newest first in the dropdown
+    const sortedPosts = [...POSTS_RAW].sort((a,b) => b.date.localeCompare(a.date));
+    allEditionIds = sortedPosts.map(p => p.id);
+    // Start with all selected
+    allEditionIds.forEach(id => selectedEditions.add(id));
+
+    list.innerHTML = sortedPosts.map(p => `
+        <label class="edition-item" data-id="${{p.id}}" data-title="${{(p.title||'').toLowerCase()}}">
+            <input type="checkbox" checked onchange="onEditionChange('${{p.id}}', this.checked)">
+            <span class="ed-title">${{p.title}}</span>
+            <span class="ed-date">${{p.date_label}}</span>
+        </label>
+    `).join('');
+
+    updateEditionBtnText();
+}}
+
+function toggleEditionDropdown() {{
+    const dd = document.getElementById('edition-dropdown');
+    dd.classList.toggle('open');
+    if (dd.classList.contains('open')) {{
+        document.getElementById('edition-search').focus();
+        // Close on outside click
+        setTimeout(() => {{
+            document.addEventListener('click', closeEditionOnOutside);
+        }}, 0);
+    }}
+}}
+
+function closeEditionOnOutside(e) {{
+    const filter = document.querySelector('.edition-filter');
+    if (!filter.contains(e.target)) {{
+        document.getElementById('edition-dropdown').classList.remove('open');
+        document.removeEventListener('click', closeEditionOnOutside);
+    }}
+}}
+
+function filterEditions(query) {{
+    const q = query.toLowerCase();
+    document.querySelectorAll('.edition-item').forEach(item => {{
+        const title = item.dataset.title || '';
+        item.style.display = title.includes(q) ? '' : 'none';
+    }});
+}}
+
+function onEditionChange(id, checked) {{
+    if (checked) selectedEditions.add(id);
+    else selectedEditions.delete(id);
+    updateEditionBtnText();
+    applyFilters();
+}}
+
+function selectAllEditions() {{
+    allEditionIds.forEach(id => selectedEditions.add(id));
+    document.querySelectorAll('.edition-item input').forEach(cb => cb.checked = true);
+    updateEditionBtnText();
+    applyFilters();
+}}
+
+function deselectAllEditions() {{
+    selectedEditions.clear();
+    document.querySelectorAll('.edition-item input').forEach(cb => cb.checked = false);
+    updateEditionBtnText();
+    applyFilters();
+}}
+
+function updateEditionBtnText() {{
+    const btn = document.getElementById('edition-btn-text');
+    const total = allEditionIds.length;
+    const sel = selectedEditions.size;
+    if (sel === total || sel === 0) btn.textContent = 'Todas as edições (' + total + ')';
+    else if (sel === 1) {{
+        const post = POSTS_RAW.find(p => selectedEditions.has(p.id));
+        btn.textContent = post ? (post.title.length > 25 ? post.title.slice(0,25)+'…' : post.title) : '1 edição';
+    }}
+    else btn.textContent = sel + ' de ' + total + ' edições';
+}}
+
+// Override applyFilters to include edition filter
+const _origApplyFilters = applyFilters;
+applyFilters = function() {{
+    const period = document.getElementById('f-period').value;
+    let posts = [...POSTS_RAW];
+
+    // Period filter
+    if (period !== 'all') {{
+        const cutoff = new Date();
+        cutoff.setDate(cutoff.getDate() - parseInt(period));
+        posts = posts.filter(p => new Date(p.date) >= cutoff);
+    }}
+
+    // Edition filter (only if not all selected)
+    if (selectedEditions.size > 0 && selectedEditions.size < allEditionIds.length) {{
+        posts = posts.filter(p => selectedEditions.has(p.id));
+    }}
+
+    filteredPosts = posts;
+    renderAll();
+}};
+
+// ── AI Chat ──
+function askAISuggestion(el) {{
+    document.getElementById('ai-input').value = el.textContent;
+    askAI();
+}}
+
+async function askAI() {{
+    const input = document.getElementById('ai-input');
+    const responseDiv = document.getElementById('ai-response');
+    const sendBtn = document.getElementById('ai-send-btn');
+    const apiKey = document.getElementById('ai-api-key').value.trim();
+
+    const question = input.value.trim();
+    if (!question) return;
+
+    if (!apiKey) {{
+        responseDiv.innerHTML = '<p style="color:var(--red)"><strong>Configure sua API Key da Anthropic acima para usar essa funcionalidade.</strong></p><p style="font-size:12px;color:var(--text2)">Obtenha uma em <a href="https://console.anthropic.com/" target="_blank">console.anthropic.com</a></p>';
+        responseDiv.classList.add('visible');
+        return;
+    }}
+
+    // Show loading
+    sendBtn.disabled = true;
+    sendBtn.textContent = 'Analisando...';
+    responseDiv.innerHTML = '<div class="ai-typing"><span></span><span></span><span></span></div> Analisando seus dados...';
+    responseDiv.classList.add('visible');
+
+    // Prepare data summary for context
+    const p = filteredPosts;
+    const dataSummary = buildDataSummary(p);
+
+    try {{
+        const response = await fetch('https://api.anthropic.com/v1/messages', {{
+            method: 'POST',
+            headers: {{
+                'Content-Type': 'application/json',
+                'x-api-key': apiKey,
+                'anthropic-version': '2023-06-01',
+                'anthropic-dangerous-direct-browser-access': 'true'
+            }},
+            body: JSON.stringify({{
+                model: 'claude-sonnet-4-20250514',
+                max_tokens: 2048,
+                system: `Você é um analista especialista em email marketing e newsletters. Analise os dados fornecidos e responda em português do Brasil de forma clara e prática. Use formatação com **negrito** para destacar números e insights importantes. Seja direto e acionável nas recomendações. Se fizer comparações, use percentuais. Benchmarks de mercado: Open Rate 15-25%, Click Rate 1-3%, CTOR 8-15%, Unsub Rate < 0.5%.`,
+                messages: [{{
+                    role: 'user',
+                    content: `Aqui estão os dados da minha newsletter (${{p.length}} edições no período filtrado):\n\n${{dataSummary}}\n\nMinha pergunta: ${{question}}`
+                }}]
+            }})
+        }});
+
+        if (!response.ok) {{
+            const err = await response.json();
+            throw new Error(err.error?.message || `Erro ${{response.status}}`);
+        }}
+
+        const data = await response.json();
+        const text = data.content[0].text;
+
+        // Simple markdown-to-HTML conversion
+        responseDiv.innerHTML = markdownToHtml(text);
+    }} catch (error) {{
+        responseDiv.innerHTML = '<p style="color:var(--red)"><strong>Erro:</strong> ' + error.message + '</p>';
+    }} finally {{
+        sendBtn.disabled = false;
+        sendBtn.textContent = 'Perguntar';
+    }}
+}}
+
+function buildDataSummary(posts) {{
+    if (!posts.length) return 'Nenhum post no período selecionado.';
+
+    const avgOpen = posts.reduce((a,x) => a+x.open_rate, 0) / posts.length;
+    const avgClick = posts.reduce((a,x) => a+x.click_rate, 0) / posts.length;
+    const avgCTO = posts.reduce((a,x) => a+x.cto_rate, 0) / posts.length;
+    const avgUnsub = posts.reduce((a,x) => a+x.unsub_rate, 0) / posts.length;
+    const totalDelivered = posts.reduce((a,x) => a+x.delivered, 0);
+    const totalOpens = posts.reduce((a,x) => a+x.unique_opens, 0);
+    const totalClicks = posts.reduce((a,x) => a+x.unique_clicks, 0);
+
+    let summary = `RESUMO GERAL:\n`;
+    summary += `- Edições: ${{posts.length}}\n`;
+    summary += `- Total de emails enviados: ${{totalDelivered.toLocaleString()}}\n`;
+    summary += `- Média Open Rate: ${{avgOpen.toFixed(1)}}%\n`;
+    summary += `- Média Click Rate: ${{avgClick.toFixed(1)}}%\n`;
+    summary += `- Média CTOR: ${{avgCTO.toFixed(1)}}%\n`;
+    summary += `- Média Unsub Rate: ${{avgUnsub.toFixed(2)}}%\n`;
+    summary += `- Total Aberturas Únicas: ${{totalOpens.toLocaleString()}}\n`;
+    summary += `- Total Cliques Únicos: ${{totalClicks.toLocaleString()}}\n\n`;
+
+    // Top 5 best by open rate
+    const byOpen = [...posts].sort((a,b) => b.open_rate - a.open_rate);
+    summary += `TOP 5 EDIÇÕES (Open Rate):\n`;
+    byOpen.slice(0, 5).forEach((p, i) => {{
+        summary += `${{i+1}}. "${{p.title}}" (${{p.date_label}}) - Open: ${{p.open_rate}}%, Click: ${{p.click_rate}}%, CTOR: ${{p.cto_rate}}%, Enviados: ${{p.delivered.toLocaleString()}}, Unsubs: ${{p.unsubscribes}}\n`;
+    }});
+
+    // Bottom 5 by open rate
+    summary += `\nPIORES 5 EDIÇÕES (Open Rate):\n`;
+    byOpen.slice(-5).reverse().forEach((p, i) => {{
+        summary += `${{i+1}}. "${{p.title}}" (${{p.date_label}}) - Open: ${{p.open_rate}}%, Click: ${{p.click_rate}}%, CTOR: ${{p.cto_rate}}%, Enviados: ${{p.delivered.toLocaleString()}}, Unsubs: ${{p.unsubscribes}}\n`;
+    }});
+
+    // Top 5 by clicks
+    const byClick = [...posts].sort((a,b) => b.click_rate - a.click_rate);
+    summary += `\nTOP 5 EDIÇÕES (Click Rate):\n`;
+    byClick.slice(0, 5).forEach((p, i) => {{
+        summary += `${{i+1}}. "${{p.title}}" (${{p.date_label}}) - Click: ${{p.click_rate}}%, Open: ${{p.open_rate}}%, Cliques Únicos: ${{p.unique_clicks}}\n`;
+    }});
+
+    // Day of week analysis
+    const dayNames = ['Seg','Ter','Qua','Qui','Sex','Sáb','Dom'];
+    const dayData = Array.from({{length:7}}, () => ({{sum:0, count:0}}));
+    posts.forEach(x => {{ if (x.day_of_week != null) {{ dayData[x.day_of_week].sum += x.open_rate; dayData[x.day_of_week].count++; }} }});
+    summary += `\nPERFORMANCE POR DIA DA SEMANA:\n`;
+    dayData.forEach((d, i) => {{
+        if (d.count > 0) summary += `- ${{dayNames[i]}}: ${{(d.sum/d.count).toFixed(1)}}% open rate (${{d.count}} edições)\n`;
+    }});
+
+    // Top links
+    const linkMap = {{}};
+    posts.forEach(x => {{
+        (x.top_links || []).forEach(lnk => {{
+            const url = lnk.url || '';
+            if (!url) return;
+            if (!linkMap[url]) linkMap[url] = {{url, total:0, unique:0}};
+            linkMap[url].total += lnk.total_clicks || 0;
+            linkMap[url].unique += lnk.unique_clicks || 0;
+        }});
+    }});
+    const topLinks = Object.values(linkMap).sort((a,b) => b.unique - a.unique).slice(0, 10);
+    if (topLinks.length) {{
+        summary += `\nTOP 10 LINKS MAIS CLICADOS:\n`;
+        topLinks.forEach((l, i) => {{
+            summary += `${{i+1}}. ${{l.url}} - ${{l.unique}} cliques únicos (${{l.total}} total)\n`;
+        }});
+    }}
+
+    // Subscriber growth
+    const tl = SUBS.timeline_posts || [];
+    if (tl.length >= 2) {{
+        summary += `\nCRESCIMENTO DE SUBSCRIBERS (por mês):\n`;
+        tl.slice(-12).forEach(m => {{
+            summary += `- ${{m.month}}: ~${{m.subscribers_estimate.toLocaleString()}} subscribers (${{m.editions}} edições)\n`;
+        }});
+    }}
+
+    // Full post list (compact)
+    summary += `\nTODAS AS EDIÇÕES DO PERÍODO:\n`;
+    posts.forEach((p, i) => {{
+        summary += `${{i+1}}. "${{p.title}}" | ${{p.date_label}} | Env:${{p.delivered}} | Open:${{p.open_rate}}% | Click:${{p.click_rate}}% | CTOR:${{p.cto_rate}}% | Unsub:${{p.unsub_rate}}% | Web:${{p.web_views}}\n`;
+    }});
+
+    return summary;
+}}
+
+function markdownToHtml(md) {{
+    let html = md
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+
+    // Headers
+    html = html.replace(/^### (.+)$/gm, '<h4>$1</h4>');
+    html = html.replace(/^## (.+)$/gm, '<h4 style="font-size:15px">$1</h4>');
+
+    // Bold and italic
+    html = html.replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>');
+    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+
+    // Code
+    html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+
+    // Lists (unordered)
+    html = html.replace(/^- (.+)$/gm, '<li>$1</li>');
+    html = html.replace(/(<li>.*<\/li>\n?)+/g, '<ul>$&</ul>');
+
+    // Numbered lists
+    html = html.replace(/^\d+\. (.+)$/gm, '<li>$1</li>');
+
+    // Line breaks to paragraphs
+    html = html.replace(/\n\n/g, '</p><p>');
+    html = '<p>' + html + '</p>';
+
+    // Clean up
+    html = html.replace(/<p>\s*<\/p>/g, '');
+    html = html.replace(/<p>(<h4|<ul|<ol)/g, '$1');
+    html = html.replace(/(<\/h4>|<\/ul>|<\/ol>)<\/p>/g, '$1');
+
+    return html;
+}}
+
+// ── Saved API Key ──
+(function() {{
+    const saved = localStorage.getItem('ai_api_key');
+    if (saved) document.getElementById('ai-api-key').value = saved;
+    document.getElementById('ai-api-key').addEventListener('change', function() {{
+        localStorage.setItem('ai_api_key', this.value);
+        document.getElementById('ai-key-status').textContent = this.value ? 'Salva' : '';
+        document.getElementById('ai-key-status').style.color = 'var(--green)';
+    }});
+    if (saved) {{
+        document.getElementById('ai-key-status').textContent = 'Salva';
+        document.getElementById('ai-key-status').style.color = 'var(--green)';
+    }}
+}})();
+
 // Raw stats debug
 if (POSTS_RAW.length > 0 && POSTS_RAW[0].raw_stats) {{
     document.getElementById('raw-stats').textContent = JSON.stringify(POSTS_RAW[0].raw_stats, null, 2);
 }}
 
 // Init
+initEditionFilter();
 applyFilters();
 </script>
 </body>
