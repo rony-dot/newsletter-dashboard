@@ -507,8 +507,12 @@ def generate_dashboard(posts, subscribers, raw_stats_sample):
     print(f"  Posts com email data: {len(email_posts)}")
     print(f"  Posts web-only (excluídos da análise de email): {len(web_only_posts)}")
 
-    posts_json = json.dumps(email_posts, ensure_ascii=False, default=str)
-    all_posts_json = json.dumps(posts, ensure_ascii=False, default=str)
+    # Remove raw_stats dos posts para o HTML (muito pesado, não usado no dashboard)
+    def strip_raw(post):
+        return {k: v for k, v in post.items() if k != "raw_stats"}
+
+    posts_json = json.dumps([strip_raw(p) for p in email_posts], ensure_ascii=False, default=str)
+    all_posts_json = json.dumps([strip_raw(p) for p in posts], ensure_ascii=False, default=str)
     subs_json = json.dumps(subscribers, ensure_ascii=False, default=str)
 
     html = f"""<!DOCTYPE html>
@@ -1626,7 +1630,8 @@ def main():
     # Also save raw JSON for reference
     json_path = output_path.replace(".html", "_data.json")
     with open(json_path, "w", encoding="utf-8") as f:
-        json.dump({"posts": posts, "subscribers": subscribers}, f, ensure_ascii=False, indent=2, default=str)
+        clean_posts = [{k: v for k, v in p.items() if k != "raw_stats"} for p in posts]
+        json.dump({"posts": clean_posts, "subscribers": subscribers}, f, ensure_ascii=False, indent=2, default=str)
     print(f"   Dados brutos: {json_path}")
 
     print("\n" + "=" * 60)
