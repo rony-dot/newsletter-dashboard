@@ -17,6 +17,7 @@ import urllib.request
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from collections import defaultdict
 
@@ -38,25 +39,39 @@ HEADERS = {
 }
 
 
-def api_get(endpoint, params=None):
-    """Faz GET na API do Beehiiv com paginação automática."""
+def api_get(endpoint, params=None, retries=3):
+    """Faz GET na API do Beehiiv com retry e backoff exponencial."""
     url = f"{BASE_URL}{endpoint}"
     if params:
         query = "&".join(f"{k}={v}" for k, v in params.items() if v is not None)
         if query:
             url += f"?{query}"
 
-    req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        body = e.read().decode()
-        print(f"  ERRO API [{e.code}]: {body[:300]}")
-        return None
-    except Exception as e:
-        print(f"  ERRO: {e}")
-        return None
+    for attempt in range(1, retries + 1):
+        req = urllib.request.Request(url, headers=HEADERS)
+        try:
+            with urllib.request.urlopen(req, timeout=45) as resp:
+                return json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            body = e.read().decode()
+            if e.code in (429, 500, 502, 503, 504) and attempt < retries:
+                wait = 2 ** attempt
+                print(f"  ⚠️  API [{e.code}] tentativa {attempt}/{retries}, aguardando {wait}s...", flush=True)
+                time.sleep(wait)
+                continue
+            print(f"  ERRO API [{e.code}]: {body[:300]}")
+            return None
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            if attempt < retries:
+                wait = 2 ** attempt
+                print(f"  ⚠️  Erro de rede tentativa {attempt}/{retries}, aguardando {wait}s...", flush=True)
+                time.sleep(wait)
+                continue
+            print(f"  ERRO: {e}")
+            return None
+        except Exception as e:
+            print(f"  ERRO: {e}")
+            return None
 
 
 def fetch_all_pages(endpoint, params=None, label="items"):
@@ -134,7 +149,7 @@ def fetch_posts():
             "limit": "50",
             "status": "confirmed",
             "order_by": "publish_date",
-            "direction": "asc",
+            "direction": "desc",
         },
         label="posts",
     )
