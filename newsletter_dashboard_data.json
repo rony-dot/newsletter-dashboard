@@ -18,13 +18,18 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 30,
-      "web_clicks": 4,
+      "web_views": 36,
+      "web_clicks": 5,
       "top_links": [
         {
           "url": "https://www.bobpost.com.br/",
           "total_clicks": 2,
           "unique_clicks": 2
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/isso-aqui-vai-irritar-muita-gente",
+          "total_clicks": 1,
+          "unique_clicks": 1
         },
         {
           "url": "https://twitter.com/intent/tweet",
@@ -56,7 +61,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 17,
+      "web_views": 19,
       "web_clicks": 1,
       "top_links": [
         {
@@ -84,7 +89,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 6,
+      "web_views": 8,
       "web_clicks": 2,
       "top_links": [
         {
@@ -150,7 +155,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 6,
+      "web_views": 8,
       "web_clicks": 3,
       "top_links": [
         {
@@ -183,7 +188,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 1,
+      "web_views": 3,
       "web_clicks": 0,
       "top_links": []
     },
@@ -205,7 +210,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 2,
+      "web_views": 3,
       "web_clicks": 0,
       "top_links": []
     },
@@ -227,7 +232,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 7,
+      "web_views": 8,
       "web_clicks": 4,
       "top_links": [
         {
@@ -260,7 +265,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 2,
+      "web_views": 3,
       "web_clicks": 1,
       "top_links": [
         {
@@ -288,7 +293,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 7,
+      "web_views": 8,
       "web_clicks": 1,
       "top_links": [
         {
@@ -316,7 +321,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 13,
+      "web_views": 18,
       "web_clicks": 0,
       "top_links": []
     },
@@ -338,7 +343,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 4,
+      "web_views": 5,
       "web_clicks": 0,
       "top_links": []
     },
@@ -360,7 +365,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 3,
+      "web_views": 4,
       "web_clicks": 0,
       "top_links": []
     },
@@ -410,7 +415,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 3,
+      "web_views": 4,
       "web_clicks": 0,
       "top_links": []
     },
@@ -432,7 +437,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 0,
+      "web_views": 1,
       "web_clicks": 0,
       "top_links": []
     },
@@ -476,11 +481,16 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 2,
-      "web_clicks": 1,
+      "web_views": 3,
+      "web_clicks": 2,
       "top_links": [
         {
           "url": "https://whatsapp.com/channel/0029VaMxLp5CsU9O6wNWMc2g",
+          "total_clicks": 1,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/ninguem-te-contou-isso",
           "total_clicks": 1,
           "unique_clicks": 1
         }
@@ -526,7 +536,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 3,
+      "web_views": 6,
       "web_clicks": 0,
       "top_links": []
     },
@@ -548,7 +558,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 0,
+      "web_views": 1,
       "web_clicks": 0,
       "top_links": []
     },
@@ -806,7 +816,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 2,
+      "web_views": 3,
       "web_clicks": 0,
       "top_links": []
     },
@@ -828,16 +838,21 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 5,
+      "web_views": 6,
       "web_clicks": 6,
       "top_links": [
         {
-          "url": "https://www.usereserva.com/colecao-reserva/rebeldes-tem-asas",
+          "url": "https://bobpost.beehiiv.com/subscribe",
           "total_clicks": 1,
           "unique_clicks": 1
         },
         {
-          "url": "https://bobpost.beehiiv.com/subscribe",
+          "url": "https://amzn.to/3XGi4Uj",
+          "total_clicks": 1,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://amzn.to/4bhZPI5",
           "total_clicks": 1,
           "unique_clicks": 1
         },
@@ -852,12 +867,7 @@
           "unique_clicks": 1
         },
         {
-          "url": "https://amzn.to/3XGi4Uj",
-          "total_clicks": 1,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://amzn.to/4bhZPI5",
+          "url": "https://www.usereserva.com/colecao-reserva/rebeldes-tem-asas",
           "total_clicks": 1,
           "unique_clicks": 1
         }
@@ -881,7 +891,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 1,
+      "web_views": 2,
       "web_clicks": 0,
       "top_links": []
     },
@@ -925,9 +935,15 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 0,
-      "web_clicks": 0,
-      "top_links": []
+      "web_views": 1,
+      "web_clicks": 1,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe",
+          "total_clicks": 1,
+          "unique_clicks": 1
+        }
+      ]
     },
     {
       "id": "post_01594ee8-acb1-4796-9a65-8c127a0f45a7",
@@ -947,7 +963,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 3,
+      "web_views": 4,
       "web_clicks": 0,
       "top_links": []
     },
@@ -969,7 +985,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 4,
+      "web_views": 6,
       "web_clicks": 4,
       "top_links": [
         {
@@ -1002,7 +1018,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 1,
+      "web_views": 2,
       "web_clicks": 1,
       "top_links": [
         {
@@ -1052,7 +1068,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 3,
+      "web_views": 5,
       "web_clicks": 1,
       "top_links": [
         {
@@ -1290,7 +1306,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 3,
+      "web_views": 5,
       "web_clicks": 1,
       "top_links": [
         {
@@ -1362,7 +1378,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 4,
+      "web_views": 6,
       "web_clicks": 0,
       "top_links": []
     },
@@ -1528,7 +1544,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 2,
+      "web_views": 3,
       "web_clicks": 0,
       "top_links": []
     },
@@ -1627,7 +1643,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 8,
+      "web_views": 9,
       "web_clicks": 0,
       "top_links": []
     },
@@ -1649,7 +1665,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 16,
+      "web_views": 17,
       "web_clicks": 0,
       "top_links": []
     },
@@ -1708,12 +1724,12 @@
       "web_clicks": 2,
       "top_links": [
         {
-          "url": "https://www.bobpost.com.br/p/e-se-o-maior-risco-for-nao-decidir-1",
+          "url": "https://www.bobpost.com.br/p/4-regras-do-mit-pra-voc-usar-ia-sem-virar-um-rob",
           "total_clicks": 1,
           "unique_clicks": 1
         },
         {
-          "url": "https://www.bobpost.com.br/p/4-regras-do-mit-pra-voc-usar-ia-sem-virar-um-rob",
+          "url": "https://www.bobpost.com.br/p/e-se-o-maior-risco-for-nao-decidir-1",
           "total_clicks": 1,
           "unique_clicks": 1
         }
@@ -1770,7 +1786,7 @@
       "unsubscribes": 0,
       "unsub_rate": 0,
       "spam_reports": 0,
-      "web_views": 83,
+      "web_views": 87,
       "web_clicks": 4,
       "top_links": [
         {
@@ -1779,12 +1795,12 @@
           "unique_clicks": 1
         },
         {
-          "url": "https://www.infomoney.com.br/business/tiktok-shop-mudou-o-jogo-no-varejo-rede-social-entra-de-vez-no-mundo-das-compras/",
+          "url": "https://linktr.ee/dane_se_oficial",
           "total_clicks": 1,
           "unique_clicks": 1
         },
         {
-          "url": "https://linktr.ee/dane_se_oficial",
+          "url": "https://www.infomoney.com.br/business/tiktok-shop-mudou-o-jogo-no-varejo-rede-social-entra-de-vez-no-mundo-das-compras/",
           "total_clicks": 1,
           "unique_clicks": 1
         },
@@ -1813,11 +1829,16 @@
       "unsubscribes": 108,
       "unsub_rate": 1.16,
       "spam_reports": 8,
-      "web_views": 226,
+      "web_views": 229,
       "web_clicks": 22,
       "top_links": [
         {
           "url": "https://breakdownbr.com/lp-breakdown-produtos-virais/",
+          "total_clicks": 15,
+          "unique_clicks": 12
+        },
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
           "total_clicks": 15,
           "unique_clicks": 12
         },
@@ -1852,19 +1873,14 @@
           "unique_clicks": 6
         },
         {
-          "url": "https://trellis.net/article/these-are-the-top-10-circular-fashion-brands-according-to-kearney/",
-          "total_clicks": 5,
-          "unique_clicks": 5
-        },
-        {
           "url": "https://breakdownbr.com/lp-breakdown-produtos-virais/",
           "total_clicks": 5,
           "unique_clicks": 4
         },
         {
-          "url": "https://www.meioemensagem.com.br/marketing/com-insider-rappi-inclui-vestuario-em-suas-entregas",
-          "total_clicks": 4,
-          "unique_clicks": 4
+          "url": "https://trellis.net/article/these-are-the-top-10-circular-fashion-brands-according-to-kearney/",
+          "total_clicks": 5,
+          "unique_clicks": 5
         }
       ]
     },
@@ -1890,18 +1906,13 @@
       "web_clicks": 4,
       "top_links": [
         {
-          "url": "https://exame.com/negocios/morango-do-amor-tiktok-produto-viral-vendendo-quanto/",
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
           "total_clicks": 6,
           "unique_clicks": 5
         },
         {
-          "url": "https://www.infomoney.com.br/business/apos-reforma-de-r-800-mi-bobs-inaugura-no-rj-loja-com-robo-que-prepara-milkshakes/",
-          "total_clicks": 5,
-          "unique_clicks": 5
-        },
-        {
-          "url": "https://fitfeed.com.br/the-simple-gym-na-casa-da-malu-borges/",
-          "total_clicks": 5,
+          "url": "https://exame.com/negocios/morango-do-amor-tiktok-produto-viral-vendendo-quanto/",
+          "total_clicks": 6,
           "unique_clicks": 5
         },
         {
@@ -1910,9 +1921,14 @@
           "unique_clicks": 4
         },
         {
-          "url": "https://www.publicitarioscriativos.com/doritos-e-mms-podem-estampar-alerta-de-nao-recomendados-ao-consumo-humano-nas-embalagens/",
-          "total_clicks": 4,
-          "unique_clicks": 4
+          "url": "https://fitfeed.com.br/the-simple-gym-na-casa-da-malu-borges/",
+          "total_clicks": 5,
+          "unique_clicks": 5
+        },
+        {
+          "url": "https://www.infomoney.com.br/business/apos-reforma-de-r-800-mi-bobs-inaugura-no-rj-loja-com-robo-que-prepara-milkshakes/",
+          "total_clicks": 5,
+          "unique_clicks": 5
         },
         {
           "url": "https://www.meioemensagem.com.br/marketing/ifood-estaria-negociando-aquisicao-da-alelo",
@@ -1925,17 +1941,17 @@
           "unique_clicks": 4
         },
         {
+          "url": "https://www.publicitarioscriativos.com/doritos-e-mms-podem-estampar-alerta-de-nao-recomendados-ao-consumo-humano-nas-embalagens/",
+          "total_clicks": 4,
+          "unique_clicks": 4
+        },
+        {
           "url": "https://www.pepsico.com/our-stories/press-release/pepsico-launches-first-ever-prebiotic-cola-in-traditional-cola-category07212025",
           "total_clicks": 3,
           "unique_clicks": 3
         },
         {
           "url": "https://youtu.be/XikIr0kedY8",
-          "total_clicks": 2,
-          "unique_clicks": 2
-        },
-        {
-          "url": "https://exame.com/negocios/stanley-como-marca-centenaria-conquistou-a-gen-z-e-agora-tem-r-4-bi-de-receita/",
           "total_clicks": 2,
           "unique_clicks": 2
         }
@@ -1962,6 +1978,11 @@
       "web_views": 151,
       "web_clicks": 20,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 13,
+          "unique_clicks": 12
+        },
         {
           "url": "https://www.infomoney.com.br/colunistas/convidados/ate-a-nike-se-rendeu-ao-novo-unicornio-da-midia-e-isso-diz-muito-sobre-o-futuro-das-plataformas/",
           "total_clicks": 7,
@@ -1998,19 +2019,14 @@
           "unique_clicks": 3
         },
         {
-          "url": "https://www.infomoney.com.br/business/hm-vai-inaugurar-primeira-loja-no-brasil-no-dia-23-de-agosto-em-sao-paulo/",
-          "total_clicks": 3,
-          "unique_clicks": 3
-        },
-        {
           "url": "https://exame.com/esg/google-lanca-primeira-ia-para-monitorar-mudancas-climaticas-na-terra/",
           "total_clicks": 3,
           "unique_clicks": 3
         },
         {
-          "url": "https://businessofbrandspost.substack.com/242380cf7d06800fbdd1f33a592bebb3",
-          "total_clicks": 2,
-          "unique_clicks": 1
+          "url": "https://www.infomoney.com.br/business/hm-vai-inaugurar-primeira-loja-no-brasil-no-dia-23-de-agosto-em-sao-paulo/",
+          "total_clicks": 3,
+          "unique_clicks": 3
         }
       ]
     },
@@ -2031,22 +2047,27 @@
       "cto_rate": 1.1,
       "unsubscribes": 597,
       "unsub_rate": 1.39,
-      "spam_reports": 46,
+      "spam_reports": 47,
       "web_views": 0,
       "web_clicks": 0,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 56,
+          "unique_clicks": 42
+        },
         {
           "url": "https://www.infomoney.com.br/colunistas/convidados/ate-a-nike-se-rendeu-ao-novo-unicornio-da-midia-e-isso-diz-muito-sobre-o-futuro-das-plataformas/",
           "total_clicks": 12,
           "unique_clicks": 11
         },
         {
-          "url": "https://updateordie.com/2025/07/25/ia-como-terapeuta-conheca-o-ash/",
+          "url": "https://exame.com/negocios/a-ameaca-chinesa-starbucks-ganha-competidor-de-peso-nos-eua-com-estrategia-100-digital/",
           "total_clicks": 8,
           "unique_clicks": 6
         },
         {
-          "url": "https://exame.com/negocios/a-ameaca-chinesa-starbucks-ganha-competidor-de-peso-nos-eua-com-estrategia-100-digital/",
+          "url": "https://updateordie.com/2025/07/25/ia-como-terapeuta-conheca-o-ash/",
           "total_clicks": 8,
           "unique_clicks": 6
         },
@@ -2061,6 +2082,16 @@
           "unique_clicks": 4
         },
         {
+          "url": "https://businessofbrandspost.substack.com/242380cf7d06800fbdd1f33a592bebb3",
+          "total_clicks": 3,
+          "unique_clicks": 3
+        },
+        {
+          "url": "https://exame.com/negocios/lojas-renner-s-a-e-1a-varejista-do-mundo-a-publicar-dados-financeiros-sobre-sustentabilidade/",
+          "total_clicks": 3,
+          "unique_clicks": 3
+        },
+        {
           "url": "https://www.infomoney.com.br/business/hm-vai-inaugurar-primeira-loja-no-brasil-no-dia-23-de-agosto-em-sao-paulo/",
           "total_clicks": 3,
           "unique_clicks": 3
@@ -2069,21 +2100,6 @@
           "url": "https://www.beehiiv.com/",
           "total_clicks": 3,
           "unique_clicks": 2
-        },
-        {
-          "url": "https://exame.com/negocios/lojas-renner-s-a-e-1a-varejista-do-mundo-a-publicar-dados-financeiros-sobre-sustentabilidade/",
-          "total_clicks": 3,
-          "unique_clicks": 3
-        },
-        {
-          "url": "https://businessofbrandspost.substack.com/242380cf7d06800fbdd1f33a592bebb3",
-          "total_clicks": 3,
-          "unique_clicks": 3
-        },
-        {
-          "url": "https://bobpost.beehiiv.com/polls/406f7d42-15dc-40ca-ad95-6bc67d235df0/response",
-          "total_clicks": 3,
-          "unique_clicks": 1
         }
       ]
     },
@@ -2104,10 +2120,15 @@
       "cto_rate": 1.2,
       "unsubscribes": 376,
       "unsub_rate": 0.77,
-      "spam_reports": 44,
-      "web_views": 133,
+      "spam_reports": 45,
+      "web_views": 134,
       "web_clicks": 9,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 21,
+          "unique_clicks": 18
+        },
         {
           "url": "https://www.infomoney.com.br/business/global/starbucks-encerra-lojas-para-a-geracao-z-apos-seis-anos-veja-motivo/",
           "total_clicks": 8,
@@ -2134,11 +2155,6 @@
           "unique_clicks": 5
         },
         {
-          "url": "https://www.meioemensagem.com.br/marketing/kopenhagen-lanca-collab-com-emily-in-paris",
-          "total_clicks": 5,
-          "unique_clicks": 5
-        },
-        {
           "url": "https://www.amazon.com.br/Tempo-vida-por-envelhecemos-precisamos/dp/8550815071/ref=sr_1_1",
           "total_clicks": 5,
           "unique_clicks": 5
@@ -2154,9 +2170,9 @@
           "unique_clicks": 4
         },
         {
-          "url": "https://www.theverge.com/news/758624/google-gemini-ai-automatic-memory-privacy-update",
-          "total_clicks": 3,
-          "unique_clicks": 3
+          "url": "https://www.meioemensagem.com.br/marketing/kopenhagen-lanca-collab-com-emily-in-paris",
+          "total_clicks": 5,
+          "unique_clicks": 5
         }
       ]
     },
@@ -2177,10 +2193,15 @@
       "cto_rate": 1.3,
       "unsubscribes": 477,
       "unsub_rate": 0.98,
-      "spam_reports": 17,
-      "web_views": 101,
+      "spam_reports": 18,
+      "web_views": 103,
       "web_clicks": 23,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 47,
+          "unique_clicks": 37
+        },
         {
           "url": "https://www.infomoney.com.br/consumo/hm-sp-onde-serao-lojas-precos/",
           "total_clicks": 35,
@@ -2212,6 +2233,11 @@
           "unique_clicks": 6
         },
         {
+          "url": "https://open.spotify.com/episode/3EqZS5INpi50pZovCh9K5P",
+          "total_clicks": 6,
+          "unique_clicks": 6
+        },
+        {
           "url": "https://www.meioemensagem.com.br/comunicacao/em-barretos-brahma-cria-musica-sobre-moderacao",
           "total_clicks": 6,
           "unique_clicks": 5
@@ -2220,16 +2246,6 @@
           "url": "https://www.amazon.com.br/Insta360-port%C3%A1til-estabiliza%C3%A7%C3%A3o-multifuncional-imperme%C3%A1vel/dp/B0C8MVJF3K",
           "total_clicks": 6,
           "unique_clicks": 6
-        },
-        {
-          "url": "https://open.spotify.com/episode/3EqZS5INpi50pZovCh9K5P",
-          "total_clicks": 6,
-          "unique_clicks": 6
-        },
-        {
-          "url": "https://www.publicitarioscriativos.com/carmed-e-coca-cola-anunciam-colecao-inedita-de-hidratantes-labiais-licenciados/",
-          "total_clicks": 5,
-          "unique_clicks": 4
         }
       ]
     },
@@ -2255,6 +2271,11 @@
       "web_clicks": 0,
       "top_links": [
         {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 54,
+          "unique_clicks": 48
+        },
+        {
           "url": "https://www.infomoney.com.br/consumo/hm-sp-onde-serao-lojas-precos/",
           "total_clicks": 18,
           "unique_clicks": 17
@@ -2270,12 +2291,12 @@
           "unique_clicks": 9
         },
         {
-          "url": "https://www.meioemensagem.com.br/marketing/the-run-0-0-heineken-promove-corrida-de-rua",
+          "url": "https://www.meioemensagem.com.br/marketing/natura-abre-primeiro-spa-bluma-em-sao-paulo",
           "total_clicks": 8,
           "unique_clicks": 7
         },
         {
-          "url": "https://www.meioemensagem.com.br/marketing/natura-abre-primeiro-spa-bluma-em-sao-paulo",
+          "url": "https://www.meioemensagem.com.br/marketing/the-run-0-0-heineken-promove-corrida-de-rua",
           "total_clicks": 8,
           "unique_clicks": 7
         },
@@ -2285,19 +2306,14 @@
           "unique_clicks": 5
         },
         {
-          "url": "https://www.b9.com.br/174333/meta-dublagem-ia-instagram/",
-          "total_clicks": 5,
-          "unique_clicks": 4
-        },
-        {
           "url": "https://www.amazon.com.br/Insta360-port%C3%A1til-estabiliza%C3%A7%C3%A3o-multifuncional-imperme%C3%A1vel/dp/B0C8MVJF3K",
           "total_clicks": 5,
           "unique_clicks": 4
         },
         {
-          "url": "https://www.meioemensagem.com.br/midia/pinterest-lanca-projeto-para-incentivar-a-economia-circular",
-          "total_clicks": 4,
-          "unique_clicks": 3
+          "url": "https://www.b9.com.br/174333/meta-dublagem-ia-instagram/",
+          "total_clicks": 5,
+          "unique_clicks": 4
         },
         {
           "url": "https://www.meioemensagem.com.br/marketing/fenty-beauty-estreia-evento-no-brasil",
@@ -2323,14 +2339,14 @@
       "cto_rate": 1.3,
       "unsubscribes": 979,
       "unsub_rate": 1.07,
-      "spam_reports": 40,
-      "web_views": 132,
+      "spam_reports": 41,
+      "web_views": 133,
       "web_clicks": 18,
       "top_links": [
         {
-          "url": "https://www.publicitarioscriativos.com/red-bull-zero-lanca-desafio-fitness-e-leva-experiencia-inedita-para-aavenida-paulista-na-capital-a-partir-desta-terca-26/",
-          "total_clicks": 17,
-          "unique_clicks": 16
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 71,
+          "unique_clicks": 61
         },
         {
           "url": "https://www.b9.com.br/174431/whatsapp-ia-mensagem/",
@@ -2338,14 +2354,19 @@
           "unique_clicks": 15
         },
         {
-          "url": "https://youtu.be/QFdubqQcB5A",
-          "total_clicks": 16,
-          "unique_clicks": 14
+          "url": "https://www.publicitarioscriativos.com/red-bull-zero-lanca-desafio-fitness-e-leva-experiencia-inedita-para-aavenida-paulista-na-capital-a-partir-desta-terca-26/",
+          "total_clicks": 17,
+          "unique_clicks": 16
         },
         {
           "url": "https://www.meioemensagem.com.br/marketing/creamy-dobrar-numero-lojas-2026",
           "total_clicks": 16,
           "unique_clicks": 15
+        },
+        {
+          "url": "https://youtu.be/QFdubqQcB5A",
+          "total_clicks": 16,
+          "unique_clicks": 14
         },
         {
           "url": "https://www.meioemensagem.com.br/midia/openai-abira-escritorio-no-brasil-ate-o-fim-do-ano",
@@ -2371,11 +2392,6 @@
           "url": "https://www.b9.com.br/174395/pop-mart-mini-labubu/",
           "total_clicks": 8,
           "unique_clicks": 8
-        },
-        {
-          "url": "https://bobpost.beehiiv.com/p/1-e-mail-do-rony-vs-30-que-voc-n-o-vai-abrir",
-          "total_clicks": 8,
-          "unique_clicks": 7
         }
       ]
     },
@@ -2394,16 +2410,21 @@
       "open_rate": 45.2,
       "click_rate": 0.5,
       "cto_rate": 1.1,
-      "unsubscribes": 933,
+      "unsubscribes": 934,
       "unsub_rate": 1.03,
-      "spam_reports": 77,
-      "web_views": 102,
+      "spam_reports": 79,
+      "web_views": 103,
       "web_clicks": 18,
       "top_links": [
         {
           "url": "https://www.b9.com.br/174569/tiny-desk-brasil/",
           "total_clicks": 38,
           "unique_clicks": 34
+        },
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 35,
+          "unique_clicks": 28
         },
         {
           "url": "https://g1.globo.com/tecnologia/noticia/2025/09/03/iphone-17-deve-ser-lancado-na-proxima-terca-veja-o-que-esperar-do-evento-da-apple.ghtml",
@@ -2431,24 +2452,19 @@
           "unique_clicks": 10
         },
         {
-          "url": "https://www.infomoney.com.br/negocios/claro-e-a-openai-fecham-parceria-para-colocar-chatgpt-plus-em-planos-de-internet/",
-          "total_clicks": 10,
-          "unique_clicks": 10
-        },
-        {
           "url": "https://exame.com/negocios/22-anos-de-im-lovin-it-como-tres-palavras-salvaram-o-mcdonalds-da-irrelevancia/",
           "total_clicks": 10,
           "unique_clicks": 9
         },
         {
+          "url": "https://www.infomoney.com.br/negocios/claro-e-a-openai-fecham-parceria-para-colocar-chatgpt-plus-em-planos-de-internet/",
+          "total_clicks": 10,
+          "unique_clicks": 10
+        },
+        {
           "url": "https://www.beehiiv.com/",
           "total_clicks": 8,
           "unique_clicks": 8
-        },
-        {
-          "url": "https://www.meioemensagem.com.br/midia/globo-criara-selo-de-sustentabilidade-para-audiovisual",
-          "total_clicks": 6,
-          "unique_clicks": 6
         }
       ]
     },
@@ -2467,12 +2483,17 @@
       "open_rate": 43.5,
       "click_rate": 0.4,
       "cto_rate": 1.0,
-      "unsubscribes": 759,
+      "unsubscribes": 760,
       "unsub_rate": 0.85,
-      "spam_reports": 69,
-      "web_views": 136,
+      "spam_reports": 70,
+      "web_views": 139,
       "web_clicks": 14,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 48,
+          "unique_clicks": 44
+        },
         {
           "url": "https://www.projetodraft.com/banana-milk/",
           "total_clicks": 15,
@@ -2484,14 +2505,14 @@
           "unique_clicks": 14
         },
         {
-          "url": "https://www.meioemensagem.com.br/marketing/nfl-avanca-em-negociacao-para-jogo-no-rio-de-janeiro",
-          "total_clicks": 14,
-          "unique_clicks": 13
-        },
-        {
           "url": "https://fitfeed.com.br/apple-quer-ser-seu-personal-trainer-o-que-muda-com-os-novos-airpods-e-watch-ultra/",
           "total_clicks": 14,
           "unique_clicks": 14
+        },
+        {
+          "url": "https://www.meioemensagem.com.br/marketing/nfl-avanca-em-negociacao-para-jogo-no-rio-de-janeiro",
+          "total_clicks": 14,
+          "unique_clicks": 13
         },
         {
           "url": "https://www.meioemensagem.com.br/midia/google-lanca-versao-em-portugues-da-ferramenta-modo-ia",
@@ -2504,18 +2525,13 @@
           "unique_clicks": 11
         },
         {
-          "url": "https://www.projetodraft.com/elas-trabalhavam-em-uma-grande-varejista-de-moda-agora-tocam-a-sua-propria-marca-de-camisetas-feitas-com-algodao-agroecologico/",
-          "total_clicks": 10,
-          "unique_clicks": 8
-        },
-        {
           "url": "https://revistapegn.globo.com/startups/noticia/2025/09/nortian-capta-r-240-milhoes-para-lancar-ecossistema-de-proteinas.ghtml",
           "total_clicks": 10,
           "unique_clicks": 9
         },
         {
-          "url": "https://www.meioemensagem.com.br/marketing/a-estrategia-de-comunicacao-de-99food",
-          "total_clicks": 8,
+          "url": "https://www.projetodraft.com/elas-trabalhavam-em-uma-grande-varejista-de-moda-agora-tocam-a-sua-propria-marca-de-camisetas-feitas-com-algodao-agroecologico/",
+          "total_clicks": 10,
           "unique_clicks": 8
         },
         {
@@ -2540,12 +2556,17 @@
       "open_rate": 40.8,
       "click_rate": 0.4,
       "cto_rate": 1.0,
-      "unsubscribes": 598,
+      "unsubscribes": 599,
       "unsub_rate": 0.67,
-      "spam_reports": 61,
+      "spam_reports": 63,
       "web_views": 146,
       "web_clicks": 22,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 55,
+          "unique_clicks": 52
+        },
         {
           "url": "https://fitfeed.com.br/a-neurociencia-que-vai-mudar-o-seu-sono-com-o-selo-da-nba/",
           "total_clicks": 18,
@@ -2557,14 +2578,14 @@
           "unique_clicks": 14
         },
         {
-          "url": "https://www.meioemensagem.com.br/proxxima/vivo-faz-parceria-com-perplexity-e-oferece-ia-a-clientes",
-          "total_clicks": 13,
-          "unique_clicks": 12
-        },
-        {
           "url": "https://www.meioemensagem.com.br/marketing/levis-e-pixar-lancam-colecao-inspirada-em-toy-story",
           "total_clicks": 13,
           "unique_clicks": 13
+        },
+        {
+          "url": "https://www.meioemensagem.com.br/proxxima/vivo-faz-parceria-com-perplexity-e-oferece-ia-a-clientes",
+          "total_clicks": 13,
+          "unique_clicks": 12
         },
         {
           "url": "https://fitfeed.com.br/de-gadget-a-ecossistema-como-o-oura-quer-redefinir-o-futuro-da-saude/",
@@ -2590,11 +2611,6 @@
           "url": "https://bobpost.beehiiv.com/p/quando-nao-saber-e-poder-1",
           "total_clicks": 10,
           "unique_clicks": 10
-        },
-        {
-          "url": "https://hypebeast.com/br/2025/9/ralph-lauren-ai-ask-ralph-microsoft-open-ai",
-          "total_clicks": 8,
-          "unique_clicks": 7
         }
       ]
     },
@@ -2613,10 +2629,10 @@
       "open_rate": 40.9,
       "click_rate": 0.4,
       "cto_rate": 0.9,
-      "unsubscribes": 535,
+      "unsubscribes": 536,
       "unsub_rate": 0.6,
-      "spam_reports": 31,
-      "web_views": 265,
+      "spam_reports": 33,
+      "web_views": 266,
       "web_clicks": 29,
       "top_links": [
         {
@@ -2628,6 +2644,11 @@
           "url": "https://www.meioemensagem.com.br/marketing/fifa-apresenta-mascotes-da-copa-do-mundo-2026",
           "total_clicks": 28,
           "unique_clicks": 25
+        },
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 24,
+          "unique_clicks": 21
         },
         {
           "url": "https://forbes.com.br/forbes-tech/2025/09/openai-amplia-rede-de-terapeutas-humanos-para-o-chatgpt-e-aumenta-demanda-por-profissionais-de-saude-mental/",
@@ -2650,23 +2671,18 @@
           "unique_clicks": 5
         },
         {
-          "url": "https://www.meioemensagem.com.br/midia/pinterest-amplia-ferramentas-para-anunciantes",
+          "url": "https://www.meioemensagem.com.br/comunicacao/coca-cola-premia-consumidores-com-reconhecimento-facial",
           "total_clicks": 5,
           "unique_clicks": 5
         },
         {
-          "url": "https://www.meioemensagem.com.br/comunicacao/coca-cola-premia-consumidores-com-reconhecimento-facial",
+          "url": "https://www.meioemensagem.com.br/midia/pinterest-amplia-ferramentas-para-anunciantes",
           "total_clicks": 5,
           "unique_clicks": 5
         },
         {
           "url": "https://exame.com/esg/banco-do-brasil-capta-us-100-milhoes-para-financiar-projetos-sustentaveis/",
           "total_clicks": 5,
-          "unique_clicks": 4
-        },
-        {
-          "url": "https://www.publicitarioscriativos.com/red-bull-building-drop-leva-sandro-dias-a-desafiar-limites-do-skate-na-maior-rampa-do-mundo/",
-          "total_clicks": 4,
           "unique_clicks": 4
         }
       ]
@@ -2686,12 +2702,17 @@
       "open_rate": 44.2,
       "click_rate": 0.4,
       "cto_rate": 0.9,
-      "unsubscribes": 581,
+      "unsubscribes": 582,
       "unsub_rate": 0.66,
-      "spam_reports": 42,
-      "web_views": 153,
+      "spam_reports": 44,
+      "web_views": 155,
       "web_clicks": 25,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 36,
+          "unique_clicks": 31
+        },
         {
           "url": "https://www.meioemensagem.com.br/marketing/natura-ekos-inaugura-cafeteria-com-experiencias-de-bem-estar",
           "total_clicks": 18,
@@ -2703,14 +2724,14 @@
           "unique_clicks": 15
         },
         {
-          "url": "https://www.publicitarioscriativos.com/starbucks-brasil-lanca-a-bebida-da-malu-personalizacao-favorita-da-influenciadora-agora-no-cardapio/",
-          "total_clicks": 14,
-          "unique_clicks": 13
-        },
-        {
           "url": "https://www.meioemensagem.com.br/marketing/google-quer-treinar-pmes-para-o-uso-de-ia",
           "total_clicks": 14,
           "unique_clicks": 14
+        },
+        {
+          "url": "https://www.publicitarioscriativos.com/starbucks-brasil-lanca-a-bebida-da-malu-personalizacao-favorita-da-influenciadora-agora-no-cardapio/",
+          "total_clicks": 14,
+          "unique_clicks": 13
         },
         {
           "url": "https://www.meioemensagem.com.br/marketing/adidas-realiza-desfile-na-cptm-para-lancar-adizero-evo-sl",
@@ -2723,24 +2744,19 @@
           "unique_clicks": 12
         },
         {
-          "url": "https://www.publicitarioscriativos.com/neymar-jr-e-sosias-estrelam-campanha-10-10-das-grandes-marcas-do-mercado-livre/",
-          "total_clicks": 10,
-          "unique_clicks": 8
-        },
-        {
           "url": "http://meioemensagem.com.br/maximidia/espn-aposta-em-integracao-entre-tv-streaming-e-digital",
           "total_clicks": 10,
           "unique_clicks": 9
         },
         {
+          "url": "https://www.publicitarioscriativos.com/neymar-jr-e-sosias-estrelam-campanha-10-10-das-grandes-marcas-do-mercado-livre/",
+          "total_clicks": 10,
+          "unique_clicks": 8
+        },
+        {
           "url": "https://www.meioemensagem.com.br/marketing/aws-se-torna-parceira-de-ia-da-nba",
           "total_clicks": 7,
           "unique_clicks": 6
-        },
-        {
-          "url": "https://www.publicitarioscriativos.com/correios-trocam-uniforme-azul-pelo-rosa-em-acao-inedita-do-outubro-rosa/",
-          "total_clicks": 6,
-          "unique_clicks": 5
         }
       ]
     },
@@ -2759,12 +2775,17 @@
       "open_rate": 43.9,
       "click_rate": 0.3,
       "cto_rate": 0.7,
-      "unsubscribes": 466,
+      "unsubscribes": 467,
       "unsub_rate": 0.53,
-      "spam_reports": 41,
-      "web_views": 253,
-      "web_clicks": 20,
+      "spam_reports": 43,
+      "web_views": 259,
+      "web_clicks": 21,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 49,
+          "unique_clicks": 40
+        },
         {
           "url": "https://www.infomoney.com.br/business/por-que-a-victorias-secret-esta-desesperada-para-aprender-a-vender-sutias-novamente/",
           "total_clicks": 13,
@@ -2809,11 +2830,6 @@
           "url": "https://www.publicitarioscriativos.com/spaten-lanca-cerveja-exclusiva-para-celebrar-a-40a-oktoberfest-de-blumenau/",
           "total_clicks": 5,
           "unique_clicks": 4
-        },
-        {
-          "url": "https://www.meioemensagem.com.br/marketing/mercado-ads-fecha-parcerias-com-hbo-max-e-roku",
-          "total_clicks": 5,
-          "unique_clicks": 5
         }
       ]
     },
@@ -2834,10 +2850,15 @@
       "cto_rate": 0.7,
       "unsubscribes": 387,
       "unsub_rate": 0.44,
-      "spam_reports": 29,
-      "web_views": 320,
+      "spam_reports": 32,
+      "web_views": 322,
       "web_clicks": 35,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 38,
+          "unique_clicks": 31
+        },
         {
           "url": "https://www.b9.com.br/175475/casio-relogio-de-volta-para-o-futuro/",
           "total_clicks": 26,
@@ -2874,18 +2895,13 @@
           "unique_clicks": 11
         },
         {
-          "url": "https://www.meioemensagem.com.br/marketing/bahia-e-afropunk-lancam-camisa-que-celebra-a-cultura-negra",
-          "total_clicks": 9,
-          "unique_clicks": 8
-        },
-        {
           "url": "https://fitfeed.com.br/hytro-quer-levar-o-treino-de-restricao-de-fluxo-sanguineo-bfr-ao-mainstream/",
           "total_clicks": 9,
           "unique_clicks": 9
         },
         {
-          "url": "https://www.meioemensagem.com.br/midia/wellhub-lanca-tv-em-parceria-com-empresa-da-eletromidia",
-          "total_clicks": 8,
+          "url": "https://www.meioemensagem.com.br/marketing/bahia-e-afropunk-lancam-camisa-que-celebra-a-cultura-negra",
+          "total_clicks": 9,
           "unique_clicks": 8
         }
       ]
@@ -2907,10 +2923,15 @@
       "cto_rate": 0.9,
       "unsubscribes": 433,
       "unsub_rate": 0.5,
-      "spam_reports": 32,
-      "web_views": 205,
+      "spam_reports": 34,
+      "web_views": 214,
       "web_clicks": 26,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 43,
+          "unique_clicks": 37
+        },
         {
           "url": "https://www.meioemensagem.com.br/marketing/red-bull-entra-no-cardapio-do-mcdonalds",
           "total_clicks": 30,
@@ -2955,11 +2976,6 @@
           "url": "https://www.meioemensagem.com.br/comunicacao/wpp-amplia-oferta-de-ia-com-lancamento-do-wpp-open-pro",
           "total_clicks": 13,
           "unique_clicks": 12
-        },
-        {
-          "url": "https://www.publicitarioscriativos.com/nike-apresenta-novas-plataformas-de-inovacao-para-acelerar-o-desempenho-dos-atletas/",
-          "total_clicks": 12,
-          "unique_clicks": 11
         }
       ]
     },
@@ -2980,8 +2996,8 @@
       "cto_rate": 0.5,
       "unsubscribes": 307,
       "unsub_rate": 0.35,
-      "spam_reports": 26,
-      "web_views": 339,
+      "spam_reports": 28,
+      "web_views": 343,
       "web_clicks": 36,
       "top_links": [
         {
@@ -2993,6 +3009,11 @@
           "url": "https://www.meioemensagem.com.br/midia/atlas-do-chatgpt-acende-alerta-para-agencias-e-anunciantes",
           "total_clicks": 27,
           "unique_clicks": 24
+        },
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 16,
+          "unique_clicks": 15
         },
         {
           "url": "https://www.meioemensagem.com.br/marketing/nubank-e-openai-oferecem-versao-mais-barata-de-chatgpt",
@@ -3028,11 +3049,6 @@
           "url": "https://fitfeed.com.br/ladder-ataca-com-nutricao-e-ia-o-fim-do-app-unico-para-fitness/",
           "total_clicks": 7,
           "unique_clicks": 7
-        },
-        {
-          "url": "http://rebels.cc/",
-          "total_clicks": 6,
-          "unique_clicks": 6
         }
       ]
     },
@@ -3051,12 +3067,17 @@
       "open_rate": 44.6,
       "click_rate": 0.4,
       "cto_rate": 0.9,
-      "unsubscribes": 4142,
-      "unsub_rate": 1.51,
-      "spam_reports": 349,
-      "web_views": 249,
+      "unsubscribes": 4148,
+      "unsub_rate": 1.52,
+      "spam_reports": 353,
+      "web_views": 260,
       "web_clicks": 29,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 81,
+          "unique_clicks": 72
+        },
         {
           "url": "https://www.youtube.com/watch",
           "total_clicks": 58,
@@ -3101,11 +3122,6 @@
           "url": "https://www.publicitarioscriativos.com/tiktok-shop-cresce-26x-em-vendas-diarias-no-brasil-e-reforca-modelo-de-compra-por-descoberta/",
           "total_clicks": 23,
           "unique_clicks": 19
-        },
-        {
-          "url": "https://fitfeed.com.br/weld-lanca-a-primeira-bebida-que-combina-proteina-e-energia-em-uma-so-lata/",
-          "total_clicks": 22,
-          "unique_clicks": 21
         }
       ]
     },
@@ -3124,10 +3140,10 @@
       "open_rate": 31.9,
       "click_rate": 0.6,
       "cto_rate": 1.8,
-      "unsubscribes": 3275,
+      "unsubscribes": 3280,
       "unsub_rate": 1.22,
-      "spam_reports": 364,
-      "web_views": 269,
+      "spam_reports": 369,
+      "web_views": 278,
       "web_clicks": 26,
       "top_links": [
         {
@@ -3171,12 +3187,12 @@
           "unique_clicks": 18
         },
         {
-          "url": "https://fitfeed.com.br/trackfield-prepara-salto-internacional-com-e-commerce/",
+          "url": "https://fitfeed.com.br/guarana-com-fibras/",
           "total_clicks": 17,
           "unique_clicks": 17
         },
         {
-          "url": "https://fitfeed.com.br/guarana-com-fibras/",
+          "url": "https://fitfeed.com.br/trackfield-prepara-salto-internacional-com-e-commerce/",
           "total_clicks": 17,
           "unique_clicks": 17
         }
@@ -3197,12 +3213,17 @@
       "open_rate": 40.8,
       "click_rate": 0.4,
       "cto_rate": 1.1,
-      "unsubscribes": 2963,
+      "unsubscribes": 2967,
       "unsub_rate": 1.12,
-      "spam_reports": 131,
-      "web_views": 352,
+      "spam_reports": 136,
+      "web_views": 360,
       "web_clicks": 52,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 84,
+          "unique_clicks": 72
+        },
         {
           "url": "https://www.publicitarioscriativos.com/asics-e-toyota-lancam-collab-inedita-no-brasil/",
           "total_clicks": 28,
@@ -3247,11 +3268,6 @@
           "url": "https://fitfeed.com.br/a-rede-de-hoteis-equinox-expande-sua-atuacao-para-o-caribe-com-um-resort-focado-em-bem-estar/",
           "total_clicks": 13,
           "unique_clicks": 11
-        },
-        {
-          "url": "https://www.publicitarioscriativos.com/outback-e-coca-cola-lancam-acao-itinerante-com-brindes-e-descontos-no-rio/",
-          "total_clicks": 12,
-          "unique_clicks": 11
         }
       ]
     },
@@ -3270,12 +3286,17 @@
       "open_rate": 39.4,
       "click_rate": 0.3,
       "cto_rate": 0.8,
-      "unsubscribes": 2457,
-      "unsub_rate": 0.93,
-      "spam_reports": 160,
-      "web_views": 664,
+      "unsubscribes": 2460,
+      "unsub_rate": 0.94,
+      "spam_reports": 166,
+      "web_views": 671,
       "web_clicks": 51,
       "top_links": [
+        {
+          "url": "https://bobpost.beehiiv.com/polls/uuid/response",
+          "total_clicks": 56,
+          "unique_clicks": 53
+        },
         {
           "url": "https://fitfeed.com.br/smart-fit-amplia-operacao-24-horas-no-rio-e-leva-modelo-para-ipanema-apos-estreia-em-copacabana/",
           "total_clicks": 40,
@@ -3297,17 +3318,17 @@
           "unique_clicks": 22
         },
         {
+          "url": "https://bobpost.beehiiv.com/p/21-num-mundo-de-incerteza-nao-existe-certeza-1",
+          "total_clicks": 22,
+          "unique_clicks": 21
+        },
+        {
           "url": "https://www.publicitarioscriativos.com/masterchef-anuncia-primeiro-restaurante-oficial-no-brasil-com-abertura-em-2026/#google_vignette",
           "total_clicks": 22,
           "unique_clicks": 20
         },
         {
           "url": "https://exame.com/inteligencia-artificial/openai-redesenha-chatgpt-apos-riscos-de-vinculos-emocionais-excessivos/",
-          "total_clicks": 22,
-          "unique_clicks": 21
-        },
-        {
-          "url": "https://bobpost.beehiiv.com/p/21-num-mundo-de-incerteza-nao-existe-certeza-1",
           "total_clicks": 22,
           "unique_clicks": 21
         },
@@ -3320,11 +3341,6 @@
           "url": "https://fitfeed.com.br/district-vision-e-new-balance-lancam-tenis-de-corrida-ultraleve/",
           "total_clicks": 18,
           "unique_clicks": 16
-        },
-        {
-          "url": "https://www.meioemensagem.com.br/comunicacao/neste-natal-o-boticario-aborda-o-bulying-familiar",
-          "total_clicks": 14,
-          "unique_clicks": 12
         }
       ]
     },
@@ -3343,12 +3359,22 @@
       "open_rate": 37.0,
       "click_rate": 0.6,
       "cto_rate": 1.5,
-      "unsubscribes": 6775,
+      "unsubscribes": 6782,
       "unsub_rate": 1.52,
-      "spam_reports": 431,
-      "web_views": 485,
+      "spam_reports": 437,
+      "web_views": 493,
       "web_clicks": 62,
       "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2302,
+          "unique_clicks": 2129
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 126,
+          "unique_clicks": 116
+        },
         {
           "url": "https://www.meioemensagem.com.br/midia/google-ira-comercializar-inventario-da-hbo-max",
           "total_clicks": 57,
@@ -3388,16 +3414,6 @@
           "url": "https://www.meioemensagem.com.br/marketing/mercado-livre-e-o-novo-patrocinador-de-joao-fonseca",
           "total_clicks": 26,
           "unique_clicks": 21
-        },
-        {
-          "url": "https://www.meioemensagem.com.br/marketing/lego-e-fifa-criam-replica-de-trofeu-da-copa-do-mundo",
-          "total_clicks": 25,
-          "unique_clicks": 25
-        },
-        {
-          "url": "https://www.meioemensagem.com.br/midia/o-que-a-disney-promovera-para-o-natal-em-curitiba",
-          "total_clicks": 22,
-          "unique_clicks": 20
         }
       ]
     },
@@ -3416,12 +3432,22 @@
       "open_rate": 27.0,
       "click_rate": 0.4,
       "cto_rate": 1.3,
-      "unsubscribes": 9361,
+      "unsubscribes": 9387,
       "unsub_rate": 1.08,
-      "spam_reports": 758,
-      "web_views": 2012,
+      "spam_reports": 768,
+      "web_views": 2025,
       "web_clicks": 235,
       "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2898,
+          "unique_clicks": 2702
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 178,
+          "unique_clicks": 117
+        },
         {
           "url": "https://docs.google.com/forms/d/e/1FAIpQLSe2T0pJopz06HreJ9vVMp2vrO4uc7tbhv6K6PJ9HA6cfnzx_A/viewform",
           "total_clicks": 110,
@@ -3461,16 +3487,6 @@
           "url": "https://www.meioemensagem.com.br/comunicacao/kibon-retoma-promocao-do-palito-premiado-em-16-estados",
           "total_clicks": 42,
           "unique_clicks": 30
-        },
-        {
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSe2T0pJopz06HreJ9vVMp2vrO4uc7tbhv6K6PJ9HA6cfnzx_A/viewform",
-          "total_clicks": 36,
-          "unique_clicks": 34
-        },
-        {
-          "url": "https://www.meioemensagem.com.br/marketing/spaten-cria-colecao-de-roupas-inspiradas-no-boxe",
-          "total_clicks": 35,
-          "unique_clicks": 23
         }
       ]
     },
@@ -3489,12 +3505,22 @@
       "open_rate": 35.0,
       "click_rate": 0.4,
       "cto_rate": 1.1,
-      "unsubscribes": 11837,
+      "unsubscribes": 11864,
       "unsub_rate": 1.38,
-      "spam_reports": 172,
-      "web_views": 1399,
-      "web_clicks": 251,
+      "spam_reports": 179,
+      "web_views": 1437,
+      "web_clicks": 257,
       "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/manage",
+          "total_clicks": 1748,
+          "unique_clicks": 1584
+        },
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 1378,
+          "unique_clicks": 1256
+        },
         {
           "url": "https://surl.li/uwjhks",
           "total_clicks": 353,
@@ -3506,14 +3532,19 @@
           "unique_clicks": 274
         },
         {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 108,
+          "unique_clicks": 95
+        },
+        {
           "url": "https://amzn.to/4pvlPqB",
           "total_clicks": 106,
           "unique_clicks": 92
         },
         {
           "url": "https://surl.li/uwjhks",
-          "total_clicks": 57,
-          "unique_clicks": 52
+          "total_clicks": 58,
+          "unique_clicks": 53
         },
         {
           "url": "https://www.bobpost.com.br/p/minha-lista-de-livros-lidos-em-2025",
@@ -3522,28 +3553,13 @@
         },
         {
           "url": "https://www.bobpost.com.br/",
-          "total_clicks": 37,
-          "unique_clicks": 34
+          "total_clicks": 38,
+          "unique_clicks": 35
         },
         {
           "url": "https://fitfeed.com.br/tesla-lanca-raquete-de-pickeball-e-amplia-portfolio-para-o-mercado-esportivo/",
           "total_clicks": 32,
           "unique_clicks": 30
-        },
-        {
-          "url": "https://www.publicitarioscriativos.com/toyota-usa-carro-da-ford-para-expor-o-terror-da-violencia-domestica-em-campanha-impactante/",
-          "total_clicks": 29,
-          "unique_clicks": 28
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe",
-          "total_clicks": 18,
-          "unique_clicks": 18
-        },
-        {
-          "url": "https://www.beehiiv.com/",
-          "total_clicks": 13,
-          "unique_clicks": 12
         }
       ]
     },
@@ -3562,12 +3578,27 @@
       "open_rate": 35.7,
       "click_rate": 0.7,
       "cto_rate": 2.1,
-      "unsubscribes": 9902,
-      "unsub_rate": 1.16,
-      "spam_reports": 632,
-      "web_views": 604,
+      "unsubscribes": 9927,
+      "unsub_rate": 1.17,
+      "spam_reports": 643,
+      "web_views": 622,
       "web_clicks": 99,
       "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/manage",
+          "total_clicks": 3550,
+          "unique_clicks": 3224
+        },
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2438,
+          "unique_clicks": 2213
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 387,
+          "unique_clicks": 350
+        },
         {
           "url": "https://www.youtube.com/watch",
           "total_clicks": 296,
@@ -3602,21 +3633,6 @@
           "url": "https://www.publicitarioscriativos.com/ollie-estreia-no-verao-carioca-com-quiosque-exclusivo-em-ipanema-e-ativa-experiencias-sensoriais-na-orla/",
           "total_clicks": 99,
           "unique_clicks": 94
-        },
-        {
-          "url": "https://www.publicitarioscriativos.com/shell-celebra-75-anos-de-parceria-com-a-scuderia-ferrari-hp-em-campanha-que-conecta-formula-1-e-brasilidade/",
-          "total_clicks": 94,
-          "unique_clicks": 94
-        },
-        {
-          "url": "https://fitfeed.com.br/coreia-do-sul-desenvolve-patch-de-suor-que-monitora-a-glicose/",
-          "total_clicks": 89,
-          "unique_clicks": 87
-        },
-        {
-          "url": "https://www.beehiiv.com/",
-          "total_clicks": 77,
-          "unique_clicks": 77
         }
       ]
     },
@@ -3635,16 +3651,31 @@
       "open_rate": 36.4,
       "click_rate": 0.4,
       "cto_rate": 1.1,
-      "unsubscribes": 6844,
-      "unsub_rate": 0.82,
-      "spam_reports": 136,
-      "web_views": 853,
-      "web_clicks": 108,
+      "unsubscribes": 6883,
+      "unsub_rate": 0.83,
+      "spam_reports": 139,
+      "web_views": 891,
+      "web_clicks": 117,
       "top_links": [
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2266,
+          "unique_clicks": 2083
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 580,
+          "unique_clicks": 523
+        },
+        {
           "url": "https://amzn.to/4pvlPqB",
-          "total_clicks": 358,
-          "unique_clicks": 335
+          "total_clicks": 359,
+          "unique_clicks": 336
+        },
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/manage",
+          "total_clicks": 314,
+          "unique_clicks": 291
         },
         {
           "url": "https://youtu.be/rcAyjg-oy84",
@@ -3672,24 +3703,9 @@
           "unique_clicks": 90
         },
         {
-          "url": "https://www.bobpost.com.br/",
-          "total_clicks": 27,
-          "unique_clicks": 24
-        },
-        {
-          "url": "https://www.bobpost.com.br/login",
-          "total_clicks": 10,
-          "unique_clicks": 10
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe",
-          "total_clicks": 9,
-          "unique_clicks": 9
-        },
-        {
-          "url": "https://youtu.be/rcAyjg-oy84",
-          "total_clicks": 8,
-          "unique_clicks": 8
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 89,
+          "unique_clicks": 89
         }
       ]
     },
@@ -3708,12 +3724,17 @@
       "open_rate": 30.0,
       "click_rate": 0.4,
       "cto_rate": 1.2,
-      "unsubscribes": 11733,
-      "unsub_rate": 1.02,
-      "spam_reports": 426,
-      "web_views": 704,
-      "web_clicks": 112,
+      "unsubscribes": 11819,
+      "unsub_rate": 1.03,
+      "spam_reports": 430,
+      "web_views": 727,
+      "web_clicks": 115,
       "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3811,
+          "unique_clicks": 3571
+        },
         {
           "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
           "total_clicks": 166,
@@ -3728,6 +3749,11 @@
           "url": "https://youtu.be/udhDtanvksg",
           "total_clicks": 151,
           "unique_clicks": 136
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 139,
+          "unique_clicks": 128
         },
         {
           "url": "https://www.amazon.com.br/dp/6555443316",
@@ -3753,16 +3779,6 @@
           "url": "https://wa.me/",
           "total_clicks": 42,
           "unique_clicks": 35
-        },
-        {
-          "url": "https://www.instagram.com/rony",
-          "total_clicks": 40,
-          "unique_clicks": 37
-        },
-        {
-          "url": "http://gemini.google.com",
-          "total_clicks": 34,
-          "unique_clicks": 31
         }
       ]
     },
@@ -3774,23 +3790,33 @@
       "day_of_week": 0,
       "recipients": 1178054,
       "delivered": 1136708,
-      "unique_opens": 391564,
+      "unique_opens": 391579,
       "total_opens": 0,
       "unique_clicks": 1878,
       "total_clicks": 0,
       "open_rate": 34.4,
       "click_rate": 0.2,
       "cto_rate": 0.5,
-      "unsubscribes": 7859,
-      "unsub_rate": 0.69,
-      "spam_reports": 344,
-      "web_views": 2908,
-      "web_clicks": 249,
+      "unsubscribes": 7950,
+      "unsub_rate": 0.7,
+      "spam_reports": 360,
+      "web_views": 3013,
+      "web_clicks": 257,
       "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 1088,
+          "unique_clicks": 1081
+        },
         {
           "url": "https://fitfeed.com.br/adidas-lanca-dropset-4-tenis-criado-para-treinos-hibridos-de-forca-e-explosao/",
           "total_clicks": 210,
           "unique_clicks": 194
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 187,
+          "unique_clicks": 178
         },
         {
           "url": "https://www.publicitarioscriativos.com/paleta-do-pinterest-revela-as-cores-de-2026/",
@@ -3826,16 +3852,6 @@
           "url": "https://www.bobpost.com.br/p/4-regras-do-mit-pra-voc-usar-ia-sem-virar-um-rob",
           "total_clicks": 79,
           "unique_clicks": 72
-        },
-        {
-          "url": "https://www.bobpost.com.br/",
-          "total_clicks": 59,
-          "unique_clicks": 51
-        },
-        {
-          "url": "https://dribbble.com/",
-          "total_clicks": 54,
-          "unique_clicks": 47
         }
       ]
     },
@@ -3847,28 +3863,38 @@
       "day_of_week": 0,
       "recipients": 1426964,
       "delivered": 1395812,
-      "unique_opens": 520651,
+      "unique_opens": 520886,
       "total_opens": 0,
-      "unique_clicks": 7890,
+      "unique_clicks": 7907,
       "total_clicks": 0,
       "open_rate": 37.3,
       "click_rate": 0.6,
       "cto_rate": 1.5,
-      "unsubscribes": 18886,
-      "unsub_rate": 1.35,
-      "spam_reports": 802,
-      "web_views": 2003,
-      "web_clicks": 300,
+      "unsubscribes": 19094,
+      "unsub_rate": 1.37,
+      "spam_reports": 844,
+      "web_views": 2093,
+      "web_clicks": 318,
       "top_links": [
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 6710,
+          "unique_clicks": 6218
+        },
+        {
           "url": "https://notebooklm.google.com",
-          "total_clicks": 537,
-          "unique_clicks": 458
+          "total_clicks": 540,
+          "unique_clicks": 460
         },
         {
           "url": "https://nabeelqu.co/principles",
           "total_clicks": 443,
           "unique_clicks": 393
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 353,
+          "unique_clicks": 331
         },
         {
           "url": "https://api.whatsapp.com/send",
@@ -3877,18 +3903,18 @@
         },
         {
           "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
-          "total_clicks": 309,
-          "unique_clicks": 288
+          "total_clicks": 310,
+          "unique_clicks": 289
         },
         {
           "url": "https://fitfeed.com.br/adidas-lanca-dropset-4-tenis-criado-para-treinos-hibridos-de-forca-e-explosao/",
-          "total_clicks": 166,
-          "unique_clicks": 153
+          "total_clicks": 167,
+          "unique_clicks": 154
         },
         {
           "url": "https://amzn.to/4pvlPqB",
-          "total_clicks": 142,
-          "unique_clicks": 131
+          "total_clicks": 143,
+          "unique_clicks": 132
         },
         {
           "url": "https://www.publicitarioscriativos.com/cazetv-e-tm1-anunciam-primeiros-patrocinadores-da-casa-cazetv-para-a-copa-do-mundo-2026/#google_vignette",
@@ -3897,18 +3923,8 @@
         },
         {
           "url": "https://fitfeed.com.br/saude-vira-o-principal-campo-de-disputa-da-ia-entre-as-big-techs/",
-          "total_clicks": 107,
-          "unique_clicks": 99
-        },
-        {
-          "url": "https://www.meioemensagem.com.br/marketing/nfl-troca-sao-paulo-por-rio-para-evento-do-super-bowl",
-          "total_clicks": 101,
-          "unique_clicks": 95
-        },
-        {
-          "url": "https://www.bobpost.com.br/p/vai-doer-mas-voce-precisa-ouvir",
-          "total_clicks": 92,
-          "unique_clicks": 88
+          "total_clicks": 108,
+          "unique_clicks": 100
         }
       ]
     },
@@ -3920,68 +3936,28 @@
       "day_of_week": 4,
       "recipients": 75070,
       "delivered": 74780,
-      "unique_opens": 54598,
+      "unique_opens": 54617,
       "total_opens": 0,
-      "unique_clicks": 506,
+      "unique_clicks": 507,
       "total_clicks": 0,
       "open_rate": 73.0,
       "click_rate": 0.7,
       "cto_rate": 0.9,
-      "unsubscribes": 321,
-      "unsub_rate": 0.43,
-      "spam_reports": 12,
+      "unsubscribes": 330,
+      "unsub_rate": 0.44,
+      "spam_reports": 16,
       "web_views": 0,
       "web_clicks": 0,
       "top_links": [
         {
           "url": "https://forms.gle/fY9P6ksyZMkgJKWd6",
-          "total_clicks": 394,
-          "unique_clicks": 370
+          "total_clicks": 396,
+          "unique_clicks": 371
         },
         {
-          "url": "https://www.bobpost.com.br/subscribe/e6e6cac0-535e-4097-8732-c91d8c5594ad/preferences",
-          "total_clicks": 2,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/7e8dbea1-e9b2-4072-ac97-4887e098bcc4/preferences",
-          "total_clicks": 2,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/4832a38d-fe65-44aa-8082-78d1a7c3fc29/preferences",
-          "total_clicks": 2,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/3e12c16e-f54c-4125-8a47-0814c83f4a1c/preferences",
-          "total_clicks": 2,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/18f69beb-c1c9-4835-bcfb-35bd69ad4385/preferences",
-          "total_clicks": 2,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/fe71e5d0-5739-41aa-bd14-c6f4fc499134/preferences",
-          "total_clicks": 1,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/fe68f89f-a7d0-4c74-b0ef-9e279a33dbb3/preferences",
-          "total_clicks": 1,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/fcaed56e-e7d5-4a52-b01c-6957836a5a46/preferences",
-          "total_clicks": 1,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/fa8ed99a-c5a6-4847-a3f0-cb939baad914/preferences",
-          "total_clicks": 1,
-          "unique_clicks": 1
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 143,
+          "unique_clicks": 138
         }
       ]
     },
@@ -3993,23 +3969,28 @@
       "day_of_week": 0,
       "recipients": 1618554,
       "delivered": 1581012,
-      "unique_opens": 558828,
+      "unique_opens": 559295,
       "total_opens": 0,
-      "unique_clicks": 4460,
+      "unique_clicks": 4476,
       "total_clicks": 0,
-      "open_rate": 35.3,
+      "open_rate": 35.4,
       "click_rate": 0.3,
       "cto_rate": 0.8,
-      "unsubscribes": 15067,
-      "unsub_rate": 0.95,
-      "spam_reports": 831,
-      "web_views": 1785,
-      "web_clicks": 281,
+      "unsubscribes": 15300,
+      "unsub_rate": 0.97,
+      "spam_reports": 870,
+      "web_views": 1897,
+      "web_clicks": 304,
       "top_links": [
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3000,
+          "unique_clicks": 2969
+        },
+        {
           "url": "http://breakdownbr.com",
-          "total_clicks": 323,
-          "unique_clicks": 303
+          "total_clicks": 324,
+          "unique_clicks": 304
         },
         {
           "url": "https://api.whatsapp.com/send",
@@ -4018,8 +3999,8 @@
         },
         {
           "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
-          "total_clicks": 238,
-          "unique_clicks": 224
+          "total_clicks": 239,
+          "unique_clicks": 225
         },
         {
           "url": "https://l.instagram.com/",
@@ -4028,13 +4009,18 @@
         },
         {
           "url": "https://fitfeed.com.br/como-um-dos-canceres-mais-letais-do-mundo-foi-eliminado-a-descoberta-que-mudara-tudo/",
-          "total_clicks": 178,
-          "unique_clicks": 167
+          "total_clicks": 179,
+          "unique_clicks": 168
         },
         {
           "url": "https://amzn.to/4pvlPqB",
-          "total_clicks": 176,
-          "unique_clicks": 161
+          "total_clicks": 177,
+          "unique_clicks": 162
+        },
+        {
+          "url": "https://www.instagram.com/reel/DUEnHIniS-n/",
+          "total_clicks": 147,
+          "unique_clicks": 136
         },
         {
           "url": "https://www.bobpost.com.br/subscribe",
@@ -4042,19 +4028,9 @@
           "unique_clicks": 141
         },
         {
-          "url": "https://www.instagram.com/reel/DUEnHIniS-n/",
-          "total_clicks": 146,
-          "unique_clicks": 135
-        },
-        {
           "url": "https://www.bobpost.com.br/p/voce-ta-com-medo-de-fazer-errado",
           "total_clicks": 115,
           "unique_clicks": 109
-        },
-        {
-          "url": "https://www.instagram.com/henriarmelin",
-          "total_clicks": 114,
-          "unique_clicks": 108
         }
       ]
     },
@@ -4066,23 +4042,28 @@
       "day_of_week": 3,
       "recipients": 1512877,
       "delivered": 1475702,
-      "unique_opens": 327852,
+      "unique_opens": 328236,
       "total_opens": 0,
-      "unique_clicks": 3859,
+      "unique_clicks": 3873,
       "total_clicks": 0,
       "open_rate": 22.2,
       "click_rate": 0.3,
       "cto_rate": 1.2,
-      "unsubscribes": 9148,
-      "unsub_rate": 0.62,
-      "spam_reports": 219,
+      "unsubscribes": 9435,
+      "unsub_rate": 0.64,
+      "spam_reports": 232,
       "web_views": 0,
       "web_clicks": 7,
       "top_links": [
         {
           "url": "https://typebot.co/ronybob",
-          "total_clicks": 2223,
-          "unique_clicks": 2001
+          "total_clicks": 2228,
+          "unique_clicks": 2004
+        },
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 1997,
+          "unique_clicks": 1869
         },
         {
           "url": "https://www.beehiiv.com/",
@@ -4090,43 +4071,18 @@
           "unique_clicks": 51
         },
         {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 8,
+          "unique_clicks": 6
+        },
+        {
           "url": "https://typebot.co/ronybob",
           "total_clicks": 6,
           "unique_clicks": 4
         },
         {
-          "url": "https://www.bobpost.com.br/subscribe/c0c078a1-e9ab-4463-9ded-b9ad722dbb26/preferences",
-          "total_clicks": 3,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/ba16922a-b775-409a-b651-78cac1f2c0c0/preferences",
-          "total_clicks": 3,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/4331167f-e76e-4cc0-93dc-597834be3d14/preferences",
-          "total_clicks": 3,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://hp.beehiiv.com/1c786e98-00cf-4bf9-97e9-5fd29f4a188c",
-          "total_clicks": 3,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/fde312e9-bc25-46bf-adff-5890583568e8/preferences",
-          "total_clicks": 2,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/fa0f5b47-8b44-4dc2-99d6-09a499f22fbf/preferences",
-          "total_clicks": 2,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/f844c6b0-848a-4e47-880e-de29f956965f/preferences",
-          "total_clicks": 2,
+          "url": "https://typebot.co/ronybob%20ve%20ai",
+          "total_clicks": 1,
           "unique_clicks": 1
         }
       ]
@@ -4139,23 +4095,28 @@
       "day_of_week": 0,
       "recipients": 1899127,
       "delivered": 1853060,
-      "unique_opens": 425937,
+      "unique_opens": 426520,
       "total_opens": 0,
-      "unique_clicks": 4448,
+      "unique_clicks": 4470,
       "total_clicks": 0,
       "open_rate": 23.0,
       "click_rate": 0.2,
       "cto_rate": 1.0,
-      "unsubscribes": 9332,
-      "unsub_rate": 0.5,
-      "spam_reports": 1083,
-      "web_views": 1104,
-      "web_clicks": 190,
+      "unsubscribes": 9470,
+      "unsub_rate": 0.51,
+      "spam_reports": 1179,
+      "web_views": 1185,
+      "web_clicks": 205,
       "top_links": [
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3353,
+          "unique_clicks": 3325
+        },
+        {
           "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
-          "total_clicks": 296,
-          "unique_clicks": 261
+          "total_clicks": 297,
+          "unique_clicks": 262
         },
         {
           "url": "https://www.meioemensagem.com.br/marketing/marcas-mais-atraentes",
@@ -4188,19 +4149,14 @@
           "unique_clicks": 134
         },
         {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 136,
+          "unique_clicks": 129
+        },
+        {
           "url": "https://www.publicitarioscriativos.com/super-bowl-2026-mostra-o-valor-da-atencao-30-segundos-chegam-a-us-10-milhoes/",
           "total_clicks": 106,
           "unique_clicks": 98
-        },
-        {
-          "url": "https://typebot.co/wellness-builders-club-ind",
-          "total_clicks": 99,
-          "unique_clicks": 92
-        },
-        {
-          "url": "https://www.bobpost.com.br/p/voce-ta-tomando-decisoes-rapido-demais",
-          "total_clicks": 96,
-          "unique_clicks": 88
         }
       ]
     },
@@ -4212,68 +4168,68 @@
       "day_of_week": 0,
       "recipients": 1888452,
       "delivered": 1842092,
-      "unique_opens": 547618,
+      "unique_opens": 548624,
       "total_opens": 0,
-      "unique_clicks": 4768,
+      "unique_clicks": 4793,
       "total_clicks": 0,
-      "open_rate": 29.7,
+      "open_rate": 29.8,
       "click_rate": 0.3,
       "cto_rate": 0.9,
-      "unsubscribes": 10781,
+      "unsubscribes": 10858,
       "unsub_rate": 0.59,
-      "spam_reports": 907,
-      "web_views": 1422,
-      "web_clicks": 239,
+      "spam_reports": 1036,
+      "web_views": 1766,
+      "web_clicks": 343,
       "top_links": [
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3676,
+          "unique_clicks": 3638
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 323,
+          "unique_clicks": 269
+        },
+        {
           "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
-          "total_clicks": 269,
+          "total_clicks": 270,
           "unique_clicks": 236
         },
         {
           "url": "https://www.adweek.com/brand-marketing/10-ai-marketing-trends-for-2026-agentic-ai-and-search-shifts",
-          "total_clicks": 262,
-          "unique_clicks": 234
+          "total_clicks": 265,
+          "unique_clicks": 236
         },
         {
           "url": "https://api.whatsapp.com/send",
-          "total_clicks": 188,
-          "unique_clicks": 129
+          "total_clicks": 189,
+          "unique_clicks": 130
         },
         {
           "url": "https://openclaw.ai/",
-          "total_clicks": 166,
-          "unique_clicks": 136
+          "total_clicks": 170,
+          "unique_clicks": 137
         },
         {
           "url": "https://exame.com/revista-exame/os-donos-da-copa/",
-          "total_clicks": 158,
+          "total_clicks": 159,
           "unique_clicks": 139
         },
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/referrals",
+          "total_clicks": 133,
+          "unique_clicks": 102
+        },
+        {
           "url": "https://typebot.co/wellness-builders-club-ind",
-          "total_clicks": 116,
+          "total_clicks": 117,
           "unique_clicks": 100
         },
         {
           "url": "https://www.bobpost.com.br/p/voce-ignora-o-mais-importante",
-          "total_clicks": 114,
-          "unique_clicks": 100
-        },
-        {
-          "url": "https://www.instagram.com/reel/DUtUHZKj1Ep/",
-          "total_clicks": 104,
-          "unique_clicks": 87
-        },
-        {
-          "url": "https://fitfeed.com.br/ex-ginasta-lais-souza-conhece-cientista-que-esta-trabalhando-na-cura-de-tetraplegicos/",
-          "total_clicks": 86,
-          "unique_clicks": 76
-        },
-        {
-          "url": "https://www.instagram.com/rony",
-          "total_clicks": 61,
-          "unique_clicks": 54
+          "total_clicks": 116,
+          "unique_clicks": 102
         }
       ]
     },
@@ -4285,38 +4241,43 @@
       "day_of_week": 0,
       "recipients": 1876831,
       "delivered": 1831235,
-      "unique_opens": 655851,
+      "unique_opens": 659962,
       "total_opens": 0,
-      "unique_clicks": 5987,
+      "unique_clicks": 6065,
       "total_clicks": 0,
-      "open_rate": 35.8,
+      "open_rate": 36.0,
       "click_rate": 0.3,
       "cto_rate": 0.9,
-      "unsubscribes": 14160,
-      "unsub_rate": 0.77,
-      "spam_reports": 2639,
-      "web_views": 1371,
-      "web_clicks": 203,
+      "unsubscribes": 14700,
+      "unsub_rate": 0.8,
+      "spam_reports": 3340,
+      "web_views": 1662,
+      "web_clicks": 242,
       "top_links": [
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3910,
+          "unique_clicks": 3880
+        },
+        {
           "url": "https://www.instagram.com/brunomicrosaas/",
-          "total_clicks": 959,
-          "unique_clicks": 829
+          "total_clicks": 972,
+          "unique_clicks": 838
         },
         {
           "url": "https://amzn.to/4kPy1kI",
-          "total_clicks": 317,
-          "unique_clicks": 294
+          "total_clicks": 318,
+          "unique_clicks": 295
         },
         {
           "url": "https://fitfeed.com.br/cristiano-ronaldo-acaba-de-investir-milhoes-em-gigante-da-nutricao/",
-          "total_clicks": 303,
-          "unique_clicks": 275
+          "total_clicks": 311,
+          "unique_clicks": 283
         },
         {
           "url": "https://api.whatsapp.com/send",
-          "total_clicks": 302,
-          "unique_clicks": 221
+          "total_clicks": 304,
+          "unique_clicks": 223
         },
         {
           "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
@@ -4325,28 +4286,23 @@
         },
         {
           "url": "https://openclaw.pixeleducacao.com.br/",
-          "total_clicks": 267,
-          "unique_clicks": 237
+          "total_clicks": 269,
+          "unique_clicks": 239
         },
         {
           "url": "https://www.notion.so/",
-          "total_clicks": 190,
-          "unique_clicks": 173
+          "total_clicks": 196,
+          "unique_clicks": 179
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 165,
+          "unique_clicks": 157
         },
         {
           "url": "https://exame.com/bussola/mobile-teve-aumento-de-70-em-vendas-d2c-no-carnaval-revela-estudo/",
           "total_clicks": 154,
           "unique_clicks": 142
-        },
-        {
-          "url": "https://www.bobpost.com.br/p/o-brasil-viu-e-nao-entendeu-o-recado",
-          "total_clicks": 141,
-          "unique_clicks": 130
-        },
-        {
-          "url": "https://x.com/mattshumer_/status/2021256989876109403",
-          "total_clicks": 125,
-          "unique_clicks": 111
         }
       ]
     },
@@ -4358,68 +4314,68 @@
       "day_of_week": 0,
       "recipients": 2213336,
       "delivered": 2156474,
-      "unique_opens": 751904,
+      "unique_opens": 760443,
       "total_opens": 0,
-      "unique_clicks": 7599,
+      "unique_clicks": 7788,
       "total_clicks": 0,
-      "open_rate": 34.9,
+      "open_rate": 35.3,
       "click_rate": 0.4,
       "cto_rate": 1.0,
-      "unsubscribes": 23110,
-      "unsub_rate": 1.07,
-      "spam_reports": 1356,
-      "web_views": 1267,
-      "web_clicks": 249,
+      "unsubscribes": 24023,
+      "unsub_rate": 1.11,
+      "spam_reports": 1556,
+      "web_views": 1449,
+      "web_clicks": 272,
       "top_links": [
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 5123,
+          "unique_clicks": 5089
+        },
+        {
           "url": "https://chat.whatsapp.com/F6EcQGybSlO1Si2LtNXyon",
-          "total_clicks": 1482,
-          "unique_clicks": 1223
+          "total_clicks": 1495,
+          "unique_clicks": 1233
         },
         {
           "url": "https://api.whatsapp.com/send",
-          "total_clicks": 591,
-          "unique_clicks": 493
+          "total_clicks": 606,
+          "unique_clicks": 505
         },
         {
           "url": "https://exame.com/casual/por-que-a-on-esta-se-tornando-a-apple-dos-tenis/",
-          "total_clicks": 361,
-          "unique_clicks": 337
+          "total_clicks": 371,
+          "unique_clicks": 347
         },
         {
           "url": "https://okara.ai/reddit",
-          "total_clicks": 343,
-          "unique_clicks": 307
+          "total_clicks": 358,
+          "unique_clicks": 320
         },
         {
           "url": "https://amzn.to/4s47yT0",
-          "total_clicks": 333,
-          "unique_clicks": 282
+          "total_clicks": 342,
+          "unique_clicks": 291
         },
         {
           "url": "https://interiorai.com/",
-          "total_clicks": 308,
-          "unique_clicks": 260
+          "total_clicks": 314,
+          "unique_clicks": 265
         },
         {
           "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
-          "total_clicks": 267,
-          "unique_clicks": 244
+          "total_clicks": 270,
+          "unique_clicks": 247
         },
         {
           "url": "https://fitfeed.com.br/homem-mais-velho-do-mundo-revela-aos-112-anos-o-segredo-da-longevidade/",
-          "total_clicks": 192,
-          "unique_clicks": 176
+          "total_clicks": 197,
+          "unique_clicks": 181
         },
         {
           "url": "https://exame.com/tecnologia/academia-foguete-agora-e-boom-e-investe-r-20-milhoes-para-exportar-o-brazilian-fitness/",
-          "total_clicks": 174,
-          "unique_clicks": 161
-        },
-        {
-          "url": "https://www.bobpost.com.br/p/voce-esta-ficando-mais-burro",
-          "total_clicks": 157,
-          "unique_clicks": 143
+          "total_clicks": 179,
+          "unique_clicks": 166
         }
       ]
     },
@@ -4431,23 +4387,28 @@
       "day_of_week": 1,
       "recipients": 91176,
       "delivered": 90479,
-      "unique_opens": 84736,
+      "unique_opens": 85025,
       "total_opens": 0,
-      "unique_clicks": 849,
+      "unique_clicks": 860,
       "total_clicks": 0,
-      "open_rate": 93.7,
-      "click_rate": 0.9,
+      "open_rate": 94.0,
+      "click_rate": 1.0,
       "cto_rate": 1.0,
-      "unsubscribes": 731,
-      "unsub_rate": 0.81,
-      "spam_reports": 28,
+      "unsubscribes": 754,
+      "unsub_rate": 0.83,
+      "spam_reports": 36,
       "web_views": 9,
       "web_clicks": 5,
       "top_links": [
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 471,
+          "unique_clicks": 459
+        },
+        {
           "url": "https://redirect.manualdedonos.com.br/z62mxtj",
-          "total_clicks": 442,
-          "unique_clicks": 393
+          "total_clicks": 445,
+          "unique_clicks": 396
         },
         {
           "url": "https://www.beehiiv.com/",
@@ -4455,42 +4416,37 @@
           "unique_clicks": 7
         },
         {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 4,
+          "unique_clicks": 3
+        },
+        {
           "url": "https://redirect.manualdedonos.com.br/z62mxtj",
           "total_clicks": 4,
           "unique_clicks": 4
         },
         {
-          "url": "https://www.bobpost.com.br/subscribe/86289e66-7233-48d9-9d27-01457455fc2f/preferences",
-          "total_clicks": 3,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/035a566e-f9c5-4193-b57c-5b731052f4d5/preferences",
-          "total_clicks": 3,
-          "unique_clicks": 1
-        },
-        {
-          "url": "https://www.bobpost.com.br/subscribe/f71246a0-ad53-48f7-9d38-78b7b3876bee/preferences",
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
           "total_clicks": 2,
           "unique_clicks": 1
         },
         {
-          "url": "https://www.bobpost.com.br/subscribe/7cda11a8-28d7-46c3-bd9c-4496bdcd467c/preferences",
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
           "total_clicks": 2,
           "unique_clicks": 1
         },
         {
-          "url": "https://www.bobpost.com.br/subscribe/76a89aef-0e7e-4adb-8d34-2e230345e90d/preferences",
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
           "total_clicks": 2,
           "unique_clicks": 1
         },
         {
-          "url": "https://www.bobpost.com.br/subscribe/7231f29f-e2b9-4e6f-bceb-bcd59e8cf958/preferences",
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
           "total_clicks": 2,
           "unique_clicks": 1
         },
         {
-          "url": "https://www.bobpost.com.br/subscribe/5dff7332-5776-4b1e-b431-eb02f457ba8f/preferences",
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
           "total_clicks": 2,
           "unique_clicks": 1
         }
@@ -4504,68 +4460,68 @@
       "day_of_week": 0,
       "recipients": 2391341,
       "delivered": 2326280,
-      "unique_opens": 832667,
+      "unique_opens": 850199,
       "total_opens": 0,
-      "unique_clicks": 8727,
+      "unique_clicks": 9065,
       "total_clicks": 0,
-      "open_rate": 35.8,
+      "open_rate": 36.5,
       "click_rate": 0.4,
-      "cto_rate": 1.0,
-      "unsubscribes": 26220,
-      "unsub_rate": 1.13,
-      "spam_reports": 1190,
-      "web_views": 766,
-      "web_clicks": 164,
+      "cto_rate": 1.1,
+      "unsubscribes": 27692,
+      "unsub_rate": 1.19,
+      "spam_reports": 1466,
+      "web_views": 893,
+      "web_clicks": 180,
       "top_links": [
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 6064,
+          "unique_clicks": 6004
+        },
+        {
           "url": "https://redirect.manualdedonos.com.br/lxv",
-          "total_clicks": 1184,
-          "unique_clicks": 1028
+          "total_clicks": 1197,
+          "unique_clicks": 1040
         },
         {
           "url": "https://exame.com/negocios/como-um-sapateiro-do-interior-gaucho-criou-uma-marca-de-luxo-espalhada-pelo-mundo/",
-          "total_clicks": 605,
-          "unique_clicks": 566
+          "total_clicks": 637,
+          "unique_clicks": 597
         },
         {
           "url": "https://learnyourway.withgoogle.com/",
-          "total_clicks": 526,
-          "unique_clicks": 451
+          "total_clicks": 550,
+          "unique_clicks": 473
         },
         {
           "url": "https://fitfeed.com.br/mulher-mais-rica-do-mundo-cria-faculdade-de-medicina-gratis-para-quem-nao-pode-pagar/",
-          "total_clicks": 392,
-          "unique_clicks": 363
+          "total_clicks": 412,
+          "unique_clicks": 381
         },
         {
-          "url": "https://www.instagram.com/blankschoolbr/",
-          "total_clicks": 348,
-          "unique_clicks": 314
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 388,
+          "unique_clicks": 333
         },
         {
           "url": "https://Claude.ai",
-          "total_clicks": 326,
-          "unique_clicks": 287
+          "total_clicks": 369,
+          "unique_clicks": 314
+        },
+        {
+          "url": "https://www.instagram.com/blankschoolbr/",
+          "total_clicks": 359,
+          "unique_clicks": 324
         },
         {
           "url": "https://Gamma.app",
-          "total_clicks": 254,
-          "unique_clicks": 235
+          "total_clicks": 278,
+          "unique_clicks": 253
         },
         {
           "url": "https://api.whatsapp.com/send",
-          "total_clicks": 250,
-          "unique_clicks": 190
-        },
-        {
-          "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
-          "total_clicks": 249,
-          "unique_clicks": 227
-        },
-        {
-          "url": "https://fitfeed.com.br/brasil-cria-primeira-regra-para-controlar-a-ia-na-medicina-entenda/",
-          "total_clicks": 220,
-          "unique_clicks": 205
+          "total_clicks": 257,
+          "unique_clicks": 196
         }
       ]
     },
@@ -4577,68 +4533,68 @@
       "day_of_week": 0,
       "recipients": 2766910,
       "delivered": 2688162,
-      "unique_opens": 812244,
+      "unique_opens": 902625,
       "total_opens": 0,
-      "unique_clicks": 5761,
+      "unique_clicks": 6517,
       "total_clicks": 0,
-      "open_rate": 30.2,
+      "open_rate": 33.6,
       "click_rate": 0.2,
       "cto_rate": 0.7,
-      "unsubscribes": 24513,
-      "unsub_rate": 0.91,
-      "spam_reports": 1061,
-      "web_views": 682,
-      "web_clicks": 111,
+      "unsubscribes": 27899,
+      "unsub_rate": 1.04,
+      "spam_reports": 1393,
+      "web_views": 900,
+      "web_clicks": 130,
       "top_links": [
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 4271,
+          "unique_clicks": 4236
+        },
+        {
           "url": "https://www.instagram.com/rony/",
-          "total_clicks": 567,
-          "unique_clicks": 489
+          "total_clicks": 644,
+          "unique_clicks": 555
         },
         {
           "url": "https://exame.com/negocios/com-flying-fish-ambev-leva-aposta-na-geracao-z-ao-lollapalooza/",
-          "total_clicks": 382,
-          "unique_clicks": 358
+          "total_clicks": 450,
+          "unique_clicks": 417
         },
         {
           "url": "https://workspace.google.com/studio",
-          "total_clicks": 328,
-          "unique_clicks": 295
+          "total_clicks": 420,
+          "unique_clicks": 374
         },
         {
-          "url": "https://api.whatsapp.com/send",
-          "total_clicks": 303,
-          "unique_clicks": 213
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 406,
+          "unique_clicks": 348
         },
         {
           "url": "https://claude.com/product/claude-code",
-          "total_clicks": 298,
-          "unique_clicks": 273
+          "total_clicks": 370,
+          "unique_clicks": 332
         },
         {
-          "url": "https://exame.com/carreira/fuga-de-cerebros-demanda-internacional-por-profissionais-brasileiros-cresce-53/",
-          "total_clicks": 259,
+          "url": "https://api.whatsapp.com/send",
+          "total_clicks": 338,
           "unique_clicks": 245
         },
         {
+          "url": "https://exame.com/carreira/fuga-de-cerebros-demanda-internacional-por-profissionais-brasileiros-cresce-53/",
+          "total_clicks": 314,
+          "unique_clicks": 292
+        },
+        {
           "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
-          "total_clicks": 228,
-          "unique_clicks": 206
+          "total_clicks": 272,
+          "unique_clicks": 240
         },
         {
           "url": "https://fitfeed.com.br/microsoft-acaba-de-estrear-ia-que-cuida-da-sua-saude/",
-          "total_clicks": 176,
-          "unique_clicks": 166
-        },
-        {
-          "url": "https://www.bobpost.com.br/p/eu-cansei-de-ver-isso",
-          "total_clicks": 115,
-          "unique_clicks": 104
-        },
-        {
-          "url": "https://fitfeed.com.br/empresario-usa-chatgpt-para-criar-vacina-e-curar-cancer-do-seu-cachorro/",
-          "total_clicks": 105,
-          "unique_clicks": 96
+          "total_clicks": 216,
+          "unique_clicks": 201
         }
       ]
     },
@@ -4649,78 +4605,3057 @@
       "date_label": "18/03/2026",
       "day_of_week": 2,
       "recipients": 2733602,
-      "delivered": 2660161,
-      "unique_opens": 302424,
+      "delivered": 2660454,
+      "unique_opens": 666907,
       "total_opens": 0,
-      "unique_clicks": 3124,
+      "unique_clicks": 6808,
       "total_clicks": 0,
-      "open_rate": 11.4,
-      "click_rate": 0.1,
+      "open_rate": 25.1,
+      "click_rate": 0.3,
       "cto_rate": 1.0,
-      "unsubscribes": 5136,
-      "unsub_rate": 0.19,
-      "spam_reports": 267,
-      "web_views": 82,
-      "web_clicks": 12,
+      "unsubscribes": 11508,
+      "unsub_rate": 0.43,
+      "spam_reports": 941,
+      "web_views": 468,
+      "web_clicks": 77,
       "top_links": [
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 5643,
+          "unique_clicks": 5340
+        },
+        {
           "url": "https://www.movimentocabecadedono.com.br/",
-          "total_clicks": 396,
-          "unique_clicks": 348
+          "total_clicks": 1209,
+          "unique_clicks": 1033
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 260,
+          "unique_clicks": 200
         },
         {
           "url": "https://manus.im",
-          "total_clicks": 53,
-          "unique_clicks": 47
+          "total_clicks": 207,
+          "unique_clicks": 186
         },
         {
           "url": "https://www.instagram.com/reel/DWBuNRoAFyV/",
-          "total_clicks": 26,
-          "unique_clicks": 23
-        },
-        {
-          "url": "https://www.bobpost.com.br/p/por-isso-que-sua-cabe-a-t-cheia",
-          "total_clicks": 22,
-          "unique_clicks": 20
-        },
-        {
-          "url": "https://www.instagram.com/p/DWBYpsggN8E/",
-          "total_clicks": 19,
-          "unique_clicks": 16
-        },
-        {
-          "url": "https://api.whatsapp.com/send",
-          "total_clicks": 17,
-          "unique_clicks": 15
+          "total_clicks": 100,
+          "unique_clicks": 88
         },
         {
           "url": "https://www.instagram.com/reel/DV9qmPcCWat/",
-          "total_clicks": 16,
-          "unique_clicks": 14
+          "total_clicks": 72,
+          "unique_clicks": 62
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/por-isso-que-sua-cabe-a-t-cheia",
+          "total_clicks": 62,
+          "unique_clicks": 57
         },
         {
           "url": "https://www.instagram.com/reel/DWARN5xCSOd/",
+          "total_clicks": 60,
+          "unique_clicks": 54
+        },
+        {
+          "url": "https://www.instagram.com/p/DWBYpsggN8E/",
+          "total_clicks": 53,
+          "unique_clicks": 46
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 49,
+          "unique_clicks": 43
+        }
+      ]
+    },
+    {
+      "id": "post_807308b6-eb6f-459c-9cee-d9921b9cb28f",
+      "title": "Você está escolhendo o caminho errado.",
+      "date": "2026-03-23T21:22:33+00:00",
+      "date_label": "23/03/2026",
+      "day_of_week": 0,
+      "recipients": 2720465,
+      "delivered": 2644513,
+      "unique_opens": 898904,
+      "total_opens": 0,
+      "unique_clicks": 6708,
+      "total_clicks": 0,
+      "open_rate": 34.0,
+      "click_rate": 0.3,
+      "cto_rate": 0.7,
+      "unsubscribes": 19734,
+      "unsub_rate": 0.75,
+      "spam_reports": 1184,
+      "web_views": 437,
+      "web_clicks": 110,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 4520,
+          "unique_clicks": 4486
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br",
+          "total_clicks": 750,
+          "unique_clicks": 669
+        },
+        {
+          "url": "https://fitfeed.com.br/seu-sono-tem-uma-idade-e-ela-pode-dizer-quanto-voce-vai-viver/",
+          "total_clicks": 376,
+          "unique_clicks": 339
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br",
+          "total_clicks": 328,
+          "unique_clicks": 286
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br",
+          "total_clicks": 309,
+          "unique_clicks": 281
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 256,
+          "unique_clicks": 191
+        },
+        {
+          "url": "https://workspace.google.com/studio",
+          "total_clicks": 232,
+          "unique_clicks": 215
+        },
+        {
+          "url": "https://exame.com/carreira/fuga-de-cerebros-demanda-internacional-por-profissionais-brasileiros-cresce-53/",
+          "total_clicks": 196,
+          "unique_clicks": 176
+        },
+        {
+          "url": "https://www.anthropic.com/features/81k-interviews",
+          "total_clicks": 166,
+          "unique_clicks": 136
+        },
+        {
+          "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
+          "total_clicks": 154,
+          "unique_clicks": 128
+        }
+      ]
+    },
+    {
+      "id": "post_0f5321cf-708d-498f-9994-bac743eb5bdf",
+      "title": "Ninguém te contou isso.",
+      "date": "2026-03-25T21:38:48+00:00",
+      "date_label": "25/03/2026",
+      "day_of_week": 2,
+      "recipients": 2700800,
+      "delivered": 2624945,
+      "unique_opens": 815225,
+      "total_opens": 0,
+      "unique_clicks": 8073,
+      "total_clicks": 0,
+      "open_rate": 31.1,
+      "click_rate": 0.3,
+      "cto_rate": 1.0,
+      "unsubscribes": 16459,
+      "unsub_rate": 0.63,
+      "spam_reports": 866,
+      "web_views": 890,
+      "web_clicks": 83,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 7721,
+          "unique_clicks": 7185
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 720,
+          "unique_clicks": 461
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 338,
+          "unique_clicks": 309
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br",
+          "total_clicks": 230,
+          "unique_clicks": 213
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/ninguem-te-contou-isso",
+          "total_clicks": 160,
+          "unique_clicks": 148
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 115,
+          "unique_clicks": 107
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 54,
+          "unique_clicks": 53
+        },
+        {
+          "url": "https://www.bobpost.com.br/",
+          "total_clicks": 26,
+          "unique_clicks": 26
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 8,
+          "unique_clicks": 8
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 8,
+          "unique_clicks": 8
+        }
+      ]
+    },
+    {
+      "id": "post_a5471970-c4ce-4f1e-87ba-f42a35ad7120",
+      "title": "Cuidado com o sucesso.",
+      "date": "2026-03-30T21:18:00+00:00",
+      "date_label": "30/03/2026",
+      "day_of_week": 0,
+      "recipients": 2682688,
+      "delivered": 2605395,
+      "unique_opens": 829281,
+      "total_opens": 0,
+      "unique_clicks": 4440,
+      "total_clicks": 0,
+      "open_rate": 31.8,
+      "click_rate": 0.2,
+      "cto_rate": 0.5,
+      "unsubscribes": 11718,
+      "unsub_rate": 0.45,
+      "spam_reports": 834,
+      "web_views": 919,
+      "web_clicks": 154,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2919,
+          "unique_clicks": 2897
+        },
+        {
+          "url": "https://exame.com/pop/por-que-apple-amazon-e-google-podem-escapar-da-morte-do-streaming-de-musica/",
+          "total_clicks": 412,
+          "unique_clicks": 384
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 326,
+          "unique_clicks": 284
+        },
+        {
+          "url": "https://stitch.withgoogle.com/",
+          "total_clicks": 305,
+          "unique_clicks": 278
+        },
+        {
+          "url": "https://api.whatsapp.com/send",
+          "total_clicks": 250,
+          "unique_clicks": 160
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 214,
+          "unique_clicks": 170
+        },
+        {
+          "url": "https://cbc.movimentocabecadedono.com.br/",
+          "total_clicks": 192,
+          "unique_clicks": 167
+        },
+        {
+          "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
+          "total_clicks": 157,
+          "unique_clicks": 142
+        },
+        {
+          "url": "https://aidemos.atmeta.com/tribev2",
+          "total_clicks": 134,
+          "unique_clicks": 116
+        },
+        {
+          "url": "https://fitfeed.com.br/guerra-no-oriente-medio-deve-deixar-os-remedios-mais-caros-no-brasil/",
+          "total_clicks": 115,
+          "unique_clicks": 103
+        }
+      ]
+    },
+    {
+      "id": "post_4016bf46-f98b-419c-8a15-9a1a612d0fe9",
+      "title": "O e-mail mais direto que já escrevi.",
+      "date": "2026-04-01T21:19:36+00:00",
+      "date_label": "01/04/2026",
+      "day_of_week": 2,
+      "recipients": 1309041,
+      "delivered": 1272588,
+      "unique_opens": 316085,
+      "total_opens": 0,
+      "unique_clicks": 2992,
+      "total_clicks": 0,
+      "open_rate": 24.8,
+      "click_rate": 0.2,
+      "cto_rate": 0.9,
+      "unsubscribes": 3743,
+      "unsub_rate": 0.29,
+      "spam_reports": 512,
+      "web_views": 9,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2512,
+          "unique_clicks": 2442
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 706,
+          "unique_clicks": 559
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 63,
+          "unique_clicks": 61
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 30,
+          "unique_clicks": 30
+        }
+      ]
+    },
+    {
+      "id": "post_7dae59bd-8429-4a44-bbd9-def4faa0596c",
+      "title": "O e-mail mais direto que já escrevi.",
+      "date": "2026-04-02T11:00:00+00:00",
+      "date_label": "02/04/2026",
+      "day_of_week": 3,
+      "recipients": 1359724,
+      "delivered": 1319599,
+      "unique_opens": 383653,
+      "total_opens": 0,
+      "unique_clicks": 4605,
+      "total_clicks": 0,
+      "open_rate": 29.1,
+      "click_rate": 0.3,
+      "cto_rate": 1.2,
+      "unsubscribes": 6255,
+      "unsub_rate": 0.47,
+      "spam_reports": 1026,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3713,
+          "unique_clicks": 3569
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 1272,
+          "unique_clicks": 1042
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 83,
+          "unique_clicks": 75
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 40,
+          "unique_clicks": 37
+        }
+      ]
+    },
+    {
+      "id": "post_04ec2a45-d5ea-42f7-92b4-3f7691e5791b",
+      "title": "Isso aqui vai irritar muita gente",
+      "date": "2026-04-06T21:19:07+00:00",
+      "date_label": "06/04/2026",
+      "day_of_week": 0,
+      "recipients": 1856783,
+      "delivered": 1817704,
+      "unique_opens": 778122,
+      "total_opens": 0,
+      "unique_clicks": 5383,
+      "total_clicks": 0,
+      "open_rate": 42.8,
+      "click_rate": 0.3,
+      "cto_rate": 0.7,
+      "unsubscribes": 11000,
+      "unsub_rate": 0.61,
+      "spam_reports": 881,
+      "web_views": 713,
+      "web_clicks": 61,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3889,
+          "unique_clicks": 3854
+        },
+        {
+          "url": "https://obsidian.md/",
+          "total_clicks": 541,
+          "unique_clicks": 470
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 517,
+          "unique_clicks": 444
+        },
+        {
+          "url": "https://www.amazon.com.br/dp/8550821012",
+          "total_clicks": 262,
+          "unique_clicks": 216
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 194,
+          "unique_clicks": 168
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 166,
+          "unique_clicks": 146
+        },
+        {
+          "url": "https://api.whatsapp.com/send",
+          "total_clicks": 162,
+          "unique_clicks": 79
+        },
+        {
+          "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
+          "total_clicks": 141,
+          "unique_clicks": 124
+        },
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/referrals",
+          "total_clicks": 98,
+          "unique_clicks": 82
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/isso-aqui-vai-irritar-muita-gente",
+          "total_clicks": 76,
+          "unique_clicks": 65
+        }
+      ]
+    },
+    {
+      "id": "post_9fa45f96-4512-4c3e-8e37-4afb42469ce5",
+      "title": "Isso aqui vai irritar muita gente.",
+      "date": "2026-04-06T21:25:17+00:00",
+      "date_label": "06/04/2026",
+      "day_of_week": 0,
+      "recipients": 801221,
+      "delivered": 765442,
+      "unique_opens": 64090,
+      "total_opens": 0,
+      "unique_clicks": 2230,
+      "total_clicks": 0,
+      "open_rate": 8.4,
+      "click_rate": 0.3,
+      "cto_rate": 3.5,
+      "unsubscribes": 3202,
+      "unsub_rate": 0.42,
+      "spam_reports": 1113,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2004,
+          "unique_clicks": 1992
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 111,
+          "unique_clicks": 106
+        },
+        {
+          "url": "https://obsidian.md/",
+          "total_clicks": 44,
+          "unique_clicks": 38
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 33,
+          "unique_clicks": 32
+        },
+        {
+          "url": "https://www.amazon.com.br/dp/8550821012",
+          "total_clicks": 21,
+          "unique_clicks": 18
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 16,
+          "unique_clicks": 16
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
           "total_clicks": 15,
           "unique_clicks": 14
         },
         {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/referrals",
+          "total_clicks": 13,
+          "unique_clicks": 13
+        },
+        {
+          "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
+          "total_clicks": 11,
+          "unique_clicks": 11
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 11,
+          "unique_clicks": 11
+        }
+      ]
+    },
+    {
+      "id": "post_591845bb-8122-4958-b46e-f1d70a598f4d",
+      "title": "1404",
+      "date": "2026-04-07T15:01:35+00:00",
+      "date_label": "07/04/2026",
+      "day_of_week": 1,
+      "recipients": 2646787,
+      "delivered": 2569006,
+      "unique_opens": 744937,
+      "total_opens": 0,
+      "unique_clicks": 9180,
+      "total_clicks": 0,
+      "open_rate": 29.0,
+      "click_rate": 0.4,
+      "cto_rate": 1.2,
+      "unsubscribes": 12055,
+      "unsub_rate": 0.47,
+      "spam_reports": 2008,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 6792,
+          "unique_clicks": 6587
+        },
+        {
+          "url": "https://redirect.manualdedonos.com.br/320",
+          "total_clicks": 2894,
+          "unique_clicks": 2636
+        },
+        {
           "url": "https://www.beehiiv.com/",
+          "total_clicks": 252,
+          "unique_clicks": 207
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 125,
+          "unique_clicks": 83
+        }
+      ]
+    },
+    {
+      "id": "post_bb195d5b-a658-4cc9-9297-b8115888e0dc",
+      "title": "[ERRO] 1404",
+      "date": "2026-04-07T22:00:00+00:00",
+      "date_label": "07/04/2026",
+      "day_of_week": 1,
+      "recipients": 2633501,
+      "delivered": 2557379,
+      "unique_opens": 675517,
+      "total_opens": 0,
+      "unique_clicks": 5783,
+      "total_clicks": 0,
+      "open_rate": 26.4,
+      "click_rate": 0.2,
+      "cto_rate": 0.9,
+      "unsubscribes": 9863,
+      "unsub_rate": 0.39,
+      "spam_reports": 1363,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 4813,
+          "unique_clicks": 4593
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 1344,
+          "unique_clicks": 1220
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 185,
+          "unique_clicks": 157
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 97,
+          "unique_clicks": 74
+        }
+      ]
+    },
+    {
+      "id": "post_f84a80de-4af7-4ee9-907f-faa97988ff00",
+      "title": "Você toparia?... Eu duvido.",
+      "date": "2026-04-08T13:00:00+00:00",
+      "date_label": "08/04/2026",
+      "day_of_week": 2,
+      "recipients": 2620997,
+      "delivered": 2544718,
+      "unique_opens": 596603,
+      "total_opens": 0,
+      "unique_clicks": 6909,
+      "total_clicks": 0,
+      "open_rate": 23.4,
+      "click_rate": 0.3,
+      "cto_rate": 1.2,
+      "unsubscribes": 10629,
+      "unsub_rate": 0.42,
+      "spam_reports": 1072,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 6613,
+          "unique_clicks": 6386
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 649,
+          "unique_clicks": 572
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 148,
+          "unique_clicks": 121
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 108,
+          "unique_clicks": 84
+        }
+      ]
+    },
+    {
+      "id": "post_6fe1b2e1-6f85-4d59-b5ed-53ecd3934414",
+      "title": "20h. 20 anos. 20 segundos.",
+      "date": "2026-04-10T11:00:00+00:00",
+      "date_label": "10/04/2026",
+      "day_of_week": 4,
+      "recipients": 2593239,
+      "delivered": 2516907,
+      "unique_opens": 621309,
+      "total_opens": 0,
+      "unique_clicks": 6198,
+      "total_clicks": 0,
+      "open_rate": 24.7,
+      "click_rate": 0.2,
+      "cto_rate": 1.0,
+      "unsubscribes": 8184,
+      "unsub_rate": 0.33,
+      "spam_reports": 1488,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 5985,
+          "unique_clicks": 5794
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 523,
+          "unique_clicks": 448
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 209,
+          "unique_clicks": 185
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 108,
+          "unique_clicks": 88
+        }
+      ]
+    },
+    {
+      "id": "post_01cdcba2-3b32-4380-aeea-bdcfc62a39c1",
+      "title": "Amanhã.",
+      "date": "2026-04-13T13:00:00+00:00",
+      "date_label": "13/04/2026",
+      "day_of_week": 0,
+      "recipients": 2582397,
+      "delivered": 2508442,
+      "unique_opens": 616464,
+      "total_opens": 0,
+      "unique_clicks": 5058,
+      "total_clicks": 0,
+      "open_rate": 24.6,
+      "click_rate": 0.2,
+      "cto_rate": 0.8,
+      "unsubscribes": 6927,
+      "unsub_rate": 0.28,
+      "spam_reports": 903,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 4408,
+          "unique_clicks": 4257
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 920,
+          "unique_clicks": 835
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 193,
+          "unique_clicks": 182
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 86,
+          "unique_clicks": 79
+        }
+      ]
+    },
+    {
+      "id": "post_66ea5f3b-24d4-4b45-8f18-5dbf547d2935",
+      "title": "É HOJE!",
+      "date": "2026-04-14T11:00:00+00:00",
+      "date_label": "14/04/2026",
+      "day_of_week": 1,
+      "recipients": 2572037,
+      "delivered": 2499255,
+      "unique_opens": 612490,
+      "total_opens": 0,
+      "unique_clicks": 6295,
+      "total_clicks": 0,
+      "open_rate": 24.5,
+      "click_rate": 0.3,
+      "cto_rate": 1.0,
+      "unsubscribes": 7380,
+      "unsub_rate": 0.3,
+      "spam_reports": 1679,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 5555,
+          "unique_clicks": 5353
+        },
+        {
+          "url": "https://www.movimentocabecadedono.com.br/",
+          "total_clicks": 1102,
+          "unique_clicks": 979
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 182,
+          "unique_clicks": 171
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 95,
+          "unique_clicks": 85
+        }
+      ]
+    },
+    {
+      "id": "post_247c0345-906e-4272-92c5-82d981da8bdc",
+      "title": "15 minutos.",
+      "date": "2026-04-14T22:45:00+00:00",
+      "date_label": "14/04/2026",
+      "day_of_week": 1,
+      "recipients": 2564280,
+      "delivered": 2491424,
+      "unique_opens": 609735,
+      "total_opens": 0,
+      "unique_clicks": 6671,
+      "total_clicks": 0,
+      "open_rate": 24.5,
+      "click_rate": 0.3,
+      "cto_rate": 1.1,
+      "unsubscribes": 7789,
+      "unsub_rate": 0.31,
+      "spam_reports": 2119,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 5896,
+          "unique_clicks": 5754
+        },
+        {
+          "url": "https://redirect.manualdedonos.com.br/7l3",
+          "total_clicks": 1070,
+          "unique_clicks": 951
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 141,
+          "unique_clicks": 139
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 76,
+          "unique_clicks": 71
+        }
+      ]
+    },
+    {
+      "id": "post_68258964-f8c6-491f-8c5a-41b84184040e",
+      "title": "ESTAMOS AO VIVO",
+      "date": "2026-04-14T23:00:00+00:00",
+      "date_label": "14/04/2026",
+      "day_of_week": 1,
+      "recipients": 2562598,
+      "delivered": 2489589,
+      "unique_opens": 607955,
+      "total_opens": 0,
+      "unique_clicks": 6890,
+      "total_clicks": 0,
+      "open_rate": 24.4,
+      "click_rate": 0.3,
+      "cto_rate": 1.1,
+      "unsubscribes": 6725,
+      "unsub_rate": 0.27,
+      "spam_reports": 2005,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 4697,
+          "unique_clicks": 4601
+        },
+        {
+          "url": "https://redirect.manualdedonos.com.br/7l3",
+          "total_clicks": 2581,
+          "unique_clicks": 2301
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 175,
+          "unique_clicks": 168
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 77,
+          "unique_clicks": 76
+        }
+      ]
+    },
+    {
+      "id": "post_14f7b50e-dd78-4742-9328-b803b2984f92",
+      "title": "Oficial: inscrições abertas.",
+      "date": "2026-04-15T00:50:01+00:00",
+      "date_label": "15/04/2026",
+      "day_of_week": 2,
+      "recipients": 2556366,
+      "delivered": 2483962,
+      "unique_opens": 638564,
+      "total_opens": 0,
+      "unique_clicks": 9754,
+      "total_clicks": 0,
+      "open_rate": 25.7,
+      "click_rate": 0.4,
+      "cto_rate": 1.5,
+      "unsubscribes": 11626,
+      "unsub_rate": 0.47,
+      "spam_reports": 2228,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 9416,
+          "unique_clicks": 9136
+        },
+        {
+          "url": "https://redirect.manualdedonos.com.br/beehiiv",
+          "total_clicks": 689,
+          "unique_clicks": 634
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 126,
+          "unique_clicks": 125
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 74,
+          "unique_clicks": 73
+        }
+      ]
+    },
+    {
+      "id": "post_607684a6-45c7-4e47-bccc-42a805047fad",
+      "title": "Centenas de donos em 12 horas.",
+      "date": "2026-04-15T11:30:00+00:00",
+      "date_label": "15/04/2026",
+      "day_of_week": 2,
+      "recipients": 2542875,
+      "delivered": 2459989,
+      "unique_opens": 609674,
+      "total_opens": 0,
+      "unique_clicks": 7994,
+      "total_clicks": 0,
+      "open_rate": 24.8,
+      "click_rate": 0.3,
+      "cto_rate": 1.3,
+      "unsubscribes": 9993,
+      "unsub_rate": 0.41,
+      "spam_reports": 1928,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 7824,
+          "unique_clicks": 7558
+        },
+        {
+          "url": "https://manualdedonos.com.br",
+          "total_clicks": 547,
+          "unique_clicks": 482
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 171,
+          "unique_clicks": 145
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 106,
+          "unique_clicks": 83
+        }
+      ]
+    },
+    {
+      "id": "post_1c2cce75-6553-488e-968e-52757f084864",
+      "title": "Olha essa foto...",
+      "date": "2026-04-15T21:36:31+00:00",
+      "date_label": "15/04/2026",
+      "day_of_week": 2,
+      "recipients": 2561040,
+      "delivered": 2477966,
+      "unique_opens": 621688,
+      "total_opens": 0,
+      "unique_clicks": 7006,
+      "total_clicks": 0,
+      "open_rate": 25.1,
+      "click_rate": 0.3,
+      "cto_rate": 1.1,
+      "unsubscribes": 8842,
+      "unsub_rate": 0.36,
+      "spam_reports": 1498,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 6572,
+          "unique_clicks": 6368
+        },
+        {
+          "url": "https://manualdedonos.com.br",
+          "total_clicks": 432,
+          "unique_clicks": 397
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 381,
+          "unique_clicks": 355
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 133,
+          "unique_clicks": 131
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 65,
+          "unique_clicks": 65
+        }
+      ]
+    },
+    {
+      "id": "post_feed2c96-055d-44cd-8ac8-77057b71bbb6",
+      "title": "Você recontrataria todos do seu time de novo? ",
+      "date": "2026-04-16T11:00:00+00:00",
+      "date_label": "16/04/2026",
+      "day_of_week": 3,
+      "recipients": 55706,
+      "delivered": 53929,
+      "unique_opens": 11527,
+      "total_opens": 0,
+      "unique_clicks": 239,
+      "total_clicks": 0,
+      "open_rate": 21.4,
+      "click_rate": 0.4,
+      "cto_rate": 2.1,
+      "unsubscribes": 198,
+      "unsub_rate": 0.37,
+      "spam_reports": 7,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://manualdedonos.com.br",
+          "total_clicks": 140,
+          "unique_clicks": 125
+        },
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 139,
+          "unique_clicks": 127
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 16,
+          "unique_clicks": 15
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 14,
+          "unique_clicks": 12
+        }
+      ]
+    },
+    {
+      "id": "post_dccb9441-3cdc-443a-b9a0-a175e0ea485f",
+      "title": "Vou dar mais uma aula hoje.",
+      "date": "2026-04-16T16:13:12+00:00",
+      "date_label": "16/04/2026",
+      "day_of_week": 3,
+      "recipients": 2564800,
+      "delivered": 2490860,
+      "unique_opens": 587453,
+      "total_opens": 0,
+      "unique_clicks": 5091,
+      "total_clicks": 0,
+      "open_rate": 23.6,
+      "click_rate": 0.2,
+      "cto_rate": 0.9,
+      "unsubscribes": 6529,
+      "unsub_rate": 0.26,
+      "spam_reports": 1124,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 4814,
+          "unique_clicks": 4668
+        },
+        {
+          "url": "https://manualdedonos.com.br",
+          "total_clicks": 507,
+          "unique_clicks": 450
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 134,
+          "unique_clicks": 129
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 75,
+          "unique_clicks": 74
+        }
+      ]
+    },
+    {
+      "id": "post_0021d2dc-bc37-4666-abd7-471168637f4a",
+      "title": "Me deixa te mostrar algo.",
+      "date": "2026-04-16T23:04:55+00:00",
+      "date_label": "16/04/2026",
+      "day_of_week": 3,
+      "recipients": 2510196,
+      "delivered": 2484085,
+      "unique_opens": 606845,
+      "total_opens": 0,
+      "unique_clicks": 5743,
+      "total_clicks": 0,
+      "open_rate": 24.4,
+      "click_rate": 0.2,
+      "cto_rate": 0.9,
+      "unsubscribes": 7122,
+      "unsub_rate": 0.29,
+      "spam_reports": 1321,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 5590,
+          "unique_clicks": 5389
+        },
+        {
+          "url": "https://manualdedonos.com.br",
+          "total_clicks": 420,
+          "unique_clicks": 385
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 109,
+          "unique_clicks": 108
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 62,
+          "unique_clicks": 62
+        }
+      ]
+    },
+    {
+      "id": "post_4dcdf09c-a62e-465a-891c-b834dd1567e2",
+      "title": "Mais barato que um cafézinho...",
+      "date": "2026-04-17T11:00:00+00:00",
+      "date_label": "17/04/2026",
+      "day_of_week": 4,
+      "recipients": 2502397,
+      "delivered": 2471874,
+      "unique_opens": 601126,
+      "total_opens": 0,
+      "unique_clicks": 5498,
+      "total_clicks": 0,
+      "open_rate": 24.3,
+      "click_rate": 0.2,
+      "cto_rate": 0.9,
+      "unsubscribes": 6326,
+      "unsub_rate": 0.26,
+      "spam_reports": 1157,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 5150,
+          "unique_clicks": 4898
+        },
+        {
+          "url": "https://manualdedonos.com.br",
+          "total_clicks": 798,
+          "unique_clicks": 671
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 287,
+          "unique_clicks": 211
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 153,
+          "unique_clicks": 95
+        }
+      ]
+    },
+    {
+      "id": "post_cdf958ed-3a69-453f-85bd-5323a04988f6",
+      "title": "6 horas. Depois não tem mais.",
+      "date": "2026-04-17T21:00:00+00:00",
+      "date_label": "17/04/2026",
+      "day_of_week": 4,
+      "recipients": 54694,
+      "delivered": 54164,
+      "unique_opens": 15180,
+      "total_opens": 0,
+      "unique_clicks": 158,
+      "total_clicks": 0,
+      "open_rate": 28.0,
+      "click_rate": 0.3,
+      "cto_rate": 1.0,
+      "unsubscribes": 145,
+      "unsub_rate": 0.27,
+      "spam_reports": 12,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 102,
+          "unique_clicks": 95
+        },
+        {
+          "url": "https://manualdedonos.com.br",
+          "total_clicks": 67,
+          "unique_clicks": 61
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 4,
+          "unique_clicks": 4
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 2,
+          "unique_clicks": 2
+        }
+      ]
+    },
+    {
+      "id": "post_dbdfd211-6700-4cdd-b5bf-634f68654b15",
+      "title": "Assunto delicado...",
+      "date": "2026-04-18T01:01:14+00:00",
+      "date_label": "18/04/2026",
+      "day_of_week": 5,
+      "recipients": 54406,
+      "delivered": 53904,
+      "unique_opens": 15635,
+      "total_opens": 0,
+      "unique_clicks": 185,
+      "total_clicks": 0,
+      "open_rate": 29.0,
+      "click_rate": 0.3,
+      "cto_rate": 1.2,
+      "unsubscribes": 210,
+      "unsub_rate": 0.39,
+      "spam_reports": 17,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 128,
+          "unique_clicks": 117
+        },
+        {
+          "url": "https://manualdedonos.com.br",
+          "total_clicks": 75,
+          "unique_clicks": 66
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 5,
+          "unique_clicks": 5
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 1,
+          "unique_clicks": 1
+        }
+      ]
+    },
+    {
+      "id": "post_3d4aae08-656a-497e-b0e0-acae03e74a64",
+      "title": "Ronyflix. Um presente pra vocês.",
+      "date": "2026-04-18T14:00:00+00:00",
+      "date_label": "18/04/2026",
+      "day_of_week": 5,
+      "recipients": 2476582,
+      "delivered": 2463806,
+      "unique_opens": 581569,
+      "total_opens": 0,
+      "unique_clicks": 4550,
+      "total_clicks": 0,
+      "open_rate": 23.6,
+      "click_rate": 0.2,
+      "cto_rate": 0.8,
+      "unsubscribes": 4214,
+      "unsub_rate": 0.17,
+      "spam_reports": 1056,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3630,
+          "unique_clicks": 3366
+        },
+        {
+          "url": "https://redirect.manualdedonos.com.br/7l3",
+          "total_clicks": 1575,
+          "unique_clicks": 1260
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 419,
+          "unique_clicks": 273
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 155,
+          "unique_clicks": 97
+        }
+      ]
+    },
+    {
+      "id": "post_e58b9d17-c52a-4bb6-8832-b71b933bd2f1",
+      "title": "Levanta do sofá.",
+      "date": "2026-04-18T22:00:00+00:00",
+      "date_label": "18/04/2026",
+      "day_of_week": 5,
+      "recipients": 2472056,
+      "delivered": 2452532,
+      "unique_opens": 606557,
+      "total_opens": 0,
+      "unique_clicks": 4893,
+      "total_clicks": 0,
+      "open_rate": 24.7,
+      "click_rate": 0.2,
+      "cto_rate": 0.8,
+      "unsubscribes": 5586,
+      "unsub_rate": 0.23,
+      "spam_reports": 1115,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 4329,
+          "unique_clicks": 4151
+        },
+        {
+          "url": "https://redirect.manualdedonos.com.br/7l3",
+          "total_clicks": 861,
+          "unique_clicks": 724
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 139,
+          "unique_clicks": 129
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 112,
+          "unique_clicks": 108
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 59,
+          "unique_clicks": 58
+        }
+      ]
+    },
+    {
+      "id": "post_dbbdbbbc-ef9a-4b47-b8f2-aa8b4c03b825",
+      "title": "Não seja um ._._._._._._._._._.",
+      "date": "2026-04-19T20:30:00+00:00",
+      "date_label": "19/04/2026",
+      "day_of_week": 6,
+      "recipients": 2466227,
+      "delivered": 2454654,
+      "unique_opens": 588799,
+      "total_opens": 0,
+      "unique_clicks": 4958,
+      "total_clicks": 0,
+      "open_rate": 24.0,
+      "click_rate": 0.2,
+      "cto_rate": 0.8,
+      "unsubscribes": 6564,
+      "unsub_rate": 0.27,
+      "spam_reports": 1294,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 4860,
+          "unique_clicks": 4636
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 464,
+          "unique_clicks": 375
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 168,
+          "unique_clicks": 134
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 104,
+          "unique_clicks": 75
+        }
+      ]
+    },
+    {
+      "id": "post_b4a17d71-bdfe-42a3-b97b-691cb1f1b65b",
+      "title": "4000KG",
+      "date": "2026-04-20T11:08:40+00:00",
+      "date_label": "20/04/2026",
+      "day_of_week": 0,
+      "recipients": 2457974,
+      "delivered": 2445178,
+      "unique_opens": 591553,
+      "total_opens": 0,
+      "unique_clicks": 5614,
+      "total_clicks": 0,
+      "open_rate": 24.2,
+      "click_rate": 0.2,
+      "cto_rate": 0.9,
+      "unsubscribes": 7153,
+      "unsub_rate": 0.29,
+      "spam_reports": 1187,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 5381,
+          "unique_clicks": 5028
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 731,
+          "unique_clicks": 628
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 185,
+          "unique_clicks": 138
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 133,
+          "unique_clicks": 90
+        }
+      ]
+    },
+    {
+      "id": "post_db5c427d-8389-4f82-ac8d-9a9f7d3e79ba",
+      "title": "Você disse sim e não percebeu.",
+      "date": "2026-04-20T21:19:56+00:00",
+      "date_label": "20/04/2026",
+      "day_of_week": 0,
+      "recipients": 2449010,
+      "delivered": 2436859,
+      "unique_opens": 688216,
+      "total_opens": 0,
+      "unique_clicks": 4896,
+      "total_clicks": 0,
+      "open_rate": 28.2,
+      "click_rate": 0.2,
+      "cto_rate": 0.7,
+      "unsubscribes": 8736,
+      "unsub_rate": 0.36,
+      "spam_reports": 996,
+      "web_views": 324,
+      "web_clicks": 35,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 5005,
+          "unique_clicks": 4559
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 204,
+          "unique_clicks": 136
+        },
+        {
+          "url": "https://api.whatsapp.com/send",
+          "total_clicks": 147,
+          "unique_clicks": 81
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 135,
+          "unique_clicks": 104
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 80,
+          "unique_clicks": 70
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/voce-disse-sim-e-nao-percebeu",
+          "total_clicks": 50,
+          "unique_clicks": 40
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 22,
+          "unique_clicks": 18
+        },
+        {
+          "url": "https://www.bobpost.com.br/",
+          "total_clicks": 10,
+          "unique_clicks": 10
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 5,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 2,
+          "unique_clicks": 1
+        }
+      ]
+    },
+    {
+      "id": "post_4f7d6ee2-9c43-488d-aaf0-857a300aea5d",
+      "title": "Preciso te falar uma coisa.",
+      "date": "2026-04-21T13:30:56+00:00",
+      "date_label": "21/04/2026",
+      "day_of_week": 1,
+      "recipients": 2440254,
+      "delivered": 2426886,
+      "unique_opens": 677179,
+      "total_opens": 0,
+      "unique_clicks": 5739,
+      "total_clicks": 0,
+      "open_rate": 27.9,
+      "click_rate": 0.2,
+      "cto_rate": 0.8,
+      "unsubscribes": 11047,
+      "unsub_rate": 0.46,
+      "spam_reports": 1041,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 5597,
+          "unique_clicks": 5230
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 667,
+          "unique_clicks": 558
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 192,
+          "unique_clicks": 139
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 136,
+          "unique_clicks": 89
+        }
+      ]
+    },
+    {
+      "id": "post_c7a237ef-2dd7-4733-a81c-da767c08387f",
+      "title": "Esse email não é pra você.",
+      "date": "2026-04-22T15:03:47+00:00",
+      "date_label": "22/04/2026",
+      "day_of_week": 2,
+      "recipients": 2426252,
+      "delivered": 2416932,
+      "unique_opens": 636631,
+      "total_opens": 0,
+      "unique_clicks": 4978,
+      "total_clicks": 0,
+      "open_rate": 26.3,
+      "click_rate": 0.2,
+      "cto_rate": 0.8,
+      "unsubscribes": 9309,
+      "unsub_rate": 0.39,
+      "spam_reports": 893,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 4794,
+          "unique_clicks": 4498
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 608,
+          "unique_clicks": 529
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 181,
+          "unique_clicks": 140
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 118,
+          "unique_clicks": 84
+        }
+      ]
+    },
+    {
+      "id": "post_ecf841cf-0c85-49a3-a518-93ce6e932a8a",
+      "title": "Sério isso?",
+      "date": "2026-04-22T23:18:17+00:00",
+      "date_label": "22/04/2026",
+      "day_of_week": 2,
+      "recipients": 2415906,
+      "delivered": 2403108,
+      "unique_opens": 584850,
+      "total_opens": 0,
+      "unique_clicks": 3957,
+      "total_clicks": 0,
+      "open_rate": 24.3,
+      "click_rate": 0.2,
+      "cto_rate": 0.7,
+      "unsubscribes": 9539,
+      "unsub_rate": 0.4,
+      "spam_reports": 974,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3942,
+          "unique_clicks": 3784
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 227,
+          "unique_clicks": 192
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 118,
+          "unique_clicks": 104
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 77,
+          "unique_clicks": 63
+        }
+      ]
+    },
+    {
+      "id": "post_31a88e36-22ee-44d4-b7d5-73d44c1334dd",
+      "title": "Você caiu nessa?",
+      "date": "2026-04-23T13:47:16+00:00",
+      "date_label": "23/04/2026",
+      "day_of_week": 3,
+      "recipients": 2409168,
+      "delivered": 2395365,
+      "unique_opens": 562469,
+      "total_opens": 0,
+      "unique_clicks": 3381,
+      "total_clicks": 0,
+      "open_rate": 23.5,
+      "click_rate": 0.1,
+      "cto_rate": 0.6,
+      "unsubscribes": 10330,
+      "unsub_rate": 0.43,
+      "spam_reports": 831,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3361,
+          "unique_clicks": 3230
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 246,
+          "unique_clicks": 197
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 169,
+          "unique_clicks": 130
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 130,
+          "unique_clicks": 92
+        }
+      ]
+    },
+    {
+      "id": "post_ff19cbf9-f10b-4ff5-9049-693ee9adee5b",
+      "title": "Toc, toc...",
+      "date": "2026-04-23T23:30:00+00:00",
+      "date_label": "23/04/2026",
+      "day_of_week": 3,
+      "recipients": 2403364,
+      "delivered": 2395340,
+      "unique_opens": 749277,
+      "total_opens": 0,
+      "unique_clicks": 8106,
+      "total_clicks": 0,
+      "open_rate": 31.3,
+      "click_rate": 0.3,
+      "cto_rate": 1.1,
+      "unsubscribes": 10997,
+      "unsub_rate": 0.46,
+      "spam_reports": 813,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 8139,
+          "unique_clicks": 7278
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 991,
+          "unique_clicks": 826
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 163,
+          "unique_clicks": 139
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 74,
+          "unique_clicks": 56
+        }
+      ]
+    },
+    {
+      "id": "post_4b90f786-1d7c-4fa7-ae6a-2dedbd88f6a1",
+      "title": "Cabe no bolso?",
+      "date": "2026-04-24T12:44:32+00:00",
+      "date_label": "24/04/2026",
+      "day_of_week": 4,
+      "recipients": 2392932,
+      "delivered": 2375357,
+      "unique_opens": 543717,
+      "total_opens": 0,
+      "unique_clicks": 2652,
+      "total_clicks": 0,
+      "open_rate": 22.9,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 6484,
+      "unsub_rate": 0.27,
+      "spam_reports": 712,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2635,
+          "unique_clicks": 2511
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 242,
+          "unique_clicks": 201
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 147,
+          "unique_clicks": 118
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 116,
+          "unique_clicks": 87
+        }
+      ]
+    },
+    {
+      "id": "post_28dc04eb-0611-4f94-8379-3cb5f76245a5",
+      "title": "Posso contar um segredo?",
+      "date": "2026-04-24T22:13:33+00:00",
+      "date_label": "24/04/2026",
+      "day_of_week": 4,
+      "recipients": 2385983,
+      "delivered": 2379531,
+      "unique_opens": 559027,
+      "total_opens": 0,
+      "unique_clicks": 2804,
+      "total_clicks": 0,
+      "open_rate": 23.5,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 9274,
+      "unsub_rate": 0.39,
+      "spam_reports": 707,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2828,
+          "unique_clicks": 2690
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 161,
+          "unique_clicks": 148
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 73,
+          "unique_clicks": 73
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 53,
+          "unique_clicks": 53
+        }
+      ]
+    },
+    {
+      "id": "post_3d9412be-b630-43f1-b483-135058bcafee",
+      "title": "Você vai ser substituído.",
+      "date": "2026-04-25T15:18:12+00:00",
+      "date_label": "25/04/2026",
+      "day_of_week": 5,
+      "recipients": 2380282,
+      "delivered": 2350139,
+      "unique_opens": 553375,
+      "total_opens": 0,
+      "unique_clicks": 2822,
+      "total_clicks": 0,
+      "open_rate": 23.5,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 5854,
+      "unsub_rate": 0.25,
+      "spam_reports": 666,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2668,
+          "unique_clicks": 2465
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 541,
+          "unique_clicks": 426
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 206,
+          "unique_clicks": 129
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 179,
+          "unique_clicks": 104
+        }
+      ]
+    },
+    {
+      "id": "post_d7e4afb9-2f44-4371-a539-a7d1aff9ca77",
+      "title": "Fecha o seu Instagram.",
+      "date": "2026-04-25T23:00:00+00:00",
+      "date_label": "25/04/2026",
+      "day_of_week": 5,
+      "recipients": 2375312,
+      "delivered": 2368162,
+      "unique_opens": 569976,
+      "total_opens": 0,
+      "unique_clicks": 3129,
+      "total_clicks": 0,
+      "open_rate": 24.1,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 9529,
+      "unsub_rate": 0.4,
+      "spam_reports": 687,
+      "web_views": 0,
+      "web_clicks": 1,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2998,
+          "unique_clicks": 2876
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 296,
+          "unique_clicks": 270
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 87,
+          "unique_clicks": 86
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 49,
+          "unique_clicks": 49
+        },
+        {
+          "url": "https://www.bobpost.com.br/",
+          "total_clicks": 1,
+          "unique_clicks": 1
+        }
+      ]
+    },
+    {
+      "id": "post_7f1a2693-c586-4c5e-a9cc-88f4fde75eac",
+      "title": "Maior ou melhor?",
+      "date": "2026-04-26T15:00:53+00:00",
+      "date_label": "26/04/2026",
+      "day_of_week": 6,
+      "recipients": 2369251,
+      "delivered": 2326229,
+      "unique_opens": 540273,
+      "total_opens": 0,
+      "unique_clicks": 2609,
+      "total_clicks": 0,
+      "open_rate": 23.2,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 5977,
+      "unsub_rate": 0.26,
+      "spam_reports": 589,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2656,
+          "unique_clicks": 2482
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 282,
+          "unique_clicks": 204
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 203,
+          "unique_clicks": 142
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 166,
+          "unique_clicks": 106
+        }
+      ]
+    },
+    {
+      "id": "post_4e536e86-e15f-4911-adea-4a5dd1196d22",
+      "title": "Toda segunda o mesmo filme...",
+      "date": "2026-04-26T23:00:00+00:00",
+      "date_label": "26/04/2026",
+      "day_of_week": 6,
+      "recipients": 2364339,
+      "delivered": 2356077,
+      "unique_opens": 558404,
+      "total_opens": 0,
+      "unique_clicks": 3414,
+      "total_clicks": 0,
+      "open_rate": 23.7,
+      "click_rate": 0.1,
+      "cto_rate": 0.6,
+      "unsubscribes": 10338,
+      "unsub_rate": 0.44,
+      "spam_reports": 671,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3462,
+          "unique_clicks": 3321
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 135,
+          "unique_clicks": 124
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 85,
+          "unique_clicks": 84
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 55,
+          "unique_clicks": 54
+        }
+      ]
+    },
+    {
+      "id": "post_dddbed93-8538-4cc8-a947-37ba841a56e1",
+      "title": "O preço vai subir.",
+      "date": "2026-04-27T15:38:45+00:00",
+      "date_label": "27/04/2026",
+      "day_of_week": 0,
+      "recipients": 2353017,
+      "delivered": 2283759,
+      "unique_opens": 490003,
+      "total_opens": 0,
+      "unique_clicks": 2382,
+      "total_clicks": 0,
+      "open_rate": 21.5,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 10668,
+      "unsub_rate": 0.47,
+      "spam_reports": 564,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2373,
+          "unique_clicks": 2218
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 342,
+          "unique_clicks": 257
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 203,
+          "unique_clicks": 136
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 181,
+          "unique_clicks": 117
+        }
+      ]
+    },
+    {
+      "id": "post_88863608-d643-4b1e-8559-5d70a1b7bbf6",
+      "title": "Ninguém te ensinou isso...",
+      "date": "2026-04-27T21:35:37+00:00",
+      "date_label": "27/04/2026",
+      "day_of_week": 0,
+      "recipients": 2346672,
+      "delivered": 2337643,
+      "unique_opens": 568227,
+      "total_opens": 0,
+      "unique_clicks": 2710,
+      "total_clicks": 0,
+      "open_rate": 24.3,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 4704,
+      "unsub_rate": 0.2,
+      "spam_reports": 572,
+      "web_views": 190,
+      "web_clicks": 19,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2605,
+          "unique_clicks": 2412
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 179,
+          "unique_clicks": 113
+        },
+        {
+          "url": "https://api.whatsapp.com/send",
+          "total_clicks": 105,
+          "unique_clicks": 65
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 82,
+          "unique_clicks": 60
+        },
+        {
+          "url": "https://claude.ai/design",
+          "total_clicks": 77,
+          "unique_clicks": 75
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 57,
+          "unique_clicks": 53
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/ninguem-te-ensinou-isso",
+          "total_clicks": 43,
+          "unique_clicks": 37
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 17,
+          "unique_clicks": 16
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/um-manual-de-negocios",
+          "total_clicks": 3,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 2,
+          "unique_clicks": 1
+        }
+      ]
+    },
+    {
+      "id": "post_14ea29ab-3d14-4aee-b31e-844373f0e806",
+      "title": "Depois. Depois. Depois.",
+      "date": "2026-04-28T11:44:02+00:00",
+      "date_label": "28/04/2026",
+      "day_of_week": 1,
+      "recipients": 50565,
+      "delivered": 17809,
+      "unique_opens": 3663,
+      "total_opens": 0,
+      "unique_clicks": 260,
+      "total_clicks": 0,
+      "open_rate": 20.6,
+      "click_rate": 1.5,
+      "cto_rate": 7.1,
+      "unsubscribes": 25,
+      "unsub_rate": 0.14,
+      "spam_reports": 3,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 251,
+          "unique_clicks": 245
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 221,
+          "unique_clicks": 217
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 19,
+          "unique_clicks": 18
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 7,
+          "unique_clicks": 6
+        }
+      ]
+    },
+    {
+      "id": "post_deed3bd4-9404-4e71-b8fe-93d2aaccd178",
+      "title": "Depois. Depois. Depois.",
+      "date": "2026-04-28T16:05:35+00:00",
+      "date_label": "28/04/2026",
+      "day_of_week": 1,
+      "recipients": 2288198,
+      "delivered": 2274681,
+      "unique_opens": 482099,
+      "total_opens": 0,
+      "unique_clicks": 2462,
+      "total_clicks": 0,
+      "open_rate": 21.2,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 5360,
+      "unsub_rate": 0.24,
+      "spam_reports": 590,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2402,
+          "unique_clicks": 2329
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 239,
+          "unique_clicks": 201
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 148,
+          "unique_clicks": 106
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 116,
+          "unique_clicks": 84
+        }
+      ]
+    },
+    {
+      "id": "post_2acae55b-ab97-41ff-b10f-c22fc7a28e61",
+      "title": "Eu só queria saber se...",
+      "date": "2026-04-29T00:06:07+00:00",
+      "date_label": "29/04/2026",
+      "day_of_week": 2,
+      "recipients": 2332210,
+      "delivered": 2322941,
+      "unique_opens": 519238,
+      "total_opens": 0,
+      "unique_clicks": 2570,
+      "total_clicks": 0,
+      "open_rate": 22.4,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 7415,
+      "unsub_rate": 0.32,
+      "spam_reports": 696,
+      "web_views": 0,
+      "web_clicks": 6,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2490,
+          "unique_clicks": 2394
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 172,
+          "unique_clicks": 159
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 104,
+          "unique_clicks": 103
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 79,
+          "unique_clicks": 78
+        },
+        {
+          "url": "https://www.bobpost.com.br/",
+          "total_clicks": 2,
+          "unique_clicks": 1
+        }
+      ]
+    },
+    {
+      "id": "post_7bd34b8e-78f9-477f-bf42-2a0b759319c0",
+      "title": "Você tem só até amanhã",
+      "date": "2026-04-29T11:00:00+00:00",
+      "date_label": "29/04/2026",
+      "day_of_week": 2,
+      "recipients": 2327159,
+      "delivered": 2313554,
+      "unique_opens": 483911,
+      "total_opens": 0,
+      "unique_clicks": 2097,
+      "total_clicks": 0,
+      "open_rate": 20.9,
+      "click_rate": 0.1,
+      "cto_rate": 0.4,
+      "unsubscribes": 6585,
+      "unsub_rate": 0.28,
+      "spam_reports": 569,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2041,
+          "unique_clicks": 1880
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 358,
+          "unique_clicks": 270
+        },
+        {
+          "url": "https://www.beehiiv.com/",
+          "total_clicks": 259,
+          "unique_clicks": 185
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 208,
+          "unique_clicks": 136
+        }
+      ]
+    },
+    {
+      "id": "post_ebfe4203-059f-4879-a570-3ae97cc712e2",
+      "title": "Um manual de negócios pra você. De graça.",
+      "date": "2026-04-29T15:03:51+00:00",
+      "date_label": "29/04/2026",
+      "day_of_week": 2,
+      "recipients": 2322193,
+      "delivered": 2312774,
+      "unique_opens": 608781,
+      "total_opens": 0,
+      "unique_clicks": 3642,
+      "total_clicks": 0,
+      "open_rate": 26.3,
+      "click_rate": 0.2,
+      "cto_rate": 0.6,
+      "unsubscribes": 5980,
+      "unsub_rate": 0.26,
+      "spam_reports": 500,
+      "web_views": 181,
+      "web_clicks": 28,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3563,
+          "unique_clicks": 3386
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 298,
+          "unique_clicks": 268
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/um-manual-de-negocios",
+          "total_clicks": 118,
+          "unique_clicks": 112
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 59,
+          "unique_clicks": 58
+        },
+        {
+          "url": "https://www.bobpost.com.br/",
+          "total_clicks": 13,
+          "unique_clicks": 8
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/voce-ta-com-medo-de-fazer-errado",
+          "total_clicks": 4,
+          "unique_clicks": 2
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 2,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/demorei-anos-pra-perceber-isso",
+          "total_clicks": 2,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 1,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 1,
+          "unique_clicks": 1
+        }
+      ]
+    },
+    {
+      "id": "post_629a89a7-fc2f-4489-80b8-0b2368d71fe1",
+      "title": "Erro de Pagamento",
+      "date": "2026-04-29T23:00:00+00:00",
+      "date_label": "29/04/2026",
+      "day_of_week": 2,
+      "recipients": 2313817,
+      "delivered": 2306083,
+      "unique_opens": 540127,
+      "total_opens": 0,
+      "unique_clicks": 6288,
+      "total_clicks": 0,
+      "open_rate": 23.4,
+      "click_rate": 0.3,
+      "cto_rate": 1.2,
+      "unsubscribes": 12109,
+      "unsub_rate": 0.53,
+      "spam_reports": 852,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 6298,
+          "unique_clicks": 6053
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 272,
+          "unique_clicks": 247
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 100,
+          "unique_clicks": 99
+        }
+      ]
+    },
+    {
+      "id": "post_cb2e7302-34fe-48fb-972a-9b143c43ffe6",
+      "title": "Encerra Hoje!",
+      "date": "2026-04-30T11:00:00+00:00",
+      "date_label": "30/04/2026",
+      "day_of_week": 3,
+      "recipients": 2304060,
+      "delivered": 2289822,
+      "unique_opens": 476787,
+      "total_opens": 0,
+      "unique_clicks": 2524,
+      "total_clicks": 0,
+      "open_rate": 20.8,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 4706,
+      "unsub_rate": 0.21,
+      "spam_reports": 461,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2511,
+          "unique_clicks": 2334
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 397,
+          "unique_clicks": 291
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 203,
+          "unique_clicks": 124
+        }
+      ]
+    },
+    {
+      "id": "post_dfc643c2-5a2a-4b7a-8e73-9b3ad0a41aa6",
+      "title": "Aula de Vendas do Rony: 4 mecanismos para crescer",
+      "date": "2026-04-30T15:17:39+00:00",
+      "date_label": "30/04/2026",
+      "day_of_week": 3,
+      "recipients": 2298160,
+      "delivered": 2289037,
+      "unique_opens": 480632,
+      "total_opens": 0,
+      "unique_clicks": 2246,
+      "total_clicks": 0,
+      "open_rate": 21.0,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 6400,
+      "unsub_rate": 0.28,
+      "spam_reports": 380,
+      "web_views": 112,
+      "web_clicks": 33,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2099,
+          "unique_clicks": 2053
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 389,
+          "unique_clicks": 258
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/aula-de-vendas-do-rony",
+          "total_clicks": 67,
+          "unique_clicks": 65
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 55,
+          "unique_clicks": 54
+        },
+        {
+          "url": "https://www.bobpost.com.br/",
+          "total_clicks": 4,
+          "unique_clicks": 4
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 2,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 1,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 1,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 1,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 1,
+          "unique_clicks": 1
+        }
+      ]
+    },
+    {
+      "id": "post_11d8ee4c-4282-4980-8196-9e52a817275d",
+      "title": "Faltam menos de 2 horas",
+      "date": "2026-05-01T01:01:17+00:00",
+      "date_label": "01/05/2026",
+      "day_of_week": 4,
+      "recipients": 2339360,
+      "delivered": 2288570,
+      "unique_opens": 498759,
+      "total_opens": 0,
+      "unique_clicks": 2441,
+      "total_clicks": 0,
+      "open_rate": 21.8,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 60435,
+      "unsub_rate": 2.64,
+      "spam_reports": 296,
+      "web_views": 0,
+      "web_clicks": 0,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2409,
+          "unique_clicks": 2336
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 174,
+          "unique_clicks": 163
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 56,
+          "unique_clicks": 55
+        }
+      ]
+    },
+    {
+      "id": "post_cc9ee04d-096d-4d8b-bae8-c7dd38439449",
+      "title": "Demorei anos pra perceber isso....",
+      "date": "2026-05-04T21:41:27+00:00",
+      "date_label": "04/05/2026",
+      "day_of_week": 0,
+      "recipients": 2299908,
+      "delivered": 2251535,
+      "unique_opens": 572210,
+      "total_opens": 0,
+      "unique_clicks": 2869,
+      "total_clicks": 0,
+      "open_rate": 25.4,
+      "click_rate": 0.1,
+      "cto_rate": 0.5,
+      "unsubscribes": 4741,
+      "unsub_rate": 0.21,
+      "spam_reports": 269,
+      "web_views": 210,
+      "web_clicks": 12,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 3005,
+          "unique_clicks": 2661
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 458,
+          "unique_clicks": 292
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/demorei-anos-pra-perceber-isso",
+          "total_clicks": 329,
+          "unique_clicks": 172
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 268,
+          "unique_clicks": 133
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 6,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 6,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 6,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 6,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 6,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 6,
+          "unique_clicks": 1
+        }
+      ]
+    },
+    {
+      "id": "post_a3189e73-51ea-4f03-834f-727a295756b2",
+      "title": "Eu não abro o ChatGPT.",
+      "date": "2026-05-07T21:27:20+00:00",
+      "date_label": "07/05/2026",
+      "day_of_week": 3,
+      "recipients": 2266224,
+      "delivered": 2218875,
+      "unique_opens": 563006,
+      "total_opens": 0,
+      "unique_clicks": 2074,
+      "total_clicks": 0,
+      "open_rate": 25.4,
+      "click_rate": 0.1,
+      "cto_rate": 0.4,
+      "unsubscribes": 3123,
+      "unsub_rate": 0.14,
+      "spam_reports": 197,
+      "web_views": 277,
+      "web_clicks": 34,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 1997,
+          "unique_clicks": 1717
+        },
+        {
+          "url": "https://manualdedonos.com.br/",
+          "total_clicks": 652,
+          "unique_clicks": 462
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/eu-nao-abro-o-chatgpt",
+          "total_clicks": 336,
+          "unique_clicks": 186
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 285,
+          "unique_clicks": 144
+        },
+        {
+          "url": "https://www.bobpost.com.br/",
           "total_clicks": 13,
           "unique_clicks": 12
         },
         {
-          "url": "https://www.movimentocabecadedono.com.br/",
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 10,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
           "total_clicks": 7,
-          "unique_clicks": 4
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 6,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 6,
+          "unique_clicks": 1
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/uuid/likes",
+          "total_clicks": 6,
+          "unique_clicks": 1
+        }
+      ]
+    },
+    {
+      "id": "post_79218ef5-99c1-459d-8811-6e15d00368ed",
+      "title": "Eu senti sua falta.",
+      "date": "2026-05-11T21:18:00+00:00",
+      "date_label": "11/05/2026",
+      "day_of_week": 0,
+      "recipients": 2253059,
+      "delivered": 2203830,
+      "unique_opens": 561299,
+      "total_opens": 0,
+      "unique_clicks": 3294,
+      "total_clicks": 0,
+      "open_rate": 25.5,
+      "click_rate": 0.1,
+      "cto_rate": 0.6,
+      "unsubscribes": 5085,
+      "unsub_rate": 0.23,
+      "spam_reports": 237,
+      "web_views": 273,
+      "web_clicks": 31,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 2867,
+          "unique_clicks": 2706
+        },
+        {
+          "url": "https://api.whatsapp.com/send",
+          "total_clicks": 1346,
+          "unique_clicks": 182
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 624,
+          "unique_clicks": 195
+        },
+        {
+          "url": "https://claude.ai/design",
+          "total_clicks": 456,
+          "unique_clicks": 227
+        },
+        {
+          "url": "https://www.amazon.com.br/dp/8551013114",
+          "total_clicks": 391,
+          "unique_clicks": 203
+        },
+        {
+          "url": "https://www.instagram.com/rony",
+          "total_clicks": 245,
+          "unique_clicks": 83
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/eu-senti-sua-falta",
+          "total_clicks": 244,
+          "unique_clicks": 145
+        },
+        {
+          "url": "https://www.manualdedonos.com.br/",
+          "total_clicks": 240,
+          "unique_clicks": 141
+        },
+        {
+          "url": "https://www.manualdedonos.com.br/",
+          "total_clicks": 232,
+          "unique_clicks": 132
+        },
+        {
+          "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
+          "total_clicks": 221,
+          "unique_clicks": 113
+        }
+      ]
+    },
+    {
+      "id": "post_87ea150b-fc5c-4cfa-8d1d-fd75bfc285cb",
+      "title": "Pare de buscar equilíbrio.",
+      "date": "2026-05-18T21:25:32+00:00",
+      "date_label": "18/05/2026",
+      "day_of_week": 0,
+      "recipients": 1876554,
+      "delivered": 1841280,
+      "unique_opens": 535523,
+      "total_opens": 0,
+      "unique_clicks": 1805,
+      "total_clicks": 0,
+      "open_rate": 29.1,
+      "click_rate": 0.1,
+      "cto_rate": 0.3,
+      "unsubscribes": 2914,
+      "unsub_rate": 0.16,
+      "spam_reports": 133,
+      "web_views": 604,
+      "web_clicks": 40,
+      "top_links": [
+        {
+          "url": "https://api.whatsapp.com/send",
+          "total_clicks": 1674,
+          "unique_clicks": 341
+        },
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 1064,
+          "unique_clicks": 1052
+        },
+        {
+          "url": "https://claude.ai/design",
+          "total_clicks": 422,
+          "unique_clicks": 185
+        },
+        {
+          "url": "https://www.anthropic.com/news/claude-for-small-business",
+          "total_clicks": 337,
+          "unique_clicks": 224
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 290,
+          "unique_clicks": 191
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/pare-de-buscar-equilibrio",
+          "total_clicks": 288,
+          "unique_clicks": 184
+        },
+        {
+          "url": "https://www.manualdedonos.com.br/",
+          "total_clicks": 276,
+          "unique_clicks": 170
+        },
+        {
+          "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
+          "total_clicks": 247,
+          "unique_clicks": 123
+        },
+        {
+          "url": "https://www.manualdedonos.com.br/",
+          "total_clicks": 243,
+          "unique_clicks": 138
+        },
+        {
+          "url": "https://www.manualdedonos.com.br/",
+          "total_clicks": 226,
+          "unique_clicks": 122
+        }
+      ]
+    },
+    {
+      "id": "post_5a8f95f4-5c8b-411d-8079-2241c9d8dc0c",
+      "title": "Leia e fique rico!",
+      "date": "2026-05-25T21:18:00+00:00",
+      "date_label": "25/05/2026",
+      "day_of_week": 0,
+      "recipients": 1866719,
+      "delivered": 1831709,
+      "unique_opens": 511352,
+      "total_opens": 0,
+      "unique_clicks": 1582,
+      "total_clicks": 0,
+      "open_rate": 27.9,
+      "click_rate": 0.1,
+      "cto_rate": 0.3,
+      "unsubscribes": 2292,
+      "unsub_rate": 0.13,
+      "spam_reports": 133,
+      "web_views": 781,
+      "web_clicks": 78,
+      "top_links": [
+        {
+          "url": "https://api.whatsapp.com/send",
+          "total_clicks": 1790,
+          "unique_clicks": 391
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 1370,
+          "unique_clicks": 256
+        },
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 837,
+          "unique_clicks": 830
+        },
+        {
+          "url": "https://www.manualdedonos.com.br/",
+          "total_clicks": 823,
+          "unique_clicks": 277
+        },
+        {
+          "url": "https://wa.me/5521997999458",
+          "total_clicks": 382,
+          "unique_clicks": 140
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/leia-e-fique-rico",
+          "total_clicks": 305,
+          "unique_clicks": 203
+        },
+        {
+          "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
+          "total_clicks": 283,
+          "unique_clicks": 159
+        },
+        {
+          "url": "https://www.instagram.com/rony",
+          "total_clicks": 235,
+          "unique_clicks": 99
+        },
+        {
+          "url": "https://wellnessbuildersclub.notion.site/2d2380cf7d068071af02e46d645d39e2",
+          "total_clicks": 220,
+          "unique_clicks": 130
+        },
+        {
+          "url": "https://hp.beehiiv.com/uuid",
+          "total_clicks": 29,
+          "unique_clicks": 28
+        }
+      ]
+    },
+    {
+      "id": "post_7ce65602-aade-42b2-8ee9-3c8d3256b632",
+      "title": "Você está sendo enganado.",
+      "date": "2026-06-01T21:18:00+00:00",
+      "date_label": "01/06/2026",
+      "day_of_week": 0,
+      "recipients": 1860966,
+      "delivered": 1826133,
+      "unique_opens": 526793,
+      "total_opens": 0,
+      "unique_clicks": 2059,
+      "total_clicks": 0,
+      "open_rate": 28.8,
+      "click_rate": 0.1,
+      "cto_rate": 0.4,
+      "unsubscribes": 3107,
+      "unsub_rate": 0.17,
+      "spam_reports": 114,
+      "web_views": 247,
+      "web_clicks": 23,
+      "top_links": [
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 1728,
+          "unique_clicks": 1633
+        },
+        {
+          "url": "https://api.whatsapp.com/send",
+          "total_clicks": 1531,
+          "unique_clicks": 220
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 1445,
+          "unique_clicks": 175
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/voce-esta-sendo-enganado",
+          "total_clicks": 271,
+          "unique_clicks": 179
+        },
+        {
+          "url": "https://lp.manualdedonos.com.br/",
+          "total_clicks": 257,
+          "unique_clicks": 170
+        },
+        {
+          "url": "https://lp.manualdedonos.com.br/",
+          "total_clicks": 245,
+          "unique_clicks": 156
+        },
+        {
+          "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
+          "total_clicks": 243,
+          "unique_clicks": 127
+        },
+        {
+          "url": "https://www.instagram.com/rony",
+          "total_clicks": 235,
+          "unique_clicks": 91
+        },
+        {
+          "url": "https://lp.manualdedonos.com.br/",
+          "total_clicks": 229,
+          "unique_clicks": 138
+        },
+        {
+          "url": "https://wellnessbuildersclub.notion.site/2d2380cf7d068071af02e46d645d39e2",
+          "total_clicks": 210,
+          "unique_clicks": 128
+        }
+      ]
+    },
+    {
+      "id": "post_7e4c3f53-4212-450b-a3cc-59bc8ab89cef",
+      "title": "Quem é você sem o seu cargo?",
+      "date": "2026-06-08T21:18:00+00:00",
+      "date_label": "08/06/2026",
+      "day_of_week": 0,
+      "recipients": 1855473,
+      "delivered": 1819084,
+      "unique_opens": 256239,
+      "total_opens": 0,
+      "unique_clicks": 1066,
+      "total_clicks": 0,
+      "open_rate": 14.1,
+      "click_rate": 0.1,
+      "cto_rate": 0.4,
+      "unsubscribes": 693,
+      "unsub_rate": 0.04,
+      "spam_reports": 35,
+      "web_views": 129,
+      "web_clicks": 1,
+      "top_links": [
+        {
+          "url": "https://api.whatsapp.com/send",
+          "total_clicks": 2401,
+          "unique_clicks": 333
+        },
+        {
+          "url": "https://www.bobpost.com.br/polls/uuid/response",
+          "total_clicks": 1195,
+          "unique_clicks": 267
+        },
+        {
+          "url": "https://www.youtube.com/watch",
+          "total_clicks": 825,
+          "unique_clicks": 218
+        },
+        {
+          "url": "https://www.bobpost.com.br/p/quem-e-voce-sem-o-seu-cargo",
+          "total_clicks": 423,
+          "unique_clicks": 199
+        },
+        {
+          "url": "https://lp.manualdedonos.com.br/",
+          "total_clicks": 407,
+          "unique_clicks": 197
+        },
+        {
+          "url": "https://imersaomdd.pixeleducacao.com.br/",
+          "total_clicks": 387,
+          "unique_clicks": 188
+        },
+        {
+          "url": "https://www.instagram.com/rony",
+          "total_clicks": 386,
+          "unique_clicks": 124
+        },
+        {
+          "url": "https://www.bobpost.com.br/subscribe/uuid/preferences",
+          "total_clicks": 350,
+          "unique_clicks": 341
+        },
+        {
+          "url": "https://fitfeed-newsletter.beehiiv.com/subscribe",
+          "total_clicks": 339,
+          "unique_clicks": 140
+        },
+        {
+          "url": "https://lp.manualdedonos.com.br/",
+          "total_clicks": 304,
+          "unique_clicks": 135
         }
       ]
     }
   ],
   "subscribers": {
     "total": 2000000,
-    "active": 1564666,
-    "inactive": 435334,
-    "active_rate_sample": 78.2,
+    "active": 1574666,
+    "inactive": 425334,
+    "active_rate_sample": 78.7,
     "sample_size": 3000,
     "is_sampled": true,
     "timeline_subs": [
@@ -4795,8 +7730,13 @@
         "cumulative": 1000
       },
       {
-        "month": "2026-03",
-        "new": 2000,
+        "month": "2026-05",
+        "new": 1311,
+        "cumulative": 2311
+      },
+      {
+        "month": "2026-06",
+        "new": 689,
         "cumulative": 3000
       }
     ],
@@ -4844,7 +7784,22 @@
       {
         "month": "2026-03",
         "subscribers_estimate": 2688162,
-        "editions": 5
+        "editions": 8
+      },
+      {
+        "month": "2026-04",
+        "subscribers_estimate": 2569006,
+        "editions": 47
+      },
+      {
+        "month": "2026-05",
+        "subscribers_estimate": 2288570,
+        "editions": 6
+      },
+      {
+        "month": "2026-06",
+        "subscribers_estimate": 1826133,
+        "editions": 2
       }
     ],
     "use_posts_timeline": false
