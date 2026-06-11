@@ -1,0 +1,92 @@
+# 📋 Avaliações da Newsletter — 11/06/2026 21:24
+
+**86 edições avaliadas · 6.075 votos · nota média geral 4.24/5**
+
+| Data | Título | Taxa de Abertura | Aberturas Únicas | Nota Média | Votos |
+|---|---|---|---|---|---|
+| 08/06/2026 | Quem é você sem o seu cargo? | 25.0% | 454.710 | 3.59 | 186 |
+| 01/06/2026 | Você está sendo enganado. | 29.1% | 531.705 | 4.6 | 97 |
+| 25/05/2026 | Leia e fique rico! | 28.0% | 513.432 | 4.62 | 176 |
+| 18/05/2026 | Pare de buscar equilíbrio. | 29.2% | 536.971 | 4.58 | 130 |
+| 11/05/2026 | Eu senti sua falta. | 25.5% | 561.904 | 4.62 | 141 |
+| 07/05/2026 | Eu não abro o ChatGPT. | 25.4% | 563.331 | 3.67 | 6 |
+| 04/05/2026 | Demorei anos pra perceber isso.... | 25.4% | 572.464 | 5.0 | 2 |
+| 01/05/2026 | Faltam menos de 2 horas | 21.8% | 498.946 | 4.86 | 7 |
+| 30/04/2026 | Aula de Vendas do Rony: 4 mecanismos para crescer | 21.0% | 480.826 | 3.0 | 2 |
+| 29/04/2026 | Eu só queria saber se... | 22.4% | 519.414 | 4.5 | 2 |
+| 29/04/2026 | Você tem só até amanhã | 20.9% | 484.075 | 4.25 | 4 |
+| 29/04/2026 | Um manual de negócios pra você. De graça. | 26.3% | 609.025 | 4.8 | 5 |
+| 29/04/2026 | Erro de Pagamento | 23.4% | 540.331 | 5.0 | 2 |
+| 28/04/2026 | Depois. Depois. Depois. | 20.6% | 3.664 | 4.64 | 14 |
+| 28/04/2026 | Depois. Depois. Depois. | 21.2% | 482.266 | 4.15 | 13 |
+| 27/04/2026 | O preço vai subir. | 21.5% | 490.157 | 5.0 | 1 |
+| 27/04/2026 | Ninguém te ensinou isso... | 24.3% | 568.465 | 4.3 | 53 |
+| 26/04/2026 | Toda segunda o mesmo filme... | 23.7% | 558.568 | 1.0 | 1 |
+| 25/04/2026 | Você vai ser substituído. | 23.6% | 553.532 | 1.0 | 1 |
+| 25/04/2026 | Fecha o seu Instagram. | 24.1% | 570.146 | 1.0 | 1 |
+| 24/04/2026 | Cabe no bolso? | 22.9% | 543.870 | 4.5 | 2 |
+| 24/04/2026 | Posso contar um segredo? | 23.5% | 559.188 | 5.0 | 1 |
+| 23/04/2026 | Você caiu nessa? | 23.5% | 562.624 | 4.5 | 2 |
+| 23/04/2026 | Toc, toc... | 31.3% | 749.471 | 3.67 | 3 |
+| 22/04/2026 | Esse email não é pra você. | 26.4% | 636.803 | 3.89 | 9 |
+| 22/04/2026 | Sério isso? | 24.3% | 585.005 | 5.0 | 3 |
+| 21/04/2026 | Preciso te falar uma coisa. | 27.9% | 677.332 | 3.83 | 24 |
+| 20/04/2026 | 4000KG | 24.2% | 591.668 | 5.0 | 1 |
+| 20/04/2026 | Você disse sim e não percebeu. | 28.2% | 688.376 | 3.93 | 81 |
+| 19/04/2026 | Não seja um ._._._._._._._._._. | 24.0% | 588.918 | 5.0 | 1 |
+| 18/04/2026 | Levanta do sofá. | 24.7% | 606.678 | 3.0 | 2 |
+| 17/04/2026 | Mais barato que um cafézinho... | 24.3% | 601.242 | 5.0 | 4 |
+| 16/04/2026 | Vou dar mais uma aula hoje. | 23.6% | 587.577 | 5.0 | 2 |
+| 15/04/2026 | Centenas de donos em 12 horas. | 24.8% | 609.785 | 5.0 | 2 |
+| 14/04/2026 | É HOJE! | 24.5% | 612.598 | 3.67 | 3 |
+| 13/04/2026 | Amanhã. | 24.6% | 616.535 | 4.25 | 4 |
+| 10/04/2026 | 20h. 20 anos. 20 segundos. | 24.7% | 621.309 | 4.67 | 15 |
+| 08/04/2026 | Você toparia?... Eu duvido. | 23.4% | 596.603 | 4.33 | 15 |
+| 07/04/2026 | 1404 | 29.0% | 744.937 | 4.5 | 26 |
+| 07/04/2026 | [ERRO] 1404 | 26.4% | 675.517 | 4.0 | 12 |
+| 06/04/2026 | Isso aqui vai irritar muita gente | 42.8% | 778.122 | 1.0 | 2 |
+| 06/04/2026 | Isso aqui vai irritar muita gente. | 8.4% | 64.090 | 4.2 | 132 |
+| 02/04/2026 | O e-mail mais direto que já escrevi. | 29.1% | 383.653 | 4.7 | 23 |
+| 01/04/2026 | O e-mail mais direto que já escrevi. | 24.8% | 316.085 | 3.0 | 2 |
+| 30/03/2026 | Cuidado com o sucesso. | 31.8% | 829.281 | 4.19 | 168 |
+| 25/03/2026 | Ninguém te contou isso. | 31.1% | 815.225 | 4.43 | 404 |
+| 23/03/2026 | Você está escolhendo o caminho errado. | 34.0% | 898.904 | 4.22 | 181 |
+| 18/03/2026 | É por isso que sua cabeça tá cheia. | 25.1% | 666.907 | 4.13 | 208 |
+| 16/03/2026 | Eu cansei de ver isso | 33.6% | 902.625 | 4.52 | 314 |
+| 09/03/2026 | Eu não aguento mais. | 36.5% | 850.199 | 4.16 | 325 |
+| 03/03/2026 | Por favor, Mantenha Segredo. | 94.0% | 85.025 | 4.42 | 36 |
+| 02/03/2026 | Você está ficando mais burro. | 35.3% | 760.443 | 3.98 | 99 |
+| 23/02/2026 | O Brasil viu e não entendeu o recado. | 36.0% | 659.962 | 4.38 | 162 |
+| 16/02/2026 | Você ignora o mais importante. | 29.8% | 548.624 | 4.25 | 255 |
+| 09/02/2026 | Você tá tomando decisões rápido demais.  | 23.0% | 426.520 | 4.21 | 123 |
+| 05/02/2026 | Eu preciso da sua ajuda. | 22.2% | 328.236 | 4.82 | 11 |
+| 02/02/2026 | Você tá com medo de fazer errado? | 35.4% | 559.295 | 3.67 | 79 |
+| 30/01/2026 | Preciso de 4 minutos seus (não é newsletter, é um pedido.) | 73.0% | 54.617 | 4.89 | 18 |
+| 26/01/2026 | Vai doer, mas você precisa ouvir. | 37.3% | 520.886 | 4.33 | 310 |
+| 19/01/2026 | 4 regras do MIT pra você usar IA sem virar um robô. | 34.5% | 391.579 | 4.62 | 170 |
+| 12/01/2026 | Feliz Vida Nova! | 30.0% | 344.635 | 4.5 | 128 |
+| 05/01/2026 | Vi dezenas de carreiras brilhantes terminarem assim. | 36.4% | 302.945 | 3.84 | 361 |
+| 29/12/2025 | Sou bom no que odeio. E agora? | 35.6% | 303.486 | 3.76 | 267 |
+| 22/12/2025 | Minha lista de livros lidos em 2025! | 35.0% | 300.151 | 3.31 | 281 |
+| 15/12/2025 | COMO PLANEJO OS OBJETIVOS DO ANO (2026) ! | 27.0% | 234.229 | 4.31 | 110 |
+| 08/12/2025 | Eu prefiro ser feliz do que tentar ser f@d@! | 37.0% | 164.482 | 4.31 | 115 |
+| 01/12/2025 | [22] Pra quem quer ter “Atitude de Dono”! | 39.4% | 103.657 | 4.73 | 55 |
+| 24/11/2025 | [21] Num mundo de incerteza, não existe “certeza”. | 40.8% | 108.212 | 4.32 | 71 |
+| 10/11/2025 | O Fundador e (ou) Executivo | 44.6% | 121.864 | 4.46 | 71 |
+| 03/11/2025 | Descobri o único diferencial que a IA não toca. | 40.0% | 34.702 | 4.65 | 17 |
+| 27/10/2025 | Ninguém fala sobre isso. | 43.0% | 37.358 | 4.62 | 37 |
+| 20/10/2025 | Cuidado: trabalhar demais empobrece | 44.3% | 38.579 | 4.94 | 31 |
+| 13/10/2025 | 35 lições, nenhum clichê. | 43.9% | 38.472 | 4.66 | 41 |
+| 06/10/2025 | Ninguém vai lembrar de você. | 44.2% | 39.043 | 4.73 | 30 |
+| 29/09/2025 | O maior erro é não se mover. | 40.9% | 36.270 | 4.68 | 25 |
+| 22/09/2025 | E se o maior risco for não decidir? | 40.8% | 36.358 | 4.65 | 52 |
+| 15/09/2025 | Quando não saber é poder.  | 43.5% | 39.070 | 4.8 | 45 |
+| 08/09/2025 | Dúvida que a sua ignorância é a sua maior força? | 45.2% | 41.078 | 4.71 | 31 |
+| 01/09/2025 | E-mail do Rony vs 30 que você não vai abrir. | 42.0% | 38.528 | 4.75 | 63 |
+| 29/08/2025 | Você foi selecionado. | 42.6% | 21.838 | 4.68 | 47 |
+| 25/08/2025 | O que ninguém te contou (ainda). | 43.5% | 21.085 | 4.44 | 34 |
+| 18/08/2025 | 7 hábitos que te f&@em !!! | 34.6% | 16.940 | 4.05 | 21 |
+| 14/08/2025 | Você foi selecionado. | 48.2% | 20.634 | 4.54 | 37 |
+| 04/08/2025 | Hoje é seu dia de sorte. | 39.3% | 3.579 | 5.0 | 12 |
+| 28/07/2025 | Esse e-mail não vai se repetir. | 35.4% | 3.254 | 4.8 | 5 |
+| 21/07/2025 | Você foi selecionado. | 44.1% | 4.092 | 4.5 | 10 |

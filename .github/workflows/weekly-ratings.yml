@@ -1,0 +1,72 @@
+name: Relatório Semanal de Avaliações
+
+on:
+  schedule:
+    # Domingo 22h BRT (UTC-3) = Segunda-feira 01h UTC
+    - cron: '0 1 * * 1'
+  workflow_dispatch:  # permite rodar manualmente
+
+jobs:
+  ratings:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
+      WHATSAPP_PHONE_ID: ${{ secrets.WHATSAPP_PHONE_ID }}
+      WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gerar relatório de avaliações
+        env:
+          BEEHIIV_API_KEY: ${{ secrets.BEEHIIV_API_KEY }}
+          BEEHIIV_PUB_ID: ${{ secrets.BEEHIIV_PUB_ID }}
+        run: python ratings_report.py
+
+      - name: Commit do relatório
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add ratings_report.md ratings_report.csv ratings_report.html
+          git diff --cached --quiet || git commit -m "Relatório semanal de avaliações - $(date '+%d/%m/%Y')"
+          git push
+
+      - name: Notificar no Telegram
+        if: ${{ env.TELEGRAM_BOT_TOKEN != '' }}
+        run: |
+          REPORT_URL="https://${{ github.repository_owner }}.github.io/newsletter-dashboard/ratings_report.html"
+          # Pega as linhas de resumo do markdown (cabeçalho + 6 edições mais recentes)
+          SUMMARY=$(sed -n '3p' ratings_report.md)
+          MSG="⭐ *Avaliações da Newsletter*%0A📅 Relatório semanal - $(date '+%d/%m/%Y')%0A%0A${SUMMARY}%0A%0A🔗 [Ver tabela completa](${REPORT_URL})"
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            -d "text=${MSG}" \
+            -d "parse_mode=Markdown" > /dev/null
+
+      - name: Enviar arquivo CSV no Telegram
+        if: ${{ env.TELEGRAM_BOT_TOKEN != '' }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument" \
+            -F "chat_id=${TELEGRAM_CHAT_ID}" \
+            -F "document=@ratings_report.csv" \
+            -F "caption=📊 Avaliações por edição (CSV)" > /dev/null
+
+      - name: Notificar no WhatsApp
+        if: ${{ env.WHATSAPP_TOKEN != '' }}
+        run: |
+          REPORT_URL="https://${{ github.repository_owner }}.github.io/newsletter-dashboard/ratings_report.html"
+          SUMMARY=$(sed -n '3p' ratings_report.md | tr -d '*')
+          WA_MSG="⭐ Avaliações da Newsletter\n📅 Relatório semanal - $(date '+%d/%m/%Y')\n\n${SUMMARY}\n\n🔗 Ver tabela completa: ${REPORT_URL}"
+          curl -s -X POST "https://graph.facebook.com/v21.0/${WHATSAPP_PHONE_ID}/messages" \
+            -H "Authorization: Bearer ${WHATSAPP_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d "{\"messaging_product\":\"whatsapp\",\"to\":\"${WHATSAPP_TO}\",\"type\":\"text\",\"text\":{\"body\":\"${WA_MSG}\"}}"
