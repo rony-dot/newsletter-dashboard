@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rony Meisler — Rebeldes têm asas</title>
+
+<!-- ===========================================================
+     FONTS (Fontshare) — distinctive editorial pairing
+     Zodiak  : high-contrast display serif (headlines)
+     General Sans : clean grotesque (body / UI / labels)
+     =========================================================== -->
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=zodiak@300,400,401,700,701,800,801&f[]=general-sans@400,500,600,700&display=swap" />
+
+<style>
+/* ===========================================================
+   THEME TOKENS — change these to retheme the whole site
+   Aesthetic: "Editorial Rebelde" — deep ink, warm bone,
+   amber/ember accents, cinematic grain.
+   =========================================================== */
+:root{
+  --ink:        #0a0a0c;   /* near-black background        */
+  --ink-2:      #141318;   /* raised panels                */
+  --bone:       #ece6da;   /* warm white text              */
+  --bone-dim:   #8e877b;   /* secondary text               */
+  --bone-faint: #4a463f;   /* hairlines / faint type       */
+  --amber:      #e9a23b;   /* primary accent               */
+  --amber-2:    #f4c56b;   /* bright accent                */
+  --ember:      #c2410c;   /* deep rust (rare accent)      */
+
+  --stage-bg:  var(--ink);
+  --slide-bg:  var(--ink);
+
+  --font-display: 'Zodiak', Georgia, serif;
+  --font-body:    'General Sans', system-ui, sans-serif;
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-soft: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --pad: 132px; /* default slide padding at 1920×1080 stage */
+}
+
+*{ margin:0; padding:0; box-sizing:border-box; }
+
+/* ===========================================================
+   FIXED 16:9 STAGE — viewport-base.css (included IN FULL,
+   mandatory per skill). Slides authored at 1920×1080 and
+   scaled as a whole.
+   =========================================================== */
+html,body{ width:100%; height:100%; margin:0; overflow:hidden; background:var(--stage-bg,#000); }
+.deck-viewport{ position:fixed; inset:0; overflow:hidden; background:var(--stage-bg,#000); }
+.deck-stage{ position:absolute; left:0; top:0; width:1920px; height:1080px; overflow:hidden; transform-origin:0 0; background:var(--slide-bg,#fff); }
+.slide{ position:absolute; inset:0; width:1920px; height:1080px; overflow:hidden; display:block; visibility:hidden; opacity:0; pointer-events:none; background:var(--slide-bg,#fff); }
+.slide.active,.slide.visible{ visibility:visible; opacity:1; pointer-events:auto; z-index:1; }
+img,video,canvas,svg{ max-width:100%; max-height:100%; }
+.deck-controls{ position:fixed; left:50%; bottom:22px; transform:translateX(-50%); z-index:1000; }
+@media print{
+  html,body{ width:1920px; height:auto; overflow:visible; background:#fff; }
+  .deck-viewport{ position:static; overflow:visible; background:#fff; }
+  .deck-stage{ position:static; width:auto; height:auto; transform:none !important; background:none; }
+  .slide{ position:relative; display:block !important; visibility:visible !important; opacity:1 !important; pointer-events:auto !important; width:1920px; height:1080px; break-after:page; page-break-after:always; }
+  .slide:last-child{ break-after:auto; page-break-after:auto; }
+  .deck-controls{ display:none !important; }
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{ animation-duration:.01ms !important; transition-duration:.2s !important; }
+}
+
+/* ===========================================================
+   BASE TYPOGRAPHY
+   =========================================================== */
+.slide{
+  color:var(--bone);
+  font-family:var(--font-body);
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+.slide{ padding:var(--pad); }
+
+/* Editorial kicker / labels */
+.kicker{
+  font-family:var(--font-body);
+  font-weight:600;
+  font-size:20px;
+  letter-spacing:.42em;
+  text-transform:uppercase;
+  color:var(--amber);
+}
+.kicker.dim{ color:var(--bone-dim); }
+.idx{
+  font-family:var(--font-body);
+  font-weight:600;
+  font-size:19px;
+  letter-spacing:.3em;
+  color:var(--bone-dim);
+}
+
+h1,h2,h3{ font-family:var(--font-display); font-weight:800; line-height:.94; letter-spacing:-.02em; }
+.serif-italic{ font-style:italic; font-weight:401; color:var(--amber-2); }
+
+/* ===========================================================
+   ATMOSPHERE — grain, vignette, amber bloom, faint grid.
+   These layers live INSIDE the stage so they scale with it.
+   =========================================================== */
+.atmos{ position:absolute; inset:0; pointer-events:none; z-index:0; }
+/* faint structural grid */
+.atmos .grid{
+  position:absolute; inset:0; opacity:.5;
+  background-image:
+    linear-gradient(rgba(236,230,218,.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(236,230,218,.022) 1px, transparent 1px);
+  background-size:120px 120px;
+  mask-image:radial-gradient(ellipse at 50% 50%, #000 35%, transparent 85%);
+}
+/* warm amber bloom, lower-left */
+.atmos .bloom{
+  position:absolute; width:1300px; height:1300px; left:-360px; bottom:-540px;
+  background:radial-gradient(circle at 50% 50%, rgba(233,162,59,.20), rgba(194,65,12,.07) 38%, transparent 66%);
+  filter:blur(8px);
+}
+/* cool counter-glow, upper-right for depth */
+.atmos .bloom2{
+  position:absolute; width:900px; height:900px; right:-280px; top:-360px;
+  background:radial-gradient(circle at 50% 50%, rgba(120,140,180,.10), transparent 62%);
+}
+/* cinematic vignette */
+.atmos .vignette{
+  position:absolute; inset:0;
+  background:radial-gradient(ellipse at 50% 42%, transparent 52%, rgba(0,0,0,.55) 100%);
+}
+/* film grain (SVG noise, base64-free inline) */
+.atmos .grain{
+  position:absolute; inset:-50%;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/></svg>");
+  opacity:.05; mix-blend-mode:overlay;
+  animation:grain 7s steps(6) infinite;
+}
+@keyframes grain{
+  0%{transform:translate(0,0)} 16%{transform:translate(-4%,2%)} 33%{transform:translate(3%,-3%)}
+  50%{transform:translate(-2%,4%)} 66%{transform:translate(4%,1%)} 83%{transform:translate(-3%,-2%)} 100%{transform:translate(0,0)}
+}
+/* a paper-toned slide variant (used for the book / press beats) */
+.slide.paper{ --slide-bg:var(--bone); background:var(--bone); color:var(--ink); }
+.slide.paper .kicker{ color:var(--ember); }
+.slide.paper .idx{ color:#8c8475; }
+.slide.paper .atmos .grain{ mix-blend-mode:multiply; opacity:.06; }
+.slide.paper .atmos .vignette{ background:radial-gradient(ellipse at 50% 42%, transparent 55%, rgba(120,100,70,.18) 100%); }
+.slide.paper .atmos .bloom{ background:radial-gradient(circle at 50% 50%, rgba(233,162,59,.28), transparent 62%); }
+.slide.paper .atmos .grid{ background-image:
+    linear-gradient(rgba(20,15,10,.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(20,15,10,.04) 1px, transparent 1px); }
+
+/* slide content sits above atmosphere */
+.layer{ position:relative; z-index:2; width:100%; height:100%; }
+
+/* ===========================================================
+   KINETIC REVEALS
+   .reveal      : fade + rise (staggered by --d)
+   .line        : masked line that slides up from below
+   Triggered by .slide.visible
+   =========================================================== */
+.reveal{
+  opacity:0; transform:translateY(34px);
+  transition:opacity .9s var(--ease), transform .9s var(--ease);
+  transition-delay:var(--d, 0s);
+}
+.slide.visible .reveal{ opacity:1; transform:translateY(0); }
+
+.line{ display:block; overflow:hidden; padding-bottom:.12em; margin-bottom:-.12em; }
+.line > span{ display:block; transform:translateY(115%); transition:transform 1.05s var(--ease); transition-delay:var(--d,0s); }
+.slide.visible .line > span{ transform:translateY(0); }
+
+.draw{ transform-origin:left; transform:scaleX(0); transition:transform 1.1s var(--ease) var(--d,0s); }
+.slide.visible .draw{ transform:scaleX(1); }
+
+/* ===========================================================
+   CHROME — fixed UI outside the slide design system
+   =========================================================== */
+.chrome{ position:fixed; z-index:1000; font-family:var(--font-body); color:var(--bone-dim); pointer-events:none; }
+.chrome.tl{ top:42px; left:48px; }
+.chrome.tr{ top:42px; right:48px; text-align:right; }
+.chrome.bl{ bottom:40px; left:48px; }
+.chrome .wordmark{ font-family:var(--font-display); font-weight:800; font-size:20px; letter-spacing:.02em; color:var(--bone); }
+.chrome .wordmark b{ color:var(--amber); }
+.chrome .meta{ font-size:13px; letter-spacing:.34em; text-transform:uppercase; }
+
+/* slide counter */
+.counter{ position:fixed; right:48px; bottom:38px; z-index:1000; font-family:var(--font-display); color:var(--bone); pointer-events:none; }
+.counter .cur{ font-size:30px; font-weight:800; }
+.counter .tot{ font-size:18px; color:var(--bone-dim); }
+
+/* progress rail */
+.progress{ position:fixed; left:0; bottom:0; height:3px; width:100%; z-index:1000; background:rgba(236,230,218,.08); }
+.progress .bar{ height:100%; width:0; background:linear-gradient(90deg, var(--ember), var(--amber), var(--amber-2)); transition:width .6s var(--ease); }
+
+/* nav hint */
+.hint{ position:fixed; left:50%; bottom:34px; transform:translateX(-50%); z-index:1000; font-family:var(--font-body); font-size:12.5px; letter-spacing:.34em; text-transform:uppercase; color:var(--bone-dim); pointer-events:none; transition:opacity .5s; }
+.hint .dot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--amber); margin:0 12px 2px; animation:pulse 2.4s var(--ease-soft) infinite; }
+@keyframes pulse{ 0%,100%{opacity:.3; transform:scale(.8)} 50%{opacity:1; transform:scale(1)} }
+
+/* amber spotlight following the cursor */
+.spotlight{ position:fixed; width:520px; height:520px; border-radius:50%; pointer-events:none; z-index:900;
+  background:radial-gradient(circle at 50% 50%, rgba(233,162,59,.10), transparent 64%);
+  transform:translate(-50%,-50%); transition:opacity .6s; mix-blend-mode:screen; opacity:0; }
+
+/* chrome adapts to light (paper) slides so it stays legible on cream */
+body.on-paper .chrome .wordmark{ color:#1a1712; }
+body.on-paper .chrome .wordmark b{ color:var(--ember); }
+body.on-paper .chrome .meta{ color:#8c8475; }
+body.on-paper .counter .cur{ color:#1a1712; }
+body.on-paper .counter .tot{ color:#8c8475; }
+body.on-paper .progress{ background:rgba(20,15,10,.12); }
+
+/* responsive chrome — outside the slide stage only (slide content never reflows).
+   On narrow/letterboxed viewports, trim chrome so it can't collide in the bars. */
+@media (max-width:880px){
+  .chrome.tr{ display:none; }
+  .hint{ display:none; }
+  .chrome.tl{ top:18px; left:20px; }
+  .chrome .wordmark{ font-size:15px; }
+  .counter{ right:18px; bottom:14px; }
+  .counter .cur{ font-size:20px; }
+  .counter .tot{ font-size:13px; }
+}
+
+/* edit affordance */
+.edit-hotzone{ position:fixed; top:0; left:0; width:80px; height:80px; z-index:10000; cursor:pointer; }
+.edit-toggle{ position:fixed; top:30px; left:30px; z-index:10001; width:46px; height:46px; border-radius:50%;
+  border:1px solid var(--bone-faint); background:var(--ink-2); color:var(--bone); font-size:18px; cursor:pointer;
+  opacity:0; pointer-events:none; transition:opacity .3s; }
+.edit-toggle.show,.edit-toggle.active{ opacity:1; pointer-events:auto; }
+.edit-toggle.active{ border-color:var(--amber); color:var(--amber); }
+.editing [contenteditable]{ outline:1px dashed rgba(233,162,59,.5); outline-offset:6px; cursor:text; border-radius:3px; }
+.edit-flash{ position:fixed; bottom:90px; left:50%; transform:translateX(-50%); z-index:10002;
+  background:var(--amber); color:var(--ink); font-family:var(--font-body); font-weight:600; font-size:14px;
+  letter-spacing:.04em; padding:10px 22px; border-radius:999px; opacity:0; transition:opacity .3s; pointer-events:none; }
+.edit-flash.show{ opacity:1; }
+
+/* =====================================================================
+   ============== PER-SLIDE LAYOUTS (authored at 1920×1080) ============
+   ===================================================================== */
+
+/* ---- S1 · TITLE ------------------------------------------------ */
+.s-title .layer{ display:flex; flex-direction:column; justify-content:center; }
+.s-title .eyebrow{ font-size:19px; letter-spacing:.34em; text-transform:uppercase; color:var(--bone-dim); margin-bottom:46px; }
+.s-title .eyebrow b{ color:var(--amber); font-weight:600; }
+.s-title h1{ font-size:310px; line-height:.84; letter-spacing:-.035em; }
+.s-title h1 .two{ color:var(--bone); }
+.s-title h1 .one{ position:relative; }
+.s-title .tag{ margin-top:54px; font-family:var(--font-display); font-size:54px; font-weight:300; font-style:italic; color:var(--bone); }
+.s-title .tag b{ color:var(--amber-2); font-weight:401; }
+.s-title .rule{ height:2px; width:280px; background:linear-gradient(90deg,var(--amber),transparent); margin-top:60px; }
+
+/* ---- S2 · MANIFESTO -------------------------------------------- */
+.s-manifesto .layer{ display:flex; flex-direction:column; justify-content:center; align-items:flex-start; }
+.s-manifesto .big{ font-size:208px; line-height:.9; letter-spacing:-.03em; }
+.s-manifesto .big em{ font-style:italic; font-weight:401; color:var(--amber); }
+.s-manifesto .sub{ margin-top:54px; max-width:1180px; font-size:33px; line-height:1.5; color:var(--bone-dim); font-weight:400; }
+.s-manifesto .sub b{ color:var(--bone); font-weight:500; }
+
+/* ---- generic split header (number + heading on right) ---------- */
+.split{ display:grid; grid-template-columns:300px 1fr; gap:90px; height:100%; align-content:center; }
+.split .left .idx{ display:block; }
+.split .left .tick{ margin-top:22px; height:2px; width:120px; background:var(--amber); }
+
+/* ---- S3 · BIO -------------------------------------------------- */
+.s-bio .head{ font-size:128px; line-height:1; margin-bottom:48px; }
+.s-bio .body{ max-width:1180px; font-size:38px; line-height:1.5; color:var(--bone); font-weight:400; }
+.s-bio .body b{ color:var(--amber-2); font-weight:500; }
+.s-bio .body .muted{ color:var(--bone-dim); }
+
+/* ---- S4 · STATS ------------------------------------------------ */
+.s-stats .layer{ display:flex; flex-direction:column; justify-content:center; }
+.s-stats .cap{ margin-bottom:70px; }
+.s-stats .grid4{ display:grid; grid-template-columns:repeat(4,1fr); gap:0; }
+.s-stats .stat{ padding:0 44px; border-left:1px solid var(--bone-faint); }
+.s-stats .stat:first-child{ padding-left:0; border-left:none; }
+.s-stats .num{ font-family:var(--font-display); font-weight:800; font-size:130px; line-height:1; letter-spacing:-.04em; color:var(--bone); }
+.s-stats .num .u{ color:var(--amber); }
+.s-stats .lbl{ margin-top:26px; font-size:21px; line-height:1.35; color:var(--bone-dim); letter-spacing:.01em; max-width:280px; }
+
+/* ---- S5 · SECTION DIVIDER (Jornada) ---------------------------- */
+.s-divider .layer{ display:flex; flex-direction:column; justify-content:center; }
+.s-divider .over{ margin-bottom:30px; }
+.s-divider h2{ font-size:260px; line-height:.86; letter-spacing:-.03em; }
+.s-divider h2 em{ font-style:italic; font-weight:401; color:var(--amber); }
+.s-divider .range{ margin-top:46px; font-size:30px; letter-spacing:.18em; text-transform:uppercase; color:var(--bone-dim); }
+.s-divider .range b{ color:var(--bone); }
+
+/* ---- S6 · TIMELINE --------------------------------------------- */
+.s-time .head{ font-size:96px; margin-bottom:18px; }
+.s-time .sub{ font-size:22px; letter-spacing:.16em; text-transform:uppercase; color:var(--bone-dim); margin-bottom:78px; }
+.s-time .rail{ position:relative; display:grid; grid-template-columns:repeat(6,1fr); gap:28px; }
+.s-time .rail::before{ content:""; position:absolute; left:0; right:0; top:13px; height:2px;
+  background:linear-gradient(90deg, var(--ember), var(--amber) 55%, var(--bone-faint)); transform-origin:left; }
+.s-time .node{ position:relative; padding-top:54px; }
+.s-time .node::before{ content:""; position:absolute; top:5px; left:0; width:18px; height:18px; border-radius:50%;
+  background:var(--ink); border:2px solid var(--amber); }
+.s-time .node.peak::before{ background:var(--amber); box-shadow:0 0 0 6px rgba(233,162,59,.16); }
+.s-time .yr{ font-family:var(--font-display); font-weight:800; font-size:34px; color:var(--amber-2); margin-bottom:14px; }
+.s-time .ev{ font-size:21px; line-height:1.4; color:var(--bone); font-weight:500; }
+.s-time .ev span{ display:block; color:var(--bone-dim); font-weight:400; font-size:18px; margin-top:6px; }
+
+/* ---- S7 · RECOGNITION ------------------------------------------ */
+.s-rec .layer{ display:flex; flex-direction:column; justify-content:center; }
+.s-rec .cap{ margin-bottom:64px; }
+.s-rec .row{ display:flex; align-items:baseline; gap:34px; padding:38px 0; border-top:1px solid var(--bone-faint); }
+.s-rec .row:last-child{ border-bottom:1px solid var(--bone-faint); }
+.s-rec .src{ font-family:var(--font-display); font-weight:800; font-size:78px; color:var(--bone); min-width:430px; }
+.s-rec .src em{ font-style:italic; font-weight:401; color:var(--amber); }
+.s-rec .desc{ font-size:30px; color:var(--bone-dim); }
+
+/* ---- S8 · PALESTRAS (marquee) ---------------------------------- */
+.s-talks .layer{ display:flex; flex-direction:column; justify-content:center; }
+.s-talks .cap{ margin-bottom:30px; }
+.s-talks h2{ font-size:172px; line-height:.92; }
+.s-talks h2 em{ font-style:italic; font-weight:401; color:var(--amber); }
+.s-talks .marquee{ margin-top:64px; overflow:hidden; -webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent); mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent); }
+.s-talks .track{ display:inline-flex; white-space:nowrap; gap:54px; animation:scroll 26s linear infinite; }
+.s-talks .track span{ font-family:var(--font-display); font-weight:700; font-size:52px; color:var(--bone); }
+.s-talks .track span::before{ content:"✦"; color:var(--amber); margin-right:54px; font-size:30px; vertical-align:middle; }
+@keyframes scroll{ to{ transform:translateX(-50%); } }
+.s-talks .cta{ margin-top:70px; }
+
+/* ---- S9 · TESTIMONIAL ------------------------------------------ */
+.s-quote .layer{ display:flex; flex-direction:column; justify-content:center; }
+.s-quote .mark{ font-family:var(--font-display); font-weight:800; font-size:240px; line-height:.5; color:var(--amber); height:120px; }
+.s-quote blockquote{ font-family:var(--font-display); font-weight:300; font-size:88px; line-height:1.16; letter-spacing:-.015em; color:var(--bone); max-width:1480px; }
+.s-quote blockquote em{ font-style:italic; font-weight:401; color:var(--amber-2); }
+.s-quote .by{ margin-top:54px; font-size:25px; letter-spacing:.04em; color:var(--bone); }
+.s-quote .by b{ color:var(--amber); }
+.s-quote .also{ margin-top:46px; font-size:18px; letter-spacing:.26em; text-transform:uppercase; color:var(--bone-dim); }
+.s-quote .also b{ color:var(--bone); font-weight:600; }
+
+/* ---- S10 · MENTORIAS ------------------------------------------- */
+.s-ment .head{ font-size:120px; margin-bottom:30px; }
+.s-ment .lead{ max-width:1000px; font-size:30px; line-height:1.5; color:var(--bone-dim); margin-bottom:64px; }
+.s-ment .lead b{ color:var(--amber-2); }
+.s-ment .grid2{ display:grid; grid-template-columns:1fr 1fr; gap:20px 60px; }
+.s-ment .area{ display:flex; gap:26px; align-items:baseline; padding:26px 0; border-top:1px solid var(--bone-faint); }
+.s-ment .area .no{ font-family:var(--font-display); font-weight:800; font-size:34px; color:var(--amber); min-width:64px; }
+.s-ment .area .t{ font-size:27px; line-height:1.35; color:var(--bone); font-weight:500; }
+
+/* ---- S11 · REBELS VENTURES ------------------------------------- */
+.s-vent .layer{ display:flex; flex-direction:column; justify-content:center; }
+.s-vent .tm{ margin-bottom:40px; }
+.s-vent h2{ font-size:158px; line-height:.94; letter-spacing:-.03em; }
+.s-vent h2 .no{ color:var(--bone-dim); }
+.s-vent h2 .yes{ color:var(--bone); }
+.s-vent h2 em{ font-style:italic; font-weight:401; color:var(--amber); }
+.s-vent .sub{ margin-top:54px; max-width:1180px; font-size:31px; line-height:1.5; color:var(--bone-dim); }
+.s-vent .sub b{ color:var(--bone); font-weight:500; }
+
+/* ---- S12 · BOOK (paper) ---------------------------------------- */
+.s-book .layer{ display:grid; grid-template-columns:1.25fr .9fr; gap:90px; align-items:center; height:100%; }
+.s-book .cap{ color:var(--ember); margin-bottom:34px; }
+.s-book h2{ font-size:150px; line-height:.92; color:var(--ink); }
+.s-book h2 em{ font-style:italic; font-weight:401; color:var(--ember); }
+.s-book .desc{ margin-top:40px; font-size:33px; line-height:1.45; color:#3a352c; max-width:760px; }
+.s-book .desc b{ color:var(--ink); }
+.s-book .meta{ margin-top:40px; font-size:20px; letter-spacing:.2em; text-transform:uppercase; color:#8a8273; }
+.s-book .cta-dark{ margin-top:46px; }
+/* book object */
+.s-book .cover{ position:relative; width:440px; height:620px; margin:0 auto; transform:rotate(-3deg);
+  background:linear-gradient(160deg,#16140f,#26201a); border-radius:6px;
+  box-shadow:-24px 30px 70px rgba(60,40,10,.45), inset 0 0 0 1px rgba(233,162,59,.25);
+  display:flex; flex-direction:column; justify-content:space-between; padding:52px 44px; }
+.s-book .cover::before{ content:""; position:absolute; left:18px; top:0; bottom:0; width:2px; background:rgba(0,0,0,.4); }
+.s-book .cover .ct{ font-family:var(--font-display); font-weight:800; font-size:62px; line-height:.96; color:var(--bone); }
+.s-book .cover .ct em{ font-style:italic; font-weight:401; color:var(--amber); }
+.s-book .cover .ca{ font-size:17px; letter-spacing:.3em; text-transform:uppercase; color:var(--bone-dim); }
+.s-book .cover .wing{ font-size:40px; color:var(--amber); }
+
+/* ---- S13 · PRESS (paper) --------------------------------------- */
+.s-press .layer{ display:flex; flex-direction:column; justify-content:center; }
+.s-press .cap{ color:var(--ember); margin-bottom:54px; }
+.s-press .logos{ display:grid; grid-template-columns:repeat(2,1fr); gap:0; max-width:1400px; }
+.s-press .pl{ padding:44px 30px; border-top:1px solid rgba(20,15,10,.16); display:flex; align-items:baseline; justify-content:space-between; }
+.s-press .pl:nth-child(odd){ border-right:1px solid rgba(20,15,10,.16); padding-left:0; }
+.s-press .pl:nth-child(even){ padding-left:50px; }
+.s-press .name{ font-family:var(--font-display); font-weight:800; font-size:62px; color:var(--ink); }
+.s-press .name em{ font-style:italic; font-weight:401; color:var(--ember); }
+.s-press .yr{ font-size:19px; letter-spacing:.2em; color:#8a8273; }
+.s-press .tagline{ margin-top:64px; font-family:var(--font-display); font-style:italic; font-weight:300; font-size:44px; color:#3a352c; }
+.s-press .tagline b{ color:var(--ember); font-style:normal; font-weight:700; }
+
+/* ---- S14 · CONTACT (closing) ----------------------------------- */
+.s-contact .layer{ display:flex; flex-direction:column; justify-content:center; }
+.s-contact .over{ margin-bottom:34px; }
+.s-contact h2{ font-size:300px; line-height:.84; letter-spacing:-.035em; }
+.s-contact h2 em{ font-style:italic; font-weight:401; color:var(--amber); }
+.s-contact .lines{ margin-top:70px; display:flex; gap:70px; flex-wrap:wrap; align-items:center; }
+.s-contact .lines a, .s-contact .lines span{ font-size:30px; color:var(--bone); text-decoration:none; letter-spacing:.01em; }
+.s-contact .lines .em{ color:var(--amber); }
+.s-contact .lines .sep{ color:var(--bone-faint); }
+.s-contact .sign{ margin-top:96px; font-family:var(--font-display); font-style:italic; font-weight:300; font-size:40px; color:var(--bone-dim); }
+.s-contact .sign b{ color:var(--amber-2); font-style:normal; font-weight:401; }
+
+/* ---- shared CTA pill ------------------------------------------- */
+.cta{ display:inline-flex; align-items:center; gap:18px; font-family:var(--font-body); font-weight:600;
+  font-size:21px; letter-spacing:.02em; color:var(--ink); background:var(--amber); padding:20px 38px; border-radius:999px;
+  text-decoration:none; transition:transform .4s var(--ease), background .4s; }
+.cta:hover{ transform:translateX(8px); background:var(--amber-2); }
+.cta .arr{ transition:transform .4s var(--ease); }
+.cta:hover .arr{ transform:translateX(6px); }
+.cta-dark{ display:inline-flex; align-items:center; gap:16px; font-family:var(--font-body); font-weight:600;
+  font-size:21px; color:var(--bone); background:var(--ink); padding:20px 38px; border-radius:999px;
+  text-decoration:none; transition:transform .4s var(--ease); }
+.cta-dark:hover{ transform:translateX(8px); }
+</style>
+</head>
+<body>
+
+<!-- spotlight + chrome ------------------------------------------------ -->
+<div class="spotlight" id="spotlight"></div>
+
+<div class="chrome tl"><div class="wordmark">RONY<b>·</b>MEISLER</div></div>
+<div class="chrome tr"><div class="meta">Rebeldes têm asas</div></div>
+
+<div class="counter"><span class="cur" id="cur">01</span> <span class="tot" id="tot">/ 14</span></div>
+<div class="hint" id="hint">Avance <span class="dot"></span> setas · scroll · swipe</div>
+<div class="progress"><div class="bar" id="bar"></div></div>
+
+<!-- edit affordance --------------------------------------------------- -->
+<div class="edit-hotzone" id="editHotzone"></div>
+<button class="edit-toggle" id="editToggle" title="Modo edição (E)">✎</button>
+<div class="edit-flash" id="editFlash">salvo</div>
+
+<div class="deck-viewport">
+<main class="deck-stage" id="deckStage">
+
+  <!-- ====================== S1 · TITLE ====================== -->
+  <section class="slide s-title active">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="bloom2"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <div class="eyebrow reveal" style="--d:.1s"><b>Empreendedor</b> · Mentor · Investidor · Palestrante</div>
+      <h1>
+        <span class="line one"><span style="--d:.2s">RONY</span></span>
+        <span class="line two"><span style="--d:.34s">MEISLER</span></span>
+      </h1>
+      <div class="tag reveal" style="--d:.6s">Do short de praia ao <b>bilhão</b> — e além.</div>
+      <div class="rule draw" style="--d:.8s"></div>
+    </div>
+  </section>
+
+  <!-- ====================== S2 · MANIFESTO ====================== -->
+  <section class="slide s-manifesto">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <div class="big">
+        <span class="line"><span style="--d:.15s">Marcas</span></span>
+        <span class="line"><span style="--d:.3s">com <em>alma.</em></span></span>
+      </div>
+      <p class="sub reveal" style="--d:.6s">Vinte anos transformando <b>propósito</b> em uma das maiores forças do varejo brasileiro. Liderança consciente, humanizada e socioambientalmente responsável.</p>
+    </div>
+  </section>
+
+  <!-- ====================== S3 · BIO ====================== -->
+  <section class="slide s-bio">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer split">
+      <div class="left">
+        <span class="idx reveal" style="--d:.1s">01 — Quem é</span>
+        <div class="tick draw" style="--d:.3s"></div>
+      </div>
+      <div class="right">
+        <h2 class="s-bio head line"><span style="--d:.2s">Rebelde por vocação.</span></h2>
+        <p class="body reveal" style="--d:.5s">Engenheiro de formação, <b>CEO e cofundador do Grupo Reserva e da Ar&amp;Co.</b> <span class="muted">O que começou como um short de praia virou um dos maiores grupos de moda do varejo brasileiro — mais de 200 lojas e 3.000 parcerias multimarcas pelo Brasil.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== S4 · STATS ====================== -->
+  <section class="slide s-stats">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <div class="cap kicker reveal" style="--d:.1s">Em números</div>
+      <div class="grid4">
+        <div class="stat reveal" style="--d:.2s"><div class="num" data-to="200" data-suffix="+">0</div><div class="lbl">Lojas pelo Brasil</div></div>
+        <div class="stat reveal" style="--d:.34s"><div class="num" data-to="3000" data-format="mil">0</div><div class="lbl">Parcerias multimarcas</div></div>
+        <div class="stat reveal" style="--d:.48s"><div class="num"><span class="u">R$</span> <span data-to="1.8" data-decimals="1">0</span> <span class="u">bi</span></div><div class="lbl">Receita bruta no auge</div></div>
+        <div class="stat reveal" style="--d:.62s"><div class="num">~<span data-to="1" data-decimals="0">0</span><span class="u">M</span></div><div class="lbl">Seguidores · @rony</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== S5 · DIVIDER ====================== -->
+  <section class="slide s-divider">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="bloom2"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <div class="over kicker reveal" style="--d:.1s">Capítulo 02</div>
+      <h2>
+        <span class="line"><span style="--d:.2s">A</span></span>
+        <span class="line"><span style="--d:.32s"><em>Jornada</em></span></span>
+      </h2>
+      <div class="range reveal" style="--d:.6s"><b>2004</b> → <b>2024</b> &nbsp;·&nbsp; do R$0 ao bilhão</div>
+    </div>
+  </section>
+
+  <!-- ====================== S6 · TIMELINE ====================== -->
+  <section class="slide s-time">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <h2 class="head line"><span style="--d:.1s">Dois ciclos. Uma rebelião.</span></h2>
+      <div class="sub reveal" style="--d:.3s">A construção de um império do varejo</div>
+      <div class="rail">
+        <div class="node reveal" style="--d:.4s"><div class="yr">2004</div><div class="ev">Nasce a Reserva<span>Um short. Uma ideia.</span></div></div>
+        <div class="node reveal" style="--d:.5s"><div class="yr">’06–’20</div><div class="ev">1º ciclo<span>R$0 → R$350M</span></div></div>
+        <div class="node peak reveal" style="--d:.6s"><div class="yr">2020</div><div class="ev">Venda à Arezzo&amp;Co<span>~R$1 bilhão</span></div></div>
+        <div class="node reveal" style="--d:.7s"><div class="yr">2022</div><div class="ev">Follow-on<span>R$833 milhões</span></div></div>
+        <div class="node peak reveal" style="--d:.8s"><div class="yr">’21–’24</div><div class="ev">2º ciclo<span>R$350M → R$1,8bi</span></div></div>
+        <div class="node reveal" style="--d:.9s"><div class="yr">2024</div><div class="ev">Exit<span>Fusão Arezzo + Soma</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== S7 · RECOGNITION ====================== -->
+  <section class="slide s-rec">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <div class="cap kicker reveal" style="--d:.1s">Reconhecimento</div>
+      <div class="row reveal" style="--d:.25s"><div class="src"><em>GQ</em></div><div class="desc">Homem do Ano</div></div>
+      <div class="row reveal" style="--d:.4s"><div class="src">Fast <em>Company</em></div><div class="desc">Entre os empreendedores mais inovadores</div></div>
+      <div class="row reveal" style="--d:.55s"><div class="src">Best-<em>seller</em></div><div class="desc">Autor nº 1 em varejo na Amazon</div></div>
+    </div>
+  </section>
+
+  <!-- ====================== S8 · PALESTRAS ====================== -->
+  <section class="slide s-talks">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <div class="cap kicker reveal" style="--d:.1s">No palco</div>
+      <h2 class="line"><span style="--d:.2s"><em>Palestras</em> que</span></h2>
+      <h2 class="line"><span style="--d:.32s">incendeiam salas.</span></h2>
+      <div class="marquee reveal" style="--d:.6s">
+        <div class="track">
+          <span>Inovação</span><span>Empreendedorismo</span><span>Gente</span><span>Gestão</span><span>Estratégia</span><span>Vendas</span><span>Customer Experience</span><span>Propósito</span>
+          <span>Inovação</span><span>Empreendedorismo</span><span>Gente</span><span>Gestão</span><span>Estratégia</span><span>Vendas</span><span>Customer Experience</span><span>Propósito</span>
+        </div>
+      </div>
+      <div class="cta-wrap reveal" style="--d:.8s"><a class="cta" href="https://ronymeisler.com.br" target="_blank" rel="noopener">Quero saber mais <span class="arr">→</span></a></div>
+    </div>
+  </section>
+
+  <!-- ====================== S9 · TESTIMONIAL ====================== -->
+  <section class="slide s-quote">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <div class="mark reveal" style="--d:.1s">“</div>
+      <blockquote class="reveal" style="--d:.25s">A Reserva é prova viva de que uma empresa pode <em>triunfar levando-se pelo coração.</em></blockquote>
+      <div class="by reveal" style="--d:.5s"><b>Luiza Helena Trajano</b> &nbsp;·&nbsp; Presidente, Magazine Luiza</div>
+      <div class="also reveal" style="--d:.65s">Também sobre Rony: <b>Luciano Huck</b> · <b>Tiago Mattos</b> · <b>José Galló</b> · <b>Roberto Martini</b></div>
+    </div>
+  </section>
+
+  <!-- ====================== S10 · MENTORIAS ====================== -->
+  <section class="slide s-ment">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer split">
+      <div class="left">
+        <span class="idx reveal" style="--d:.1s">03 — Mentorias</span>
+        <div class="tick draw" style="--d:.3s"></div>
+      </div>
+      <div class="right">
+        <h2 class="s-ment head line"><span style="--d:.2s">Acesso de dentro.</span></h2>
+        <p class="lead reveal" style="--d:.4s">Mentoria exclusiva para <b>founders de empresas com R$10M+</b> de faturamento e executivos C-level. Seleção em duas etapas.</p>
+        <div class="grid2">
+          <div class="area reveal" style="--d:.5s"><div class="no">01</div><div class="t">Liderança &amp; Cultura organizacional</div></div>
+          <div class="area reveal" style="--d:.58s"><div class="no">02</div><div class="t">Gente, gestão &amp; estratégia de negócio</div></div>
+          <div class="area reveal" style="--d:.66s"><div class="no">03</div><div class="t">Marketing de diferenciação &amp; CX</div></div>
+          <div class="area reveal" style="--d:.74s"><div class="no">04</div><div class="t">Vendas &amp; inovação</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== S11 · REBELS VENTURES ====================== -->
+  <section class="slide s-vent">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="bloom2"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <div class="tm kicker reveal" style="--d:.1s">Rebels Ventures™</div>
+      <h2>
+        <span class="line"><span style="--d:.2s" class="no">Não somos investidores.</span></span>
+        <span class="line"><span style="--d:.34s" class="yes">Somos <em>co-pilotos.</em></span></span>
+      </h2>
+      <p class="sub reveal" style="--d:.6s"><b>Capital de empreendedores admirados</b> para founders conscientes que resolvem problemas reais da sociedade. Sentamos ao lado — não atrás da mesa.</p>
+    </div>
+  </section>
+
+  <!-- ====================== S12 · BOOK (paper) ====================== -->
+  <section class="slide s-book paper">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <div class="txt">
+        <div class="cap kicker reveal" style="--d:.1s">O livro</div>
+        <h2 class="line"><span style="--d:.2s">Rebeldes</span></h2>
+        <h2 class="line"><span style="--d:.32s">têm <em>asas.</em></span></h2>
+        <p class="desc reveal" style="--d:.5s"><b>O livro que redefiniu o varejo no Brasil.</b> A história — e o método — por trás de uma das maiores rebeliões do empreendedorismo brasileiro.</p>
+        <div class="meta reveal" style="--d:.6s">Best-seller · Milhares de cópias vendidas</div>
+        <div class="cta-dark-wrap reveal" style="--d:.7s"><a class="cta-dark" href="https://www.amazon.com.br/s?k=rebeldes+t%C3%AAm+asas+rony+meisler" target="_blank" rel="noopener">Compre agora <span>→</span></a></div>
+      </div>
+      <div class="cover-wrap reveal" style="--d:.45s">
+        <div class="cover">
+          <div class="cw"><div class="ca">Rony Meisler</div></div>
+          <div class="ct">Rebeldes<br>têm <em>asas</em></div>
+          <div class="wing">↟</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== S13 · PRESS (paper) ====================== -->
+  <section class="slide s-press paper">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <div class="cap kicker reveal" style="--d:.1s">Na mídia</div>
+      <div class="logos">
+        <div class="pl reveal" style="--d:.2s"><span class="name">Brazil <em>Journal</em></span><span class="yr">2025</span></div>
+        <div class="pl reveal" style="--d:.3s"><span class="name"><em>Exame</em></span><span class="yr">2025</span></div>
+        <div class="pl reveal" style="--d:.4s"><span class="name">Veja <em>Rio</em></span><span class="yr">2025</span></div>
+        <div class="pl reveal" style="--d:.5s"><span class="name"><em>Valor</em></span><span class="yr">2024</span></div>
+      </div>
+      <p class="tagline reveal" style="--d:.65s">Casa de influenciadores, academia no TikTok, <b>marcas com alma.</b></p>
+    </div>
+  </section>
+
+  <!-- ====================== S14 · CONTACT ====================== -->
+  <section class="slide s-contact">
+    <div class="atmos"><div class="grid"></div><div class="bloom"></div><div class="bloom2"></div><div class="grain"></div><div class="vignette"></div></div>
+    <div class="layer">
+      <div class="over kicker reveal" style="--d:.1s">Vamos construir algo</div>
+      <h2>
+        <span class="line"><span style="--d:.2s">Bora</span></span>
+        <span class="line"><span style="--d:.32s"><em>falar?</em></span></span>
+      </h2>
+      <div class="lines reveal" style="--d:.6s">
+        <a class="em" href="mailto:falacom@ronymeisler.com.br">falacom@ronymeisler.com.br</a>
+        <span class="sep">/</span>
+        <a href="https://instagram.com/rony" target="_blank" rel="noopener">@rony</a>
+        <span class="sep">/</span>
+        <a href="https://ronymeisler.com.br" target="_blank" rel="noopener">ronymeisler.com.br</a>
+      </div>
+      <div class="sign reveal" style="--d:.8s">Porque <b>rebeldes têm asas.</b></div>
+    </div>
+  </section>
+
+</main>
+</div>
+
+<script>
+/* ===========================================================
+   SLIDE CONTROLLER — fixed 16:9 stage, kinetic, cinematic
+   =========================================================== */
+class Deck{
+  constructor(){
+    this.slides = [...document.querySelectorAll('.slide')];
+    this.i = 0;
+    this.stage = document.getElementById('deckStage');
+    this.bar   = document.getElementById('bar');
+    this.cur   = document.getElementById('cur');
+    document.getElementById('tot').textContent = '/ ' + String(this.slides.length).padStart(2,'0');
+    this.locked = false;
+    this.scaleStage();
+    window.addEventListener('resize', ()=>this.scaleStage());
+    this.bindNav();
+    this.show(0,true);
+  }
+
+  /* scale the whole 1920×1080 stage to fit the window (letterbox) */
+  scaleStage(){
+    const f = Math.min(window.innerWidth/1920, window.innerHeight/1080);
+    const x = (window.innerWidth  - 1920*f)/2;
+    const y = (window.innerHeight - 1080*f)/2;
+    this.stage.style.transform = `translate(${x}px, ${y}px) scale(${f})`;
+  }
+
+  show(n, instant){
+    this.i = Math.max(0, Math.min(n, this.slides.length-1));
+    this.slides.forEach((s,k)=>{
+      s.classList.toggle('active', k===this.i);
+      s.classList.toggle('visible', k===this.i);
+    });
+    const pct = (this.i)/(this.slides.length-1)*100;
+    this.bar.style.width = pct + '%';
+    this.cur.textContent = String(this.i+1).padStart(2,'0');
+    const hint = document.getElementById('hint');
+    if(hint) hint.style.opacity = this.i===0 ? '1' : '0';
+    // adapt chrome to light (paper) slides
+    document.body.classList.toggle('on-paper', this.slides[this.i].classList.contains('paper'));
+    // fire counters on the stats slide
+    const active = this.slides[this.i];
+    if(active.querySelector('[data-to]')) this.counts(active);
+  }
+
+  next(){ if(this.i < this.slides.length-1) this.go(this.i+1); }
+  prev(){ if(this.i > 0) this.go(this.i-1); }
+  go(n){
+    if(this.locked) return;
+    this.locked = true;
+    this.show(n);
+    setTimeout(()=>{ this.locked=false; }, 620);
+  }
+
+  /* animated number counters */
+  counts(slide){
+    slide.querySelectorAll('[data-to]').forEach(el=>{
+      if(el.dataset.done) return; el.dataset.done='1';
+      const to = parseFloat(el.dataset.to);
+      const dec = el.dataset.decimals!==undefined ? parseInt(el.dataset.decimals) : null;
+      const suffix = el.dataset.suffix || '';
+      const fmt = el.dataset.format || '';
+      const dur = 1500, t0 = performance.now();
+      const ease = x => 1 - Math.pow(1-x, 3);
+      const step = (t)=>{
+        const p = Math.min((t-t0)/dur, 1);
+        const v = to * ease(p);
+        let out;
+        if(fmt==='mil'){ out = (v/1000).toLocaleString('pt-BR',{maximumFractionDigits:1}) + ' mil'; }
+        else if(dec!==null){ out = v.toLocaleString('pt-BR',{minimumFractionDigits:dec, maximumFractionDigits:dec}); }
+        else { out = Math.round(v).toLocaleString('pt-BR') + suffix; }
+        el.textContent = out;
+        if(p<1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    });
+  }
+
+  bindNav(){
+    // keyboard
+    window.addEventListener('keydown', e=>{
+      if(document.body.classList.contains('editing') && e.target.isContentEditable) return;
+      if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){ e.preventDefault(); this.next(); }
+      if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){ e.preventDefault(); this.prev(); }
+      if(e.key==='Home') this.go(0);
+      if(e.key==='End') this.go(this.slides.length-1);
+    });
+    // wheel (debounced)
+    let wheelLock=false;
+    window.addEventListener('wheel', e=>{
+      if(Math.abs(e.deltaY) < 18) return;
+      if(wheelLock) return; wheelLock=true;
+      e.deltaY>0 ? this.next() : this.prev();
+      setTimeout(()=>wheelLock=false, 680);
+    }, {passive:true});
+    // touch
+    let ys=null;
+    window.addEventListener('touchstart', e=>{ ys=e.touches[0].clientY; }, {passive:true});
+    window.addEventListener('touchend', e=>{
+      if(ys===null) return;
+      const dy = ys - e.changedTouches[0].clientY;
+      if(Math.abs(dy)>50){ dy>0 ? this.next() : this.prev(); }
+      ys=null;
+    }, {passive:true});
+    // click forward (ignore links / edit mode)
+    document.querySelector('.deck-viewport').addEventListener('click', e=>{
+      if(document.body.classList.contains('editing')) return;
+      if(e.target.closest('a,button')) return;
+      this.next();
+    });
+  }
+}
+const deck = new Deck();
+
+/* ===========================================================
+   AMBER SPOTLIGHT — follows the cursor for depth
+   =========================================================== */
+const spot = document.getElementById('spotlight');
+let sx=innerWidth/2, sy=innerHeight/2, tx=sx, ty=sy;
+window.addEventListener('pointermove', e=>{ tx=e.clientX; ty=e.clientY; spot.style.opacity='1'; });
+window.addEventListener('pointerleave', ()=>{ spot.style.opacity='0'; });
+(function loop(){ sx+=(tx-sx)*.12; sy+=(ty-sy)*.12; spot.style.left=sx+'px'; spot.style.top=sy+'px'; requestAnimationFrame(loop); })();
+
+/* ===========================================================
+   INLINE EDIT MODE (lightweight) — E key or hover top-left.
+   Toggles contenteditable on text, Ctrl+S saves to localStorage
+   and downloads the edited HTML.
+   =========================================================== */
+const editor = {
+  isActive:false,
+  selectors:'h1,h2,h3,p,blockquote,.tag,.eyebrow,.lbl,.ev,.yr,.desc,.lead,.t,.sub,.range,.tagline,.by,.also,.meta,.sign,.lines a,.ct,.ca',
+  toggle(){
+    this.isActive=!this.isActive;
+    document.body.classList.toggle('editing', this.isActive);
+    document.getElementById('editToggle').classList.toggle('active', this.isActive);
+    document.querySelectorAll(this.selectors).forEach(el=>{
+      el.contentEditable = this.isActive ? 'true' : 'false';
+    });
+    if(this.isActive) this.flash('modo edição — Ctrl+S salva');
+  },
+  flash(msg){
+    const f=document.getElementById('editFlash'); f.textContent=msg; f.classList.add('show');
+    clearTimeout(this._t); this._t=setTimeout(()=>f.classList.remove('show'),1600);
+  }
+};
+// click button
+document.getElementById('editToggle').addEventListener('click', ()=>editor.toggle());
+// hotzone hover (400ms grace), per skill guidance
+const hz=document.getElementById('editHotzone'), tg=document.getElementById('editToggle');
+let hideT=null;
+hz.addEventListener('mouseenter', ()=>{ clearTimeout(hideT); tg.classList.add('show'); });
+hz.addEventListener('mouseleave', ()=>{ hideT=setTimeout(()=>{ if(!editor.isActive) tg.classList.remove('show'); },400); });
+tg.addEventListener('mouseenter', ()=>clearTimeout(hideT));
+tg.addEventListener('mouseleave', ()=>{ hideT=setTimeout(()=>{ if(!editor.isActive) tg.classList.remove('show'); },400); });
+hz.addEventListener('click', ()=>editor.toggle());
+// keyboard: E toggles, Ctrl+S saves
+document.addEventListener('keydown', e=>{
+  if((e.key==='e'||e.key==='E') && !e.target.isContentEditable){ editor.toggle(); }
+  if((e.ctrlKey||e.metaKey) && e.key==='s'){
+    e.preventDefault();
+    if(editor.isActive){
+      document.querySelectorAll(editor.selectors).forEach(el=>el.setAttribute('contenteditable','false'));
+    }
+    const html='<!DOCTYPE html>\n'+document.documentElement.outerHTML;
+    const blob=new Blob([html],{type:'text/html'});
+    const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+    a.download='rony-meisler.html'; a.click();
+    editor.flash('arquivo salvo ↓');
+    if(editor.isActive){
+      document.querySelectorAll(editor.selectors).forEach(el=>el.setAttribute('contenteditable','true'));
+    }
+  }
+});
+</script>
+</body>
+</html>
